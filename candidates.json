@@ -27,7 +27,8 @@
     "name": "Md. Iftakharul Alam (Iftee)",
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "970609",
-    "batch": 1997
+    "batch": 1997,
+    "photo": "public/candidates/970609.png"
   },
   {
     "position": "Vice President",
@@ -107,7 +108,8 @@
     "name": "A.K.M. Abdullah Farooq",
     "discipline": "Pharmacy",
     "studentId": "971121",
-    "batch": 1997
+    "batch": 1997,
+    "photo": "public/candidates/971121.png"
   },
   {
     "position": "Vice President",
@@ -128,7 +130,8 @@
     "name": "Dr. Md. Azizul Hasan (Piru)",
     "discipline": "Agrotechnology",
     "studentId": "980821",
-    "batch": 1998
+    "batch": 1998,
+    "photo": "public/candidates/980821.png"
   },
   {
     "position": "Vice President",
@@ -237,14 +240,16 @@
     "name": "Md. Imdadul Ikbal (Rana)",
     "discipline": "Mathematics",
     "studentId": "011224",
-    "batch": 2001
+    "batch": 2001,
+    "photo": "public/candidates/011224.png"
   },
   {
     "position": "Joint Secretary",
     "name": "Md Rejaur Rahman",
     "discipline": "Urban and Rural Planning",
     "studentId": "030413",
-    "batch": 2003
+    "batch": 2003,
+    "photo": "public/candidates/030413.png"
   },
   {
     "position": "Joint Secretary",
@@ -280,7 +285,8 @@
     "name": "Md. Sathil Islam ( Dollar )",
     "discipline": "Mathematics",
     "studentId": "001207",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/001207.jpg"
   },
   {
     "position": "Organising Secretary",
@@ -407,14 +413,16 @@
     "name": "Nilufar Shabnom Doni",
     "discipline": "Architecture",
     "studentId": "040102",
-    "batch": 2004
+    "batch": 2004,
+    "photo": "public/candidates/040102.png"
   },
   {
     "position": "Public Relation Secretary",
     "name": "Bayezeedur Rahman Khan",
     "discipline": "Mathematics",
     "studentId": "071240",
-    "batch": 2007
+    "batch": 2007,
+    "photo": "public/candidates/071240.jpg"
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -521,7 +529,8 @@
     "name": "Md. Ramadujjaman (Ratin)",
     "discipline": "Electronics and Communication Engineering",
     "studentId": "170930",
-    "batch": 2017
+    "batch": 2017,
+    "photo": "public/candidates/170930.png"
   },
   {
     "position": "Women Affairs Secretary",
@@ -726,7 +735,8 @@
     "name": "Mohammad Arifur Rahman",
     "discipline": "Environmental Science",
     "studentId": "991036",
-    "batch": 1999
+    "batch": 1999,
+    "photo": "public/candidates/991036.png"
   },
   {
     "position": "Executive Member",
@@ -768,7 +778,8 @@
     "name": "Md Aynal Sarder",
     "discipline": "Economics",
     "studentId": "001525",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/001525.png"
   },
   {
     "position": "Executive Member",
