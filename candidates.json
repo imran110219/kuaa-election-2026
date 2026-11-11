@@ -271,7 +271,8 @@
     "name": "Md. Mohiuddin Andalib (Shuvo)",
     "discipline": "Pharmacy",
     "studentId": "001118",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/001118.jpg"
   },
   {
     "position": "Organising Secretary",
@@ -504,7 +505,8 @@
     "name": "Md Saydur Rahman Lushan",
     "discipline": "Architecture",
     "studentId": "120135",
-    "batch": 2012
+    "batch": 2012,
+    "photo": "public/candidates/120135.jpeg"
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -539,7 +541,8 @@
     "name": "G M Atiqur Rahman",
     "discipline": "Computer Science and Engineering",
     "studentId": "990227",
-    "batch": 1999
+    "batch": 1999,
+    "photo": "public/candidates/990227.png"
   },
   {
     "position": "Student Affairs Secretary",
