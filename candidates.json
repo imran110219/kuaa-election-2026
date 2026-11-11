@@ -1,0 +1,1164 @@
+[
+  {
+    "position": "President",
+    "name": "Khurshid Shahid Almeher",
+    "discipline": "Architecture",
+    "studentId": "920110",
+    "batch": 1992
+  },
+  {
+    "position": "President",
+    "name": "Mohammad Fazle Reza (Sumon)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "930409",
+    "batch": 1993
+  },
+  {
+    "position": "President",
+    "name": "Md. Najmul Ahasan Prince",
+    "discipline": "Business Administration",
+    "studentId": "950340",
+    "batch": 1995
+  },
+  {
+    "position": "President",
+    "name": "Md. Iftakharul Alam",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970609",
+    "batch": 1997
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Sahidur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "930508",
+    "batch": 1993
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr Md Shamim Parvez",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "930607",
+    "batch": 1993
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Ali Zakir",
+    "discipline": "Business Administration",
+    "studentId": "940338",
+    "batch": 1994
+  },
+  {
+    "position": "Vice President",
+    "name": "S M Ariful Islam (Kochi)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940418",
+    "batch": 1994
+  },
+  {
+    "position": "Vice President",
+    "name": "Shayka Imam Shanta",
+    "discipline": "Architecture",
+    "studentId": "950116",
+    "batch": 1995
+  },
+  {
+    "position": "Vice President",
+    "name": "Shahana Sultana",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "950602",
+    "batch": 1995
+  },
+  {
+    "position": "Vice President",
+    "name": "Md Maheb Hossain",
+    "discipline": "Agrotechnology",
+    "studentId": "960827",
+    "batch": 1996
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Muzahidul Islam (Showrab)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970232",
+    "batch": 1997
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Tomig Uddin Ahmed",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970235",
+    "batch": 1997
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Akhtaruzzaman Bosunia (Liton)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970526",
+    "batch": 1997
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Abdullah Farooq",
+    "discipline": "Pharmacy",
+    "studentId": "971121",
+    "batch": 1997
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahidul Hasan",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "980630",
+    "batch": 1998
+  },
+  {
+    "position": "Vice President",
+    "name": "Mohd Israil Hossain",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "980717",
+    "batch": 1998
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr. Md. Azizul Hasan",
+    "discipline": "Agrotechnology",
+    "studentId": "980821",
+    "batch": 1998
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Ashiqur Rahman Talukder",
+    "discipline": "Pharmacy",
+    "studentId": "981131",
+    "batch": 1998
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahed Pervez Chowdhury",
+    "discipline": "Business Administration",
+    "studentId": "990324",
+    "batch": 1999
+  },
+  {
+    "position": "Vice President",
+    "name": "Shakil Alam",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990933",
+    "batch": 1999
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Mahedi Al Masud, Ph. D.",
+    "discipline": "Environmental Science",
+    "studentId": "991001",
+    "batch": 1999
+  },
+  {
+    "position": "Vice President",
+    "name": "Shaikh Abu Shamim",
+    "discipline": "Mathematics",
+    "studentId": "001231",
+    "batch": 2000
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Noor-E-Alom Siddiquee",
+    "discipline": "Economics",
+    "studentId": "001517",
+    "batch": 2000
+  },
+  {
+    "position": "General Secretary",
+    "name": "Ghulam Benazir",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "940532",
+    "batch": 1994
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Shariful Islam",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970518",
+    "batch": 1997
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Wahiduzzaman",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "970906",
+    "batch": 1997
+  },
+  {
+    "position": "General Secretary",
+    "name": "Abul Kalam Mohammad Nazmul Islam (Nayan)",
+    "discipline": "Business Administration",
+    "studentId": "000341",
+    "batch": 2000
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Zahidul Haque",
+    "discipline": "Business Administration",
+    "studentId": "010348",
+    "batch": 2001
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Dipak Chandra Saha",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "970418",
+    "batch": 1997
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Khairuzzaman",
+    "discipline": "Economics",
+    "studentId": "991523",
+    "batch": 1999
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Amin Ahmed Arif",
+    "discipline": "Architecture",
+    "studentId": "000106",
+    "batch": 2000
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Abul Kalam Mohammad Nazmul Islam (Nayan)",
+    "discipline": "Business Administration",
+    "studentId": "000341",
+    "batch": 2000
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Matiur Rahman",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010226",
+    "batch": 2001
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Subroto Guha",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "010723",
+    "batch": 2001
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Imdadul Ikbal",
+    "discipline": "Mathematics",
+    "studentId": "011224",
+    "batch": 2001
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Rejaur Rahman",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "030413",
+    "batch": 2003
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Obaidullah",
+    "discipline": "Pharmacy",
+    "studentId": "031135",
+    "batch": 2003
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Afzal Jamil",
+    "discipline": "Economics",
+    "studentId": "031522",
+    "batch": 2003
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Azmira Khatun",
+    "discipline": "Economics",
+    "studentId": "991513",
+    "batch": 1999
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Mohiuddin Andalib (Shuvo)",
+    "discipline": "Pharmacy",
+    "studentId": "001118",
+    "batch": 2000
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Sathil Islam ( Dollar )",
+    "discipline": "Mathematics",
+    "studentId": "001207",
+    "batch": 2000
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shafayet Hossain Emon",
+    "discipline": "Soil, Water and Environment",
+    "studentId": "001325",
+    "batch": 2000
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Zahidul Haque",
+    "discipline": "Business Administration",
+    "studentId": "010348",
+    "batch": 2001
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Rashidul Islam",
+    "discipline": "Agrotechnology",
+    "studentId": "010805",
+    "batch": 2001
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "A.K.M. Humayan Kabir Dewan (Swopon)",
+    "discipline": "Environmental Science",
+    "studentId": "041030",
+    "batch": 2004
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shahidul Islam",
+    "discipline": "Sociology",
+    "studentId": "081638",
+    "batch": 2008
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md Latifur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "090513",
+    "batch": 2009
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "B. M. Afsun Akter Anny",
+    "discipline": "Pharmacy",
+    "studentId": "101130",
+    "batch": 2010
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Easin Ahmed Jibu",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162610",
+    "batch": 2016
+  },
+  {
+    "position": "Treasurer",
+    "name": "Mohammad Iqbal Kabir (Bipul)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "940221",
+    "batch": 1994
+  },
+  {
+    "position": "Treasurer",
+    "name": "Kamrul Hasan Sohag",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940401",
+    "batch": 1994
+  },
+  {
+    "position": "Treasurer",
+    "name": "Md. Moniruzzaman",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000611",
+    "batch": 2000
+  },
+  {
+    "position": "Treasurer",
+    "name": "Zakaria Mahmud",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "060621",
+    "batch": 2006
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Jibon Krishna Mondal",
+    "discipline": "Pharmacy",
+    "studentId": "991112",
+    "batch": 1999
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Bidhan Chandro Sarker",
+    "discipline": "Agrotechnology",
+    "studentId": "000811",
+    "batch": 2000
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Md. Zahidul Haque",
+    "discipline": "Business Administration",
+    "studentId": "010348",
+    "batch": 2001
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Abdul Hai",
+    "discipline": "Agrotechnology",
+    "studentId": "040830",
+    "batch": 2004
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "A.K.M.Humayan Kabir Dewan (Swopon)",
+    "discipline": "Environmental Science",
+    "studentId": "041030",
+    "batch": 2004
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Md. Abdulla Al Mamun",
+    "discipline": "Sociology",
+    "studentId": "121632",
+    "batch": 2012
+  },
+  {
+    "position": "Assistant Office Management Secretary",
+    "name": "Md. Fahad Al Zobayer",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "150617",
+    "batch": 2015
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Md. Shahadot Hossain",
+    "discipline": "Agrotechnology",
+    "studentId": "010815",
+    "batch": 2001
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Abdul Alim Shaikh",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "030528",
+    "batch": 2003
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Nilufar Shabnom Doni",
+    "discipline": "Architecture",
+    "studentId": "040102",
+    "batch": 2004
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Bayezeedur Rahman Khan",
+    "discipline": "Mathematics",
+    "studentId": "071240",
+    "batch": 2007
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Shaikh Al Mamun",
+    "discipline": "Pharmacy",
+    "studentId": "071109",
+    "batch": 2007
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Talha Rahman",
+    "discipline": "Economics",
+    "studentId": "081517",
+    "batch": 2008
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Nazmul Hasan (Sajal)",
+    "discipline": "Bangla",
+    "studentId": "111919",
+    "batch": 2011
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "S.M. Mushfiqur Rahman",
+    "discipline": "Development Studies",
+    "studentId": "152125",
+    "batch": 2015
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Md. Badsha Sheikh",
+    "discipline": "Economics",
+    "studentId": "181521",
+    "batch": 2018
+  },
+  {
+    "position": "Literature and Publication Secretary",
+    "name": "Md. Nuruzzaman",
+    "discipline": "English",
+    "studentId": "001418",
+    "batch": 2000
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Abdur Rahman",
+    "discipline": "Statistics",
+    "studentId": "152044",
+    "batch": 2015
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Md. Motiur Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162601",
+    "batch": 2016
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Dr. Alok Sarkar",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990910",
+    "batch": 1999
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Rashedul Alam Sarker",
+    "discipline": "Environmental Science",
+    "studentId": "051026",
+    "batch": 2005
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Imtiaz Ahmad",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "070403",
+    "batch": 2007
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Nasir Uddin",
+    "discipline": "Sociology",
+    "studentId": "131630",
+    "batch": 2013
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Rubel Mahamud",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "100904",
+    "batch": 2010
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md Saydur Rahman Lushan",
+    "discipline": "Architecture",
+    "studentId": "120135",
+    "batch": 2012
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Abu Rayhan Hossain",
+    "discipline": "Economics",
+    "studentId": "121532",
+    "batch": 2012
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "S.M. Mushfiqur Rahman",
+    "discipline": "Development Studies",
+    "studentId": "152125",
+    "batch": 2015
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Ramadujjaman",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "170930",
+    "batch": 2017
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Rawshonara Khatun",
+    "discipline": "Business Administration",
+    "studentId": "120330",
+    "batch": 2012
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Sanjida Yeasmin (Shefa)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "130601",
+    "batch": 2013
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "G M Atiqur Rahman",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "990227",
+    "batch": 1999
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Wasim Sabbir",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000621",
+    "batch": 2000
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Masudur Rahman",
+    "discipline": "Environmental Science",
+    "studentId": "011016",
+    "batch": 2001
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Md. Ripul Kabir",
+    "discipline": "Sociology",
+    "studentId": "031601",
+    "batch": 2003
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Dr. Syed Md. Galib",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010210",
+    "batch": 2001
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Md. Touhiduzzaman Sumon",
+    "discipline": "Business Administration",
+    "studentId": "010346",
+    "batch": 2001
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Biswajit Ray",
+    "discipline": "Mathematics",
+    "studentId": "051212",
+    "batch": 2005
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "B. M. Afsun Akter Anny",
+    "discipline": "Pharmacy",
+    "studentId": "101130",
+    "batch": 2010
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Abu Haidar Mohammad",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "950209",
+    "batch": 1995
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md Rejaur Rahman",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "030413",
+    "batch": 2003
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Ruhul Amin Robin",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "050919",
+    "batch": 2005
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Al Masud Uddin",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090220",
+    "batch": 2009
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "SM Naim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "210914",
+    "batch": 2021
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Abdul Hai",
+    "discipline": "Agrotechnology",
+    "studentId": "040830",
+    "batch": 2004
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Ajgor Khan",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "050728",
+    "batch": 2005
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md. Tauhidul Islam",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090235",
+    "batch": 2009
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Mehadul Islam",
+    "discipline": "History and Civilization",
+    "studentId": "172713",
+    "batch": 2017
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Munsi Shahid Anis",
+    "discipline": "Mathematics",
+    "studentId": "011219",
+    "batch": 2001
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Md Abdur Rahman",
+    "discipline": "Economics",
+    "studentId": "061508",
+    "batch": 2006
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Abu Jubayer",
+    "discipline": "Environmental Science",
+    "studentId": "071033",
+    "batch": 2007
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "G. M. Masum Billah",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "110534",
+    "batch": 2011
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Nadira Khatun",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "140211",
+    "batch": 2014
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Mahamudul Hasan",
+    "discipline": "Statistics",
+    "studentId": "182029",
+    "batch": 2018
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Abdur Rouf (Teacher)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "920612",
+    "batch": 1992
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mostafa Zahid Sharif (Lavlu)",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "950712",
+    "batch": 1995
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jakie-Ul Hassan",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970604",
+    "batch": 1997
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Abdul Alim (Teacher)",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "980917",
+    "batch": 1998
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Jahangir Alam",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990705",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Zillur Rahman",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990729",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mohammad Arifur Rahman",
+    "discipline": "Environmental Science",
+    "studentId": "991036",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fakrul Alam",
+    "discipline": "Pharmacy",
+    "studentId": "991120",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Mahbubul Haque",
+    "discipline": "Economics",
+    "studentId": "991518",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmud Ul Hasan",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "000212",
+    "batch": 2000
+  },
+  {
+    "position": "Executive Member",
+    "name": "M M Shahidur Rahman Shahin",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000613",
+    "batch": 2000
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Aminul Islam",
+    "discipline": "Pharmacy",
+    "studentId": "001130",
+    "batch": 2000
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Aynal Sarder",
+    "discipline": "Economics",
+    "studentId": "001525",
+    "batch": 2000
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Monirujjaman",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "010602",
+    "batch": 2001
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Karim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "020921",
+    "batch": 2002
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Abul Kashem",
+    "discipline": "Environmental Science",
+    "studentId": "021025",
+    "batch": 2002
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fauzia Sultana",
+    "discipline": "Architecture",
+    "studentId": "030131",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sayed Md. Masum",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "030630",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rezwan Walid",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "030737",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazim Uddin",
+    "discipline": "Pharmacy",
+    "studentId": "031117",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "A.K.M. Humayan Kabir Dewan (Swopon)",
+    "discipline": "Environmental Science",
+    "studentId": "041030",
+    "batch": 2004
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Ajgor Khan",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "050728",
+    "batch": 2005
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Zakaria Hossain",
+    "discipline": "English",
+    "studentId": "051414",
+    "batch": 2005
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rabiul Islam",
+    "discipline": "Business Administration",
+    "studentId": "070340",
+    "batch": 2007
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arobind Mali",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "070715",
+    "batch": 2007
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Haque (Prince)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "080507",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mostafizur Rahman",
+    "discipline": "Agrotechnology",
+    "studentId": "080810",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Falguni Akter (Teacher)",
+    "discipline": "Soil Science",
+    "studentId": "081301",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Talha Rahman",
+    "discipline": "Economics",
+    "studentId": "081517",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Reazul Alam Shawon",
+    "discipline": "Economics",
+    "studentId": "081537",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Tonmoy Chatterjee",
+    "discipline": "Architecture",
+    "studentId": "090134",
+    "batch": 2009
+  },
+  {
+    "position": "Executive Member",
+    "name": "Hizbul Bahar",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090225",
+    "batch": 2009
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdur Razzak Moral",
+    "discipline": "Sociology",
+    "studentId": "091620",
+    "batch": 2009
+  },
+  {
+    "position": "Executive Member",
+    "name": "S. M. Mahfuzur Rahman",
+    "discipline": "Business Administration",
+    "studentId": "110333",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Attiquzzaman",
+    "discipline": "Pharmacy",
+    "studentId": "111109",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ali Ahmmed",
+    "discipline": "Economics",
+    "studentId": "111502",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shakila Alam (Teacher)",
+    "discipline": "Bangla",
+    "studentId": "111926",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mojahidul Islam",
+    "discipline": "Sociology",
+    "studentId": "121623",
+    "batch": 2012
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Sadique (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "130238",
+    "batch": 2013
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Hasan Sheikh",
+    "discipline": "Business Administration",
+    "studentId": "130328",
+    "batch": 2013
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jahidul Islam Sajal",
+    "discipline": "Agrotechnology",
+    "studentId": "130828",
+    "batch": 2013
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Shijan Islam",
+    "discipline": "Agrotechnology",
+    "studentId": "140803",
+    "batch": 2014
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shahed",
+    "discipline": "Business Administration",
+    "studentId": "150334",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmudul Hasan Sohan",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "150445",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Akhlak Un Nahar",
+    "discipline": "Pharmacy",
+    "studentId": "151114",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdullah Al Noman (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "160217",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nur E Kutubul Alam",
+    "discipline": "Agrotechnology",
+    "studentId": "160815",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Saiful Alam Babu",
+    "discipline": "Environmental Science",
+    "studentId": "161063",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Sajib Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162604",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Achia Khatun",
+    "discipline": "Sociology",
+    "studentId": "171631",
+    "batch": 2017
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sheikh Sakib Rahman",
+    "discipline": "Architecture",
+    "studentId": "180129",
+    "batch": 2018
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazmus Sakib",
+    "discipline": "Business Administration",
+    "studentId": "190344",
+    "batch": 2019
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Rafid Rahman",
+    "discipline": "Sociology",
+    "studentId": "191652",
+    "batch": 2019
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhibbullah",
+    "discipline": "Economics",
+    "studentId": "201538",
+    "batch": 2020
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ebrahim Kholil",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "210642",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arif Raihan Apon",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "210711",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Habibullah Mugdho",
+    "discipline": "Environmental Science",
+    "studentId": "211015",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Asadullah",
+    "discipline": "Pharmacy",
+    "studentId": "211125",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shapla Singha (Teacher)",
+    "discipline": "Drawing and Painting",
+    "studentId": "IFA 120123",
+    "batch": 2012
+  }
+]
