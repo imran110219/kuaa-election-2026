@@ -5,7 +5,8 @@
     "discipline": "Architecture",
     "studentId": "920110",
     "batch": 1992,
-    "photo": "public/candidates/920110.jpg"
+    "photo": "public/candidates/920110.jpg",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
   },
   {
     "position": "President",
@@ -74,7 +75,8 @@
     "name": "Shahana Sultana",
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "950602",
-    "batch": 1995
+    "batch": 1995,
+    "photo": "public/candidates/950602.png"
   },
   {
     "position": "Vice President",
@@ -327,7 +329,7 @@
     "discipline": "Business Administration",
     "studentId": "010348",
     "batch": 2001,
-    "photo": "public/candidates/010348-clean.png",
+    "photo": "public/candidates/010348.png",
     "campaignSlogan": "ঐক্যবদ্ধ KUAA"
   },
   {
