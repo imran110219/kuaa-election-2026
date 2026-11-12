@@ -1,0 +1,158 @@
+---
+permalink: /voters
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="Aggregate voter-list statistics for the KUAA Election 2026.">
+  <title>Voter Statistics — KUAA Election 2026</title>
+  <style>
+    :root{--ink:#152a2b;--muted:#617270;--paper:#f5f7f3;--card:#fff;--line:#dfe7e1;--green:#13715a;--green-dark:#0d5041;--mint:#b9dec8;--orange:#eea06c;--shadow:0 12px 32px rgba(19,49,39,.07)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f9faf7 0,#f5f7f3 460px);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.shell{width:min(1080px,calc(100% - 48px));margin:auto}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6ebe6}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(145deg,#116d55,#0b493d);display:grid;place-items:center;color:white;font-size:12px;font-weight:800;letter-spacing:-.04em;box-shadow:0 4px 10px #0b493d2e}.brand-name{font-weight:750;letter-spacing:-.025em}.brand-sub{display:block;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.top-nav{display:flex;align-items:center;gap:5px}.nav-link{padding:9px 11px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none}.nav-link:hover,.nav-link:focus-visible,.nav-link[aria-current=page]{background:#e8f2e9;color:var(--green-dark)}
+    main{padding-bottom:52px}.hero{padding:38px 0 24px}.eyebrow{display:flex;align-items:center;gap:9px;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:22px;height:2px;background:var(--orange)}h1{margin:10px 0 8px;font-size:clamp(38px,5vw,54px);line-height:1;letter-spacing:-.06em}.intro{max-width:690px;margin:0;color:#586b68;font-size:14px;line-height:1.7}.source-note{margin:9px 0 0;color:#7b8983;font-size:11px}.summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin-bottom:12px}.stat{min-height:78px;padding:15px 17px;border:1px solid #e7ece7;border-radius:14px;background:#fff;box-shadow:0 3px 12px #172a2a08;display:flex;align-items:center;justify-content:space-between;gap:12px}.stat-label{color:#62716e;font-size:11px;font-weight:650}.stat-value{color:var(--green-dark);font-size:25px;font-weight:820;letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums;text-align:right}.insights{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:22px}.insight{display:grid;gap:3px;padding:13px 16px;border:1px solid #e2e9e3;border-radius:12px;background:linear-gradient(110deg,#fff,#f5f9f4)}.insight-label{color:#6c7d75;font-size:9px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.insight strong{font-size:13px;line-height:1.35}.insight-detail{color:#667772;font-size:10px;font-variant-numeric:tabular-nums}
+    .panel{margin:0 0 20px;padding:20px;border:1px solid #e2e9e3;border-radius:17px;background:#fff;box-shadow:0 8px 26px #172a2a08}.panel-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:16px}.panel h2{margin:0;font-size:20px;line-height:1.2;letter-spacing:-.035em}.panel-copy{margin:5px 0 0;color:var(--muted);font-size:12px}.summary-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.chart-card{min-width:0;padding:16px;border:1px solid #e5ebe6;border-radius:13px;background:#fcfdfb}.chart-card h3{margin:0;font-size:13px;letter-spacing:-.01em}.chart-hint{margin:3px 0 12px;color:#76847e;font-size:10px}.membership-layout{display:flex;align-items:center;justify-content:center;gap:18px;min-height:220px}.membership-donut{width:156px;height:156px;flex:none;border-radius:50%;position:relative;display:grid;place-items:center;background:conic-gradient(var(--green) 0 var(--general-share),var(--mint) var(--general-share) 100%)}.membership-donut:after{content:"";position:absolute;inset:23px;border-radius:50%;background:#fcfdfb}.donut-center{z-index:1;text-align:center;display:grid}.donut-center strong{font-size:23px;line-height:1;font-variant-numeric:tabular-nums}.donut-center span{margin-top:4px;color:#73817b;font-size:9px;font-weight:750;letter-spacing:.07em;text-transform:uppercase}.legend{display:grid;gap:12px;margin:0;padding:0;list-style:none;min-width:145px}.legend-item{display:grid;grid-template-columns:10px 1fr auto;gap:7px;align-items:center;font-size:11px}.swatch{width:9px;height:9px;border-radius:3px;background:var(--green)}.swatch.lifetime{background:var(--mint)}.legend-name{color:#425750;font-weight:650}.legend-value{font-weight:800;color:#243c34;font-variant-numeric:tabular-nums}.legend-share{grid-column:2/-1;margin-top:-7px;color:#7b8982;font-size:9px}
+    .discipline-tools{display:flex;gap:10px;align-items:center}.search{width:min(290px,100%);height:40px;padding:0 12px;border:1px solid #dce5de;border-radius:10px;background:#fbfcfa;color:var(--ink);font:inherit;font-size:12px;outline:none}.search:focus{border-color:#6da58d;box-shadow:0 0 0 3px #126b551f}.discipline-list{display:grid;gap:12px}.discipline-row{display:grid;grid-template-columns:minmax(160px,1fr) minmax(100px,1.5fr) 44px 48px;gap:12px;align-items:center}.discipline-name{font-size:11px;font-weight:700;line-height:1.35}.track{height:9px;overflow:hidden;border-radius:99px;background:#edf1ec}.bar{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#126b55,#84ba8c)}.count,.share{text-align:right;font-size:11px;font-variant-numeric:tabular-nums}.count{color:#24493c;font-weight:800}.share{color:#7b8982}.empty{padding:24px;text-align:center;color:var(--muted);font-size:12px}.footnote{margin:14px 0 0;padding-top:12px;border-top:1px solid #edf1ed;color:#78847f;font-size:10px;line-height:1.6}.foot{border-top:1px solid var(--line);padding:18px 0 28px;color:#697873;font-size:11px}.foot a{text-decoration:none;font-weight:700}.foot a:hover{color:var(--green);text-decoration:underline}.state{padding:18px;border:1px solid #e2e9e3;border-radius:12px;background:#fff;color:var(--muted);font-size:13px}.state.error{border-color:#edd0c9;background:#fff8f6;color:#824638}.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+    .cohort-list{display:grid;gap:16px}.cohort-row{display:grid;grid-template-columns:minmax(110px,1fr) minmax(100px,2fr) 72px 56px;gap:12px;align-items:center}.cohort-name{font-size:12px;font-weight:750}.cohort-bar{height:14px;overflow:hidden;border-radius:99px;background:#edf1ec}.cohort-bar span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#126b55,#84ba8c)}.cohort-count,.cohort-share{text-align:right;font-size:12px;font-variant-numeric:tabular-nums}.cohort-count{font-weight:800;color:#24493c}.cohort-share{color:#72817a}
+    .year-breakdown{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:22px}.year-breakdown-title{grid-column:1/-1;margin:0;font-size:14px}.year-breakdown-copy{grid-column:1/-1;margin:-6px 0 2px;color:var(--muted);font-size:11px}.batch-detail{align-self:start;border:1px solid #e2e9e3;border-radius:12px;background:#fcfdfb}.batch-detail summary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 15px;cursor:pointer;list-style:none;font-size:12px;font-weight:750}.batch-detail summary::-webkit-details-marker{display:none}.batch-detail summary:after{content:"+";color:var(--green);font-size:18px;line-height:1}.batch-detail[open] summary:after{content:"−"}.batch-detail-total{color:#62716e;font-size:10px;font-weight:650}.batch-year-list{display:grid;gap:9px;padding:0 15px 14px}.batch-year-row{display:grid;grid-template-columns:42px minmax(48px,1fr) 44px 42px;gap:8px;align-items:center}.batch-year{font-size:10px;font-weight:700}.batch-year-track{height:7px;overflow:hidden;border-radius:99px;background:#edf1ec}.batch-year-track span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#126b55,#84ba8c)}.batch-year-count,.batch-year-share{text-align:right;font-size:10px;font-variant-numeric:tabular-nums}.batch-year-count{font-weight:800;color:#24493c}.batch-year-share{color:#72817a}
+    @media(max-width:760px){.shell{width:calc(100% - 32px)}.hero{padding:29px 0 20px}.summary{gap:7px}.stat{min-height:70px;padding:11px}.stat-label{font-size:10px}.stat-value{font-size:21px}.insights{gap:7px}.insight{padding:11px}.panel{padding:15px;border-radius:14px}.panel-head{align-items:flex-start;flex-direction:column}.summary-layout{grid-template-columns:1fr}.membership-layout{min-height:180px;justify-content:flex-start}.membership-donut{width:140px;height:140px}.discipline-tools,.search{width:100%}.discipline-row{grid-template-columns:minmax(95px,1fr) minmax(50px,1.1fr) 36px 42px;gap:8px}.discipline-name,.count,.share{font-size:10px}}
+    @media(max-width:460px){.shell{width:calc(100% - 24px)}.brand{gap:8px}.brand-mark{width:35px;height:35px}.brand-sub{font-size:9px}.top-nav{gap:1px}.nav-link{padding:8px 7px;font-size:10px}.summary{grid-template-columns:1fr}.stat{min-height:58px}.insights{grid-template-columns:1fr}.membership-layout{gap:12px}.membership-donut{width:120px;height:120px}.membership-donut:after{inset:18px}.legend{min-width:0}.discipline-row{grid-template-columns:minmax(82px,1fr) minmax(38px,.9fr) 31px 38px;gap:6px}.discipline-name,.count,.share{font-size:9px}}
+    @media(max-width:600px){.cohort-row{grid-template-columns:minmax(80px,1fr) minmax(50px,1.2fr) 52px 44px;gap:7px}.cohort-name,.cohort-count,.cohort-share{font-size:10px}}
+    @media(max-width:600px){.year-breakdown{grid-template-columns:1fr}.year-breakdown-title,.year-breakdown-copy{grid-column:auto}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="shell topbar">
+    <a class="brand" href="index.html" aria-label="KUAA Election 2026 candidate directory"><span class="brand-mark">KUAA</span><span class="brand-name">KUAA Election<span class="brand-sub">Candidate directory</span></span></a>
+    <nav class="top-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Candidates</a><a class="nav-link" href="stats.html">Candidate stats</a><a class="nav-link" href="voters.html" aria-current="page">Voter stats</a></nav>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title"><div class="eyebrow">Election 2026 · voter overview</div><h1 id="page-title">Voter statistics</h1><p class="intro">A summary of the active-voter list by academic discipline and membership type. These counts describe the list, not ballots cast or turnout.</p><p class="source-note">Source: active-voter-list.xlsx · Aggregate data only</p></section>
+    <section class="summary" aria-label="Voter list summary">
+      <article class="stat"><span class="stat-label">Listed voter records</span><strong class="stat-value" id="total-voters">—</strong></article>
+      <article class="stat"><span class="stat-label">Disciplines represented</span><strong class="stat-value" id="discipline-total">—</strong></article>
+      <article class="stat"><span class="stat-label">Unique voter rolls</span><strong class="stat-value" id="unique-rolls">—</strong></article>
+    </section>
+    <section class="insights" aria-label="Voter list highlights">
+      <article class="insight"><span class="insight-label">Largest discipline group</span><strong id="largest-discipline">—</strong><span class="insight-detail" id="largest-discipline-detail"></span></article>
+      <article class="insight"><span class="insight-label">Membership mix</span><strong id="membership-highlight">—</strong><span class="insight-detail" id="membership-detail"></span></article>
+    </section>
+    <section class="panel" aria-labelledby="membership-heading">
+      <div class="panel-head"><div><h2 id="membership-heading">Voters by membership type</h2><p class="panel-copy">Share of records in the active-voter list.</p></div></div>
+      <div class="summary-layout">
+        <article class="chart-card"><h3>Membership mix</h3><p class="chart-hint">Percent of all voter records</p><div class="membership-layout"><div id="membership-donut" class="membership-donut" role="img" aria-label="Membership type share" style="--general-share:0%"><div class="donut-center"><strong id="donut-total">—</strong><span>voters</span></div></div><ul id="membership-legend" class="legend" aria-label="Membership type legend"></ul></div></article>
+      </div>
+    </section>
+    <section class="panel" aria-labelledby="batch-heading">
+      <div class="panel-head"><div><h2 id="batch-heading">Voter records by batch cohort</h2><p class="panel-copy" id="batch-caption">Grouped by the two-digit batch prefix in six-digit voter rolls.</p></div></div>
+      <div id="batch-list" class="cohort-list" aria-live="polite"><div class="state">Loading batch cohorts…</div></div>
+      <div id="batch-year-breakdown" class="year-breakdown" aria-label="Exact batch year counts"></div>
+      <p class="footnote" id="batch-note">Batch is inferred from the first two digits of the roll: 91–99 map to 1991–1999, 00 to 2000, and 01–22 to 2001–2022. Shares use only rolls with an interpretable six-digit prefix; these are list counts, not turnout.</p>
+    </section>
+    <section class="panel" aria-labelledby="discipline-heading">
+      <div class="panel-head"><div><h2 id="discipline-heading">Voter records by discipline</h2><p class="panel-copy" id="discipline-caption">Ordered by count, with shares of all voter records.</p></div><label class="discipline-tools"><span class="visually-hidden">Search discipline codes</span><input class="search" id="discipline-search" type="search" placeholder="Find a discipline code" autocomplete="off"></label></div>
+      <div id="discipline-list" class="discipline-list" aria-live="polite"><div class="state">Loading voter statistics…</div></div>
+      <p class="footnote">Discipline codes are shown as recorded in the source workbook. Batch cohort estimates are derived separately from six-digit roll prefixes; see the batch chart for the mapping and exclusions.</p>
+    </section>
+  </main>
+  <footer class="shell foot">KUAA Executive Committee Election 2026 · <a href="https://sadmansobhan.com" target="_blank" rel="noopener noreferrer">Developed by Sadman Sobhan (Imran)</a></footer>
+  <script id="embedded-voter-data" type="application/json">
+    {"source":"active-voter-list.xlsx","sourceSheet":"Sheet1","totalRecords":7681,"approvedRecords":7681,"uniqueRolls":7681,"disciplineCount":30,"disciplineCounts":[{"code":"FMRT","count":928,"share":12.08},{"code":"FWT","count":799,"share":10.4},{"code":"CSE","count":712,"share":9.27},{"code":"ARCH","count":700,"share":9.11},{"code":"BAD","count":512,"share":6.67},{"code":"AGROTECH","count":491,"share":6.39},{"code":"ECE","count":482,"share":6.28},{"code":"URP","count":476,"share":6.2},{"code":"SOC","count":463,"share":6.03},{"code":"ES","count":442,"share":5.75},{"code":"ECON","count":338,"share":4.4},{"code":"BGE","count":324,"share":4.22},{"code":"MATH","count":173,"share":2.25},{"code":"SS","count":136,"share":1.77},{"code":"PHARM","count":133,"share":1.73},{"code":"ENG","count":103,"share":1.34},{"code":"STAT","count":103,"share":1.34},{"code":"BANGLA","count":49,"share":0.64},{"code":"MCJ","count":49,"share":0.64},{"code":"DS","count":45,"share":0.59},{"code":"CHEM","count":43,"share":0.56},{"code":"PHY","count":39,"share":0.51},{"code":"HC","count":37,"share":0.48},{"code":"LAW","count":26,"share":0.34},{"code":"IER","count":20,"share":0.26},{"code":"HRM","count":18,"share":0.23},{"code":"IFA","count":13,"share":0.17},{"code":"SCULPTURE","count":11,"share":0.14},{"code":"DRAWING","count":10,"share":0.13},{"code":"PRINT","count":6,"share":0.08}],"membershipCounts":[{"type":"General member","count":7466,"share":97.2},{"type":"Lifetime member","count":215,"share":2.8}],"dataQuality":{"missingPhone":130,"nonSixDigitRollFormat":34},"interpretation":"Counts are records in the active-voter list, not turnout. Batch cohorts are estimates from roll prefixes; 34 non-six-digit rolls are excluded. No eligible-member denominators are present.","batchRollsAnalyzed":7647,"batchRollsExcluded":34,"batchMethod":"Estimated from first two digits of a six-digit roll. Prefixes 91–99 map to 1991–1999, 00 maps to 2000, and 01–22 map to 2001–2022.","batchCohorts":[{"label":"1991–2000","count":1554,"share":20.32},{"label":"2001–2010","count":2548,"share":33.32},{"label":"2011–2020","count":3088,"share":40.38},{"label":"2021–2022","count":457,"share":5.98}],"batchYearCounts":[{"year":1991,"count":51,"share":0.67},{"year":1992,"count":66,"share":0.86},{"year":1993,"count":109,"share":1.43},{"year":1994,"count":121,"share":1.58},{"year":1995,"count":125,"share":1.63},{"year":1996,"count":136,"share":1.78},{"year":1997,"count":208,"share":2.72},{"year":1998,"count":195,"share":2.55},{"year":1999,"count":272,"share":3.56},{"year":2000,"count":271,"share":3.54},{"year":2001,"count":258,"share":3.37},{"year":2002,"count":242,"share":3.16},{"year":2003,"count":293,"share":3.83},{"year":2004,"count":275,"share":3.6},{"year":2005,"count":236,"share":3.09},{"year":2006,"count":254,"share":3.32},{"year":2007,"count":241,"share":3.15},{"year":2008,"count":265,"share":3.47},{"year":2009,"count":241,"share":3.15},{"year":2010,"count":243,"share":3.18},{"year":2011,"count":296,"share":3.87},{"year":2012,"count":276,"share":3.61},{"year":2013,"count":252,"share":3.3},{"year":2014,"count":255,"share":3.33},{"year":2015,"count":234,"share":3.06},{"year":2016,"count":292,"share":3.82},{"year":2017,"count":300,"share":3.92},{"year":2018,"count":377,"share":4.93},{"year":2019,"count":385,"share":5.03},{"year":2020,"count":421,"share":5.51},{"year":2021,"count":457,"share":5.98},{"year":2022,"count":0,"share":0.0}]}
+  </script>
+  <script>
+    const number = (value) => new Intl.NumberFormat("en-US").format(value);
+    const el = (tag, className, text) => { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; };
+    const disciplineList = document.querySelector("#discipline-list");
+    let voterData;
+    function renderMembership() {
+      const total = voterData.totalRecords || 0;
+      const general = voterData.membershipCounts.find((item) => item.type === "General member");
+      const generalShare = total ? general.count / total * 100 : 0;
+      document.querySelector("#membership-donut").style.setProperty("--general-share", `${generalShare}%`);
+      document.querySelector("#donut-total").textContent = number(total);
+      const legend = document.querySelector("#membership-legend"); legend.replaceChildren();
+      for (const item of voterData.membershipCounts) {
+        const row = el("li", "legend-item");
+        const swatch = el("span", `swatch${item.type === "Lifetime member" ? " lifetime" : ""}`); swatch.setAttribute("aria-hidden", "true");
+        row.append(swatch, el("span", "legend-name", item.type), el("strong", "legend-value", number(item.count)), el("span", "legend-share", `${item.share.toFixed(1)}% of list`)); legend.append(row);
+      }
+      const lifetime = voterData.membershipCounts.find((item) => item.type === "Lifetime member");
+      document.querySelector("#membership-highlight").textContent = `${number(lifetime.count)} lifetime members`;
+      document.querySelector("#membership-detail").textContent = `${lifetime.share.toFixed(1)}% of voter records; the rest are general members.`;
+    }
+    function renderBatches() {
+      const list = document.querySelector("#batch-list");
+      const cohorts = voterData.batchCohorts || [];
+      list.replaceChildren();
+      if (!cohorts.length) { list.append(el("div", "state", "Batch cohort counts are unavailable.")); return; }
+      const max = Math.max(...cohorts.map((item) => item.count), 1);
+      const yearBreakdown = document.querySelector("#batch-year-breakdown");
+      yearBreakdown.replaceChildren(el("h3", "year-breakdown-title", "Counts by batch year"), el("p", "year-breakdown-copy", "Expand a cohort to see the count for each batch year."));
+      const yearlyCounts = voterData.batchYearCounts || [];
+      const yearMax = Math.max(...yearlyCounts.map((item) => item.count), 1);
+      for (const item of cohorts) {
+        const row = el("div", "cohort-row");
+        const track = el("span", "cohort-bar"); track.setAttribute("role", "img"); track.setAttribute("aria-label", `${number(item.count)} voter records, ${item.share.toFixed(1)} percent of rolls with a six-digit format`);
+        const bar = el("span"); bar.style.width = `${item.count / max * 100}%`; track.append(bar);
+        row.append(el("span", "cohort-name", item.label), track, el("span", "cohort-count", number(item.count)), el("span", "cohort-share", `${item.share.toFixed(1)}%`));
+        list.append(row);
+        const [startYear, endYear] = item.label.split("–").map(Number);
+        const years = yearlyCounts.filter((year) => year.year >= startYear && year.year <= endYear);
+        const disclosure = el("details", "batch-detail");
+        const summary = el("summary");
+        summary.append(el("span", "batch-detail-label", `Batch ${item.label}`), el("span", "batch-detail-total", `${number(item.count)} voters`));
+        const yearList = el("div", "batch-year-list");
+        for (const year of years) {
+          const yearRow = el("div", "batch-year-row");
+          const yearTrack = el("span", "batch-year-track"); yearTrack.setAttribute("role", "img"); yearTrack.setAttribute("aria-label", `${number(year.count)} voters in batch ${year.year}`);
+          const yearBar = el("span"); yearBar.style.width = `${year.count / yearMax * 100}%`; yearTrack.append(yearBar);
+          yearRow.append(el("span", "batch-year", String(year.year)), yearTrack, el("span", "batch-year-count", number(year.count)), el("span", "batch-year-share", `${year.share.toFixed(1)}%`));
+          yearList.append(yearRow);
+        }
+        disclosure.append(summary, yearList);
+        yearBreakdown.append(disclosure);
+      }
+      document.querySelector("#batch-caption").textContent = `${number(voterData.batchRollsAnalyzed)} rolls grouped by the two-digit batch prefix; ${number(voterData.batchRollsExcluded)} rolls excluded.`;
+    }
+    function renderDisciplines() {
+      if (!voterData) return;
+      const query = document.querySelector("#discipline-search").value.trim().toLocaleLowerCase();
+      const items = voterData.disciplineCounts.filter((item) => item.code.toLocaleLowerCase().includes(query));
+      const max = Math.max(...voterData.disciplineCounts.map((item) => item.count), 1);
+      document.querySelector("#discipline-caption").textContent = query ? `${number(items.length)} matching discipline codes.` : `${number(voterData.disciplineCount)} codes, ordered by record count.`;
+      disciplineList.replaceChildren();
+      if (!items.length) { disciplineList.append(el("div", "empty", "No discipline codes match your search.")); return; }
+      for (const item of items) {
+        const row = el("div", "discipline-row");
+        const track = el("span", "track"); track.setAttribute("role", "img"); track.setAttribute("aria-label", `${number(item.count)} records, ${item.share.toFixed(1)} percent of list`);
+        const bar = el("span", "bar"); bar.style.width = `${item.count / max * 100}%`; track.append(bar);
+        row.append(el("span", "discipline-name", item.code), track, el("span", "count", number(item.count)), el("span", "share", `${item.share.toFixed(1)}%`)); disciplineList.append(row);
+      }
+    }
+    async function loadVoterStats() {
+      try {
+        const fallback = JSON.parse(document.querySelector("#embedded-voter-data").textContent);
+        try {
+          const response = location.protocol === "file:" ? null : await fetch("voter-stats.json", {cache:"no-store"});
+          voterData = response?.ok ? await response.json() : fallback;
+        } catch { voterData = fallback; }
+        if (!Array.isArray(voterData.disciplineCounts) || !voterData.disciplineCounts.length) throw new Error("Voter aggregates are missing");
+        document.querySelector("#total-voters").textContent = number(voterData.approvedRecords);
+        document.querySelector("#discipline-total").textContent = number(voterData.disciplineCount);
+        document.querySelector("#unique-rolls").textContent = number(voterData.uniqueRolls);
+        const largest = voterData.disciplineCounts[0];
+        document.querySelector("#largest-discipline").textContent = `${largest.code} · ${number(largest.count)} voters`;
+        document.querySelector("#largest-discipline-detail").textContent = `${largest.share.toFixed(1)}% of all listed voter records.`;
+        renderMembership(); renderBatches(); renderDisciplines();
+      } catch {
+        disciplineList.replaceChildren(el("div", "state error", "Could not load the aggregate voter statistics. Check voter-stats.json."));
+      }
+    }
+    document.querySelector("#discipline-search").addEventListener("input", renderDisciplines);
+    loadVoterStats();
+  </script>
+</body>
+</html>

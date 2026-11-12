@@ -27,7 +27,7 @@ The site URL for this repository is <https://imran110219.github.io/kuaa-election
 - Search by candidate name or student ID
 - Filters for position, batch, and discipline
 - Downloads the current results as an Excel-compatible CSV or a print-ready PDF
-- Candidate-participation statistics by batch cohort, exact batch year, and discipline, with donut and bar charts
+- Candidate-list statistics by batch cohort, exact batch year, and discipline, with donut and bar charts
 - Candidate profile pages and inline PDF manifestos for candidates with a published manifesto
 - Responsive layout for phones and desktop screens
 
@@ -37,13 +37,15 @@ Batch years are inferred from the first two digits of the listed student ID: `90
 
 ## Public pages and private analysis policy
 
-The main `index.html` and `stats.html` are public pages. They do not show a password prompt or a campaign-slogan selector, including when opened with an old `?analysis=` query. Keep all slogan-based candidate and statistics analysis in the two protected copies only.
+The main `index.html`, `stats.html`, and `voters.html` are public pages. They do not show a password prompt or a campaign-slogan selector, including when opened with an old `?analysis=` query. Keep all slogan-based candidate and statistics analysis in the two protected copies only.
 
 The protected copies are authored in `deepstateneverdies/index.html` and `deepstateneverdies/stats.html`. Both have the shared-campaign-slogan selector; selecting a slogan filters the directory or recalculates the statistics and updates the URL with an `analysis` code for a direct link. GitHub Pages uses their Jekyll permalinks to publish them at:
 
 - `/deepstateneverdies/index`
 - `/deepstateneverdies/stats`
 
-For local preview, run `python3 -m http.server 8000` from the repository root and open `http://localhost:8000/deepstateneverdies/index.html` or `http://localhost:8000/deepstateneverdies/stats.html`. (The `.html` suffix is needed for a basic local static server.)
+The public voter-list dashboard is `voters.html`, published at `/voters`, with aggregate counts in `voter-stats.json`. The JSON contains no names, rolls, email addresses, or phone numbers. Rebuild it from the local `active-voter-list.xlsx` when that source is updated. The workbook contains voter contact details and is excluded by `.gitignore`; do not publish it. Batch cohorts are estimates from the first two digits of six-digit rolls; 34 non-six-digit rolls are excluded. Voter percentages are shares of listed records (or interpretable rolls for the cohort chart), not turnout rates. The source has no explicit batch-year field or eligible-member denominator.
+
+For local preview, run `python3 -m http.server 8000` from the repository root and open `http://localhost:8000/index.html`, `http://localhost:8000/stats.html`, or `http://localhost:8000/voters.html`. The `.html` suffix is needed for a basic local static server.
 
 The shared password is the plaintext `PRIVATE_PAGE_PASSWORD` constant in each protected page. This is a client-side visibility gate only; the password and candidate/group data are included in the downloaded page source, so it does not provide actual access control. Do not describe these pages as confidential or use this gate for sensitive information.

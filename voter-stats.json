@@ -1,0 +1,364 @@
+{
+  "source": "active-voter-list.xlsx",
+  "sourceSheet": "Sheet1",
+  "totalRecords": 7681,
+  "approvedRecords": 7681,
+  "uniqueRolls": 7681,
+  "disciplineCount": 30,
+  "disciplineCounts": [
+    {
+      "code": "FMRT",
+      "count": 928,
+      "share": 12.08
+    },
+    {
+      "code": "FWT",
+      "count": 799,
+      "share": 10.4
+    },
+    {
+      "code": "CSE",
+      "count": 712,
+      "share": 9.27
+    },
+    {
+      "code": "ARCH",
+      "count": 700,
+      "share": 9.11
+    },
+    {
+      "code": "BAD",
+      "count": 512,
+      "share": 6.67
+    },
+    {
+      "code": "AGROTECH",
+      "count": 491,
+      "share": 6.39
+    },
+    {
+      "code": "ECE",
+      "count": 482,
+      "share": 6.28
+    },
+    {
+      "code": "URP",
+      "count": 476,
+      "share": 6.2
+    },
+    {
+      "code": "SOC",
+      "count": 463,
+      "share": 6.03
+    },
+    {
+      "code": "ES",
+      "count": 442,
+      "share": 5.75
+    },
+    {
+      "code": "ECON",
+      "count": 338,
+      "share": 4.4
+    },
+    {
+      "code": "BGE",
+      "count": 324,
+      "share": 4.22
+    },
+    {
+      "code": "MATH",
+      "count": 173,
+      "share": 2.25
+    },
+    {
+      "code": "SS",
+      "count": 136,
+      "share": 1.77
+    },
+    {
+      "code": "PHARM",
+      "count": 133,
+      "share": 1.73
+    },
+    {
+      "code": "ENG",
+      "count": 103,
+      "share": 1.34
+    },
+    {
+      "code": "STAT",
+      "count": 103,
+      "share": 1.34
+    },
+    {
+      "code": "BANGLA",
+      "count": 49,
+      "share": 0.64
+    },
+    {
+      "code": "MCJ",
+      "count": 49,
+      "share": 0.64
+    },
+    {
+      "code": "DS",
+      "count": 45,
+      "share": 0.59
+    },
+    {
+      "code": "CHEM",
+      "count": 43,
+      "share": 0.56
+    },
+    {
+      "code": "PHY",
+      "count": 39,
+      "share": 0.51
+    },
+    {
+      "code": "HC",
+      "count": 37,
+      "share": 0.48
+    },
+    {
+      "code": "LAW",
+      "count": 26,
+      "share": 0.34
+    },
+    {
+      "code": "IER",
+      "count": 20,
+      "share": 0.26
+    },
+    {
+      "code": "HRM",
+      "count": 18,
+      "share": 0.23
+    },
+    {
+      "code": "IFA",
+      "count": 13,
+      "share": 0.17
+    },
+    {
+      "code": "SCULPTURE",
+      "count": 11,
+      "share": 0.14
+    },
+    {
+      "code": "DRAWING",
+      "count": 10,
+      "share": 0.13
+    },
+    {
+      "code": "PRINT",
+      "count": 6,
+      "share": 0.08
+    }
+  ],
+  "membershipCounts": [
+    {
+      "type": "General member",
+      "count": 7466,
+      "share": 97.2
+    },
+    {
+      "type": "Lifetime member",
+      "count": 215,
+      "share": 2.8
+    }
+  ],
+  "dataQuality": {
+    "missingPhone": 130,
+    "nonSixDigitRollFormat": 34
+  },
+  "interpretation": "Counts are records in the active-voter list, not turnout. Batch cohorts are estimates from roll prefixes; 34 non-six-digit rolls are excluded. No eligible-member denominators are present.",
+  "batchRollsAnalyzed": 7647,
+  "batchRollsExcluded": 34,
+  "batchMethod": "Estimated from first two digits of a six-digit roll. Prefixes 91–99 map to 1991–1999, 00 maps to 2000, and 01–22 map to 2001–2022.",
+  "batchCohorts": [
+    {
+      "label": "1991–2000",
+      "count": 1554,
+      "share": 20.32
+    },
+    {
+      "label": "2001–2010",
+      "count": 2548,
+      "share": 33.32
+    },
+    {
+      "label": "2011–2020",
+      "count": 3088,
+      "share": 40.38
+    },
+    {
+      "label": "2021–2022",
+      "count": 457,
+      "share": 5.98
+    }
+  ],
+  "batchYearCounts": [
+    {
+      "year": 1991,
+      "count": 51,
+      "share": 0.67
+    },
+    {
+      "year": 1992,
+      "count": 66,
+      "share": 0.86
+    },
+    {
+      "year": 1993,
+      "count": 109,
+      "share": 1.43
+    },
+    {
+      "year": 1994,
+      "count": 121,
+      "share": 1.58
+    },
+    {
+      "year": 1995,
+      "count": 125,
+      "share": 1.63
+    },
+    {
+      "year": 1996,
+      "count": 136,
+      "share": 1.78
+    },
+    {
+      "year": 1997,
+      "count": 208,
+      "share": 2.72
+    },
+    {
+      "year": 1998,
+      "count": 195,
+      "share": 2.55
+    },
+    {
+      "year": 1999,
+      "count": 272,
+      "share": 3.56
+    },
+    {
+      "year": 2000,
+      "count": 271,
+      "share": 3.54
+    },
+    {
+      "year": 2001,
+      "count": 258,
+      "share": 3.37
+    },
+    {
+      "year": 2002,
+      "count": 242,
+      "share": 3.16
+    },
+    {
+      "year": 2003,
+      "count": 293,
+      "share": 3.83
+    },
+    {
+      "year": 2004,
+      "count": 275,
+      "share": 3.6
+    },
+    {
+      "year": 2005,
+      "count": 236,
+      "share": 3.09
+    },
+    {
+      "year": 2006,
+      "count": 254,
+      "share": 3.32
+    },
+    {
+      "year": 2007,
+      "count": 241,
+      "share": 3.15
+    },
+    {
+      "year": 2008,
+      "count": 265,
+      "share": 3.47
+    },
+    {
+      "year": 2009,
+      "count": 241,
+      "share": 3.15
+    },
+    {
+      "year": 2010,
+      "count": 243,
+      "share": 3.18
+    },
+    {
+      "year": 2011,
+      "count": 296,
+      "share": 3.87
+    },
+    {
+      "year": 2012,
+      "count": 276,
+      "share": 3.61
+    },
+    {
+      "year": 2013,
+      "count": 252,
+      "share": 3.3
+    },
+    {
+      "year": 2014,
+      "count": 255,
+      "share": 3.33
+    },
+    {
+      "year": 2015,
+      "count": 234,
+      "share": 3.06
+    },
+    {
+      "year": 2016,
+      "count": 292,
+      "share": 3.82
+    },
+    {
+      "year": 2017,
+      "count": 300,
+      "share": 3.92
+    },
+    {
+      "year": 2018,
+      "count": 377,
+      "share": 4.93
+    },
+    {
+      "year": 2019,
+      "count": 385,
+      "share": 5.03
+    },
+    {
+      "year": 2020,
+      "count": 421,
+      "share": 5.51
+    },
+    {
+      "year": 2021,
+      "count": 457,
+      "share": 5.98
+    },
+    {
+      "year": 2022,
+      "count": 0,
+      "share": 0.0
+    }
+  ]
+}
