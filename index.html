@@ -23,16 +23,84 @@
     @media(max-width:920px){.filter-panel{grid-template-columns:repeat(3,minmax(0,1fr))}.search-field{grid-column:span 2}.reset{justify-self:start}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:600px){.shell{width:min(100% - 28px,500px)}.topbar{height:65px}.top-tag{font-size:10px;padding:7px 10px}.brand-mark{width:36px;height:36px}.hero{padding:30px 0 20px;display:block}h1{margin:10px 0 8px;font-size:clamp(36px,9vw,48px)}.hero-copy{font-size:14px;max-width:440px}.year-mark{display:none}.summary{gap:7px;margin-bottom:20px}.stat{padding:12px 10px;display:block;border-radius:12px}.stat-label{font-size:10px;min-height:30px;display:block}.stat-value{font-size:20px}.filter-panel{padding:12px;grid-template-columns:1fr 1fr;gap:10px;border-radius:15px}.search-field{grid-column:1/-1}.reset{grid-column:1/-1;justify-self:end;height:27px}.control{height:43px;font-size:13px}.results-line{padding:18px 2px 13px;font-size:12px}.cards{grid-template-columns:1fr;gap:8px}.position-group{margin-bottom:24px}.candidate{padding:14px 15px}.foot{display:block}.foot span{display:block;margin-top:5px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+    .export-actions{display:flex;justify-content:flex-end;gap:9px;margin:0 0 2px}.export-button{min-height:40px;padding:0 14px;border:1px solid #cbd9cf;border-radius:10px;background:#fff;color:var(--green-dark);font-size:12px;font-weight:750;cursor:pointer;transition:background .15s,border-color .15s}.export-button:hover{background:#edf5ef;border-color:#9eb9a7}.export-button-primary{background:var(--green-dark);color:#fff;border-color:var(--green-dark)}.export-button-primary:hover{background:var(--green);border-color:var(--green)}.print-heading{display:none}
+    @media(max-width:600px){.export-actions{justify-content:stretch}.export-button{flex:1;padding:0 8px;font-size:11px}}
+    @media print{ @page{size:auto;margin:14mm}body{background:#fff;color:#172a2a;font-size:10pt}.shell{width:100%;max-width:none;margin:0}.topbar,.hero,.countdown-panel,.summary,.filter-panel,.export-actions,.foot{display:none!important}.print-heading{display:block;margin:0 0 8mm;font-size:20pt}.results-line{padding:0 0 5mm;color:#333;font-size:9pt}.group-list{padding:0}.position-group{margin:0 0 7mm}.group-head{margin-bottom:3mm}.group-head h2{font-size:13pt}.group-rule{background:#aaa}.seat-count,.group-count{font-size:8pt;padding:2px 6px;background:#f2f4f1;color:#333;border:1px solid #ddd}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm}.candidate{padding:3mm;border:1px solid #ccc;border-radius:2mm;box-shadow:none;break-inside:avoid;transition:none}.candidate:hover{transform:none;box-shadow:none}.candidate-main{grid-template-columns:31mm minmax(0,1fr);gap:3mm}.candidate-photo{width:31mm;height:39mm;border-radius:1mm}.candidate-info{gap:2mm}.candidate h3{font-size:10pt}.candidate-details{gap:1.5mm;margin-top:1mm;padding-top:2mm}.discipline{font-size:8pt;color:#444}.student-id{font-size:8pt;color:#555}.batch-pill,.unopposed-pill{font-size:7pt;padding:1mm 2mm}.empty{padding:10mm}}
+    :root{--ink:#152a2b;--muted:#617270;--paper:#f5f7f3;--card:#fff;--line:#dfe7e1;--green:#13715a;--green-dark:#0d5041;--lime:#dcf47c;--orange:#eea06c;--shadow:0 12px 32px rgba(19,49,39,.07)}
+    body{background:linear-gradient(180deg,#f9faf7 0,#f5f7f3 420px);color:var(--ink)}
+    .shell{width:min(1160px,calc(100% - 48px))}
+    .topbar{height:72px;border-bottom-color:#e6ebe6;backdrop-filter:blur(12px)}
+    .brand-mark{border-radius:12px;background:linear-gradient(145deg,#116d55,#0b493d);box-shadow:0 4px 10px rgba(11,73,61,.18)}
+    .top-tag{border-color:#d4e3d6;background:#f5f9f3;color:#285a49}
+    .hero{padding:38px 0 27px}
+    h1{font-size:clamp(42px,5.4vw,62px);letter-spacing:-.06em}
+    .hero-copy{max-width:560px;color:#586b68;line-height:1.7}
+    .year-mark{color:#e5ebdf}
+    .countdown-panel{min-height:118px;margin-bottom:18px;padding:19px 23px;border-radius:20px;background:radial-gradient(ellipse at 80% 10%,rgba(67,149,105,.55),transparent 47%),linear-gradient(115deg,#0b493d,#126b55);box-shadow:0 14px 35px rgba(11,73,61,.16)}
+    .countdown-copy .eyebrow{font-size:10px;letter-spacing:.14em}
+    .countdown-title{font-size:19px}
+    .countdown-date{font-size:12px}
+    .countdown-timer{gap:7px}
+    .countdown-unit{min-width:68px;padding:9px 10px;border-radius:11px;background:rgba(255,255,255,.09)}
+    .countdown-value{font-size:clamp(23px,2.8vw,31px)}
+    .summary{gap:11px;margin:0 0 23px}
+    .stat{min-height:70px;padding:14px 17px;border-radius:14px;background:#fff;border-color:#e7ece7;box-shadow:0 3px 12px rgba(23,42,42,.025)}
+    .stat-label{font-size:11px;color:#62716e}
+    .stat-value{font-size:24px}
+    .filter-panel{grid-template-columns:minmax(230px,1.7fr) repeat(3,minmax(135px,1fr)) auto;gap:12px;padding:16px;border:1px solid #e2e9e3;border-radius:17px;box-shadow:0 8px 26px rgba(23,42,42,.045)}
+    .field label{color:#52635f;font-size:10px;letter-spacing:.08em}
+    .control{height:46px;border-color:#dce5de;border-radius:11px;background:#fbfcfa}
+    .control:hover{border-color:#bacdbf}
+    .control:focus-visible,.reset:focus-visible,.export-button:focus-visible{outline:3px solid rgba(19,113,90,.25);outline-offset:2px}
+    .search-wrap:before{top:9px;color:#647a73}
+    .reset{border-radius:9px;transition:background .15s}
+    .reset:hover{background:#f0f6ef;text-decoration:none}
+    .results-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:19px 2px 13px}
+    .results-line{padding:0;gap:8px;flex-wrap:wrap;font-size:13px}
+    .results-line strong{font-size:15px;color:#213b37}
+    .sort-note{font-size:11px;color:#71807b}
+    .export-actions{flex:none;gap:8px;margin:0}
+    .export-button{min-height:38px;padding:0 12px;border-radius:10px;font-size:11px}
+    .export-button span{margin-right:4px;font-size:14px}
+    .group-list{padding-bottom:60px}
+    .position-group{margin-bottom:29px}
+    .group-head{gap:11px;margin-bottom:11px}
+    .group-head h2{font-size:18px;letter-spacing:-.025em}
+    .seat-count,.group-count{padding:4px 9px;font-size:10px}
+    .seat-count{background:#e8f3eb;color:#145b45;border-color:#d1e7d7}
+    .group-count{background:#f0f3ef;color:#52645f}
+    .cards{gap:12px}
+    .candidate{border-color:#e2e9e3;border-radius:15px;padding:15px;box-shadow:0 3px 10px rgba(23,42,42,.035);transition:transform .16s,box-shadow .16s,border-color .16s}
+    .candidate:hover{border-color:#b8d0be;box-shadow:0 10px 26px rgba(23,42,42,.09)}
+    .candidate-main{grid-template-columns:156px minmax(0,1fr);gap:15px}
+    .candidate-photo{width:156px;height:196px;border-color:#e3e9e3;border-radius:12px;object-position:center 32%}
+    .candidate-info{gap:10px}
+    .candidate h3{font-size:15px;line-height:1.35;letter-spacing:-.02em}
+    .batch-pill{background:#eef4e9;color:#4b6240}
+    .candidate-details{gap:8px;padding-top:11px;border-color:#edf1ed}
+    .discipline{font-size:11px;color:#596b66;line-height:1.45}
+    .student-id{font-size:11px;color:#65736e;font-weight:650;letter-spacing:.025em}
+    .empty{padding:42px 20px;border-color:#ccdbd0;border-radius:16px;background:#fff}
+    .empty strong{font-size:18px}
+    .empty .empty-reset{margin-top:16px;min-height:40px;padding:0 15px;border:0;border-radius:9px;background:var(--green-dark);color:#fff;font-weight:700;cursor:pointer}
+    .foot{padding:20px 0 28px;color:#697873;font-size:11px}
+    .foot strong{color:#37564a}
+    @media(max-width:1000px){.filter-panel{grid-template-columns:repeat(3,minmax(0,1fr))}.search-field{grid-column:span 2}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:720px){.shell{width:min(100% - 36px,620px)}.hero{padding:30px 0 22px}.countdown-panel{min-height:0}.summary{margin-bottom:18px}.filter-panel{grid-template-columns:repeat(2,minmax(0,1fr))}.search-field{grid-column:1/-1}.reset{justify-self:end}.results-toolbar{align-items:flex-start;flex-direction:column;gap:12px}.export-actions{width:100%}.export-button{flex:1}}
+    @media(max-width:600px){.shell{width:calc(100% - 28px)}.topbar{height:64px}.top-tag{font-size:9px;padding:7px 9px}.hero{padding:27px 0 19px}h1{font-size:clamp(38px,10vw,48px)}.hero-copy{font-size:13px;line-height:1.65}.countdown-panel{gap:13px;padding:15px;border-radius:16px}.countdown-title{font-size:17px}.countdown-date{font-size:11px}.countdown-timer{gap:5px}.countdown-unit{padding:9px 3px}.countdown-value{font-size:clamp(21px,7vw,26px)}.countdown-label{font-size:8px;letter-spacing:.06em}.summary{gap:7px}.stat{min-height:66px;padding:10px 9px;border-radius:11px}.stat-label{font-size:9px;min-height:27px}.stat-value{font-size:20px}.filter-panel{gap:9px;padding:11px;border-radius:14px}.field label{margin-bottom:6px;font-size:9px}.control{height:43px;padding:0 9px;font-size:12px}.search-wrap input{padding-left:36px}.search-wrap:before{left:11px;top:8px}.reset{height:32px;font-size:12px}.results-toolbar{padding:16px 1px 11px;gap:10px}.results-line{font-size:11px}.results-line strong{font-size:14px}.export-button{min-height:39px;font-size:11px}.group-head{display:flex;gap:7px}.group-head h2{font-size:16px}.group-meta{gap:5px}.seat-count,.group-count{padding:3px 7px;font-size:9px}.group-rule{display:block;min-width:8px}.cards{grid-template-columns:1fr;gap:9px}.position-group{margin-bottom:22px}.candidate{padding:12px;border-radius:13px}.candidate-main{grid-template-columns:146px minmax(0,1fr);gap:12px}.candidate-photo{width:146px;height:183px;border-radius:10px}.candidate-info{gap:8px;padding:1px 0}.candidate h3{font-size:14px}.candidate-details{gap:6px;padding-top:8px}.discipline{font-size:10px}.student-id{font-size:10px}.foot{display:block}.foot span{display:block;margin-top:6px}}
+    @media(max-width:360px){.top-tag{max-width:125px;text-align:center;line-height:1.2}.candidate-main{grid-template-columns:116px minmax(0,1fr);gap:10px}.candidate-photo{width:116px;height:145px}.group-head h2{font-size:15px}.seat-count,.group-count{padding:3px 5px;font-size:8px}}
+    .export-button:disabled{opacity:.48;cursor:not-allowed}
+    @media(prefers-reduced-motion:reduce){.candidate,.export-button,.control,.reset{transition:none}}
   </style>
 </head>
 <body>
   <header class="shell topbar">
     <a class="brand" href="#top" aria-label="KUAA Election 2026 home"><span class="brand-mark">KUAA</span><span class="brand-name">KUAA Election<span class="brand-sub">Candidate directory</span></span></a>
-    <span class="top-tag">Executive Committee · 2026</span>
+      <span class="top-tag">Executive Committee <span aria-hidden="true">·</span> Election 2026</span>
   </header>
   <main id="top" class="shell">
     <section class="hero" aria-labelledby="page-title">
-      <div><div class="eyebrow">Election candidate list</div><h1 id="page-title">Meet your<br>candidates.</h1><p class="hero-copy">Explore the KUAA Executive Committee candidates by position, batch and discipline. Search a name to find someone quickly.</p></div>
+      <div><div class="eyebrow">Official candidate directory</div><h1 id="page-title">Meet your<br>candidates.</h1><p class="hero-copy">Browse candidates by position, batch, or discipline. Search by name or student ID to find someone quickly.</p></div>
       <div class="year-mark" aria-hidden="true">26</div>
     </section>
     <section class="countdown-panel" aria-labelledby="countdown-heading">
@@ -52,16 +120,23 @@
     <section class="summary" aria-label="Directory summary">
       <div class="stat"><span class="stat-label">Listed candidates</span><strong class="stat-value" id="candidate-total">—</strong></div>
       <div class="stat"><span class="stat-label">Positions</span><strong class="stat-value" id="position-total">—</strong></div>
-      <div class="stat"><span class="stat-label">Disciplines</span><strong class="stat-value" id="discipline-total">—</strong></div>
+      <div class="stat"><span class="stat-label">Seats available</span><strong class="stat-value" id="seat-total">—</strong></div>
     </section>
     <section class="filter-panel" aria-label="Filter candidates">
-      <div class="field search-field"><label for="search">Search candidates</label><div class="search-wrap"><input class="control" id="search" type="search" placeholder="Search by name or student ID" autocomplete="off"></div></div>
+      <div class="field search-field"><label for="search">Search candidates</label><div class="search-wrap"><input class="control" id="search" type="search" placeholder="Name, student ID, or position" autocomplete="off"></div></div>
       <div class="field"><label for="position">Position</label><select class="control" id="position"><option value="">All positions</option></select></div>
       <div class="field"><label for="batch">Batch</label><select class="control" id="batch"><option value="">All batches</option></select></div>
       <div class="field"><label for="discipline">Discipline</label><select class="control" id="discipline"><option value="">All disciplines</option></select></div>
       <button class="reset" id="reset" type="button">Clear filters ↗</button>
     </section>
-    <div class="results-line" aria-live="polite"><span id="result-label">Loading candidate list…</span><span>Sorted by position</span></div>
+    <h2 class="print-heading">KUAA Executive Committee Election 2026 — Candidate List</h2>
+    <div class="results-toolbar">
+      <div class="results-line" aria-live="polite"><span id="result-label">Loading candidate list…</span><span class="sort-note">Grouped by position</span></div>
+      <div class="export-actions" aria-label="Download candidate list">
+        <button class="export-button" id="download-csv" type="button" title="Download the currently filtered candidates as an Excel-compatible CSV"><span aria-hidden="true">↓</span> Excel CSV</button>
+        <button class="export-button export-button-primary" id="download-pdf" type="button" title="Print or save the currently filtered candidate list as a PDF"><span aria-hidden="true">↓</span> Save PDF</button>
+      </div>
+    </div>
     <section class="group-list" id="results" aria-label="Candidates by position"></section>
   </main>
   <footer class="shell foot"><strong>KUAA Executive Committee Election 2026</strong><span>Source list dated November 12, 2026 · Batch years inferred from student IDs.</span><span>Developed by <a href="https://sadmansobhan.com" target="_blank" rel="noopener noreferrer">Sadman Sobhan (Imran)</a> · CSE, 11th Batch</span></footer>
@@ -845,7 +920,8 @@
     "name": "Md. Mahmud Ul Hasan (Rana)",
     "discipline": "Computer Science and Engineering",
     "studentId": "000212",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/000212.png"
   },
   {
     "position": "Executive Member",
@@ -1197,6 +1273,14 @@
     const resultLabel = document.querySelector("#result-label");
     let candidates = JSON.parse(document.querySelector("#candidate-data").textContent);
 
+    function getFilteredCandidates() {
+      const query = searchInput.value.trim().toLocaleLowerCase();
+      return candidates.filter((person) => {
+        const matchesQuery = !query || [person.name, person.studentId, person.position, person.discipline, String(person.batch)].some((value) => value.toLocaleLowerCase().includes(query));
+        return matchesQuery && (!positionSelect.value || person.position === positionSelect.value) && (!batchSelect.value || String(person.batch) === batchSelect.value) && (!disciplineSelect.value || person.discipline === disciplineSelect.value);
+      });
+    }
+
     function addOptions(select, values) {
       for (const value of values) {
         const option = document.createElement("option");
@@ -1212,19 +1296,23 @@
       return element;
     }
     function render() {
-      const query = searchInput.value.trim().toLocaleLowerCase();
-      const filtered = candidates.filter((person) => {
-        const matchesQuery = !query || [person.name, person.studentId, person.position, person.discipline, String(person.batch)].some((value) => value.toLocaleLowerCase().includes(query));
-        return matchesQuery && (!positionSelect.value || person.position === positionSelect.value) && (!batchSelect.value || String(person.batch) === batchSelect.value) && (!disciplineSelect.value || person.discipline === disciplineSelect.value);
-      });
+      const filtered = getFilteredCandidates();
       results.replaceChildren();
       resultLabel.innerHTML = `<strong>${filtered.length.toLocaleString()} ${filtered.length === 1 ? "candidate" : "candidates"}</strong> shown`;
       if (!filtered.length) {
         const empty = textElement("div", "empty", "");
         empty.append(textElement("strong", "", "No candidates match these filters"), textElement("span", "", "Try another name or clear one or more filters."));
+        const clearButton = textElement("button", "empty-reset", "Clear filters");
+        clearButton.type = "button";
+        clearButton.addEventListener("click", clearFilters);
+        empty.append(clearButton);
         results.append(empty);
+        document.querySelector("#download-csv").disabled = true;
+        document.querySelector("#download-pdf").disabled = true;
         return;
       }
+      document.querySelector("#download-csv").disabled = false;
+      document.querySelector("#download-pdf").disabled = false;
       const grouped = new Map();
       for (const person of filtered) {
         if (!grouped.has(person.position)) grouped.set(person.position, []);
@@ -1269,6 +1357,9 @@
             photo.src = person.photo;
             photo.alt = `${person.name} photo`;
             photo.loading = "lazy";
+            photo.addEventListener("error", () => {
+              photo.replaceWith(textElement("div", "candidate-photo candidate-photo-placeholder", "Photo unavailable"));
+            }, {once:true});
           } else {
             photo = textElement("div", "candidate-photo candidate-photo-placeholder", "Photo unavailable");
           }
@@ -1290,13 +1381,36 @@
     }
     for (const control of [searchInput, positionSelect, batchSelect, disciplineSelect]) control.addEventListener(control === searchInput ? "input" : "change", render);
     document.querySelector("#reset").addEventListener("click", clearFilters);
+    function csvCell(value) {
+      let text = String(value ?? "");
+      if (/^[\s]*[=+\-@]/.test(text)) text = `'${text}`;
+      return `"${text.replaceAll('"', '""')}"`;
+    }
+    document.querySelector("#download-csv").addEventListener("click", () => {
+      const rows = getFilteredCandidates();
+      const columns = ["Position", "Candidate name", "Student ID", "Batch", "Discipline", "Status"];
+      const csv = [columns, ...rows.map((person) => [person.position, person.name, person.studentId, person.batch, person.discipline, person.unopposed ? "Unopposed" : "Candidate"])].map((row) => row.map(csvCell).join(",")).join("\r\n");
+      const url = URL.createObjectURL(new Blob(["\uFEFF", csv], {type:"text/csv;charset=utf-8"}));
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "kuaa-election-2026-candidates.csv";
+      document.body.append(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    });
+    document.querySelector("#download-pdf").addEventListener("click", async () => {
+      for (const image of results.querySelectorAll("img")) image.loading = "eager";
+      await Promise.allSettled([...results.querySelectorAll("img")].map((image) => image.decode()));
+      window.print();
+    });
 
     addOptions(positionSelect, POSITION_ORDER.filter((position) => candidates.some((person) => person.position === position)));
     addOptions(batchSelect, [...new Set(candidates.map((person) => person.batch))].sort((a, b) => a - b).map(String));
     addOptions(disciplineSelect, [...new Set(candidates.map((person) => person.discipline))].sort((a, b) => a.localeCompare(b)));
     document.querySelector("#candidate-total").textContent = candidates.length.toLocaleString();
     document.querySelector("#position-total").textContent = new Set(candidates.map((person) => person.position)).size;
-    document.querySelector("#discipline-total").textContent = new Set(candidates.map((person) => person.discipline)).size;
+    document.querySelector("#seat-total").textContent = Object.values(POSITION_SEATS).reduce((sum, seats) => sum + seats, 0).toLocaleString();
     render();
   </script>
   <script>

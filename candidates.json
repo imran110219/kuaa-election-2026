@@ -777,7 +777,8 @@
     "name": "Md. Mahmud Ul Hasan (Rana)",
     "discipline": "Computer Science and Engineering",
     "studentId": "000212",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/000212.png"
   },
   {
     "position": "Executive Member",

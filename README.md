@@ -26,6 +26,7 @@ The site URL for this repository is <https://imran110219.github.io/kuaa-election
 - Candidate cards grouped by position
 - Search by candidate name or student ID
 - Filters for position, batch, and discipline
+- Downloads the current results as an Excel-compatible CSV or a print-ready PDF
 - Responsive layout for phones and desktop screens
 
 Batch years are inferred from the first two digits of the listed student ID: `90`–`99` map to 1990–1999, and `00`–`89` map to 2000–2089.
