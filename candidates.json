@@ -1146,7 +1146,8 @@
     "name": "Akhlak Un Nahar",
     "discipline": "Pharmacy",
     "studentId": "151114",
-    "batch": 2015
+    "batch": 2015,
+    "photo": "public/candidates/151114.jpg"
   },
   {
     "position": "Executive Member",
@@ -1167,7 +1168,8 @@
     "name": "Md. Saiful Alam Babu",
     "discipline": "Environmental Science",
     "studentId": "161063",
-    "batch": 2016
+    "batch": 2016,
+    "photo": "public/candidates/161063.jpg"
   },
   {
     "position": "Executive Member",
