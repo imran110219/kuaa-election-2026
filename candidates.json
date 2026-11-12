@@ -202,7 +202,8 @@
     "name": "A K M Nazmul Islam (Nayan)",
     "discipline": "Business Administration",
     "studentId": "000341",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/000341.jpg"
   },
   {
     "position": "Joint Secretary",
@@ -626,7 +627,8 @@
     "name": "Biswajit Ray (Biswa)",
     "discipline": "Mathematics",
     "studentId": "051212",
-    "batch": 2005
+    "batch": 2005,
+    "photo": "public/candidates/051212.jpg"
   },
   {
     "position": "Assistant Student Affairs Secretary",
