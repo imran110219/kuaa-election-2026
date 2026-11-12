@@ -7,7 +7,7 @@ A responsive candidate directory and election statistics dashboard. The director
 From the repository folder, add and push the pages, candidate data, portraits, and README to the `main` branch:
 
 ```bash
-git add index.html stats.html candidates.json README.md public/candidates/
+git add index.html stats.html candidate.html candidates.json README.md public/candidates/
 git commit -m "Add KUAA candidate directory"
 git push origin main
 ```
@@ -28,8 +28,9 @@ The site URL for this repository is <https://imran110219.github.io/kuaa-election
 - Filters for position, batch, and discipline
 - Downloads the current results as an Excel-compatible CSV or a print-ready PDF
 - Candidate-participation statistics by batch cohort, exact batch year, and discipline, with donut and bar charts
+- Candidate profile pages and inline PDF manifestos for candidates with a published manifesto
 - Responsive layout for phones and desktop screens
 
-Candidate counts show representation on the final list, not voter turnout. The statistics page reads `candidates.json` when served from the site and includes an embedded copy as a fallback for direct `file://` viewing. Keep candidate records in `candidates.json` and `index.html` synchronized, and refresh the embedded list in `stats.html` after changing candidate records. Each `photo` field should point to an existing image under `public/candidates/`.
+Candidate counts show representation on the final list, not voter turnout. The statistics page reads `candidates.json` when served from the site and includes an embedded copy as a fallback for direct `file://` viewing. Keep candidate records in `candidates.json` synchronized with the embedded fallbacks in `index.html`, `stats.html`, and `candidate.html` after changing candidate records. Each `photo` field should point to an existing image under `public/candidates/`. Add a structured `manifesto` object only when a candidate has published one, with its title, introduction, and proposal text transcribed from the source document. Keep it synchronized in `candidates.json` and the embedded fallbacks in all three HTML pages. Candidate cards then show a link to the reusable `candidate.html?id=...` details page, where the manifesto is rendered in the site layout.
 
 Batch years are inferred from the first two digits of the listed student ID: `90`–`99` map to 1990–1999, and `00`–`89` map to 2000–2089.

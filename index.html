@@ -89,6 +89,9 @@
     @media(max-width:720px){.shell{width:min(100% - 36px,620px)}.hero{padding:30px 0 22px}.countdown-panel{min-height:0}.summary{margin-bottom:18px}.filter-panel{grid-template-columns:repeat(2,minmax(0,1fr))}.search-field{grid-column:1/-1}.reset{justify-self:end}.results-toolbar{align-items:flex-start;flex-direction:column;gap:12px}.export-actions{width:100%}.export-button{flex:1}}
     @media(max-width:600px){.shell{width:calc(100% - 28px)}.topbar{height:64px}.top-tag{font-size:9px;padding:7px 9px}.hero{padding:27px 0 19px}h1{font-size:clamp(38px,10vw,48px)}.hero-copy{font-size:13px;line-height:1.65}.countdown-panel{gap:13px;padding:15px;border-radius:16px}.countdown-title{font-size:17px}.countdown-date{font-size:11px}.countdown-timer{gap:5px}.countdown-unit{padding:9px 3px}.countdown-value{font-size:clamp(21px,7vw,26px)}.countdown-label{font-size:8px;letter-spacing:.06em}.summary{gap:7px}.stat{min-height:66px;padding:10px 9px;border-radius:11px}.stat-label{font-size:9px;min-height:27px}.stat-value{font-size:20px}.filter-panel{gap:9px;padding:11px;border-radius:14px}.field label{margin-bottom:6px;font-size:9px}.control{height:43px;padding:0 9px;font-size:12px}.search-wrap input{padding-left:36px}.search-wrap:before{left:11px;top:8px}.reset{height:32px;font-size:12px}.results-toolbar{padding:16px 1px 11px;gap:10px}.results-line{font-size:11px}.results-line strong{font-size:14px}.export-button{min-height:39px;font-size:11px}.group-head{display:flex;gap:7px}.group-head h2{font-size:16px}.group-meta{gap:5px}.seat-count,.group-count{padding:3px 7px;font-size:9px}.group-rule{display:block;min-width:8px}.cards{grid-template-columns:1fr;gap:9px}.position-group{margin-bottom:22px}.candidate{padding:12px;border-radius:13px}.candidate-main{grid-template-columns:146px minmax(0,1fr);gap:12px}.candidate-photo{width:146px;height:183px;border-radius:10px}.candidate-info{gap:8px;padding:1px 0}.candidate h3{font-size:14px}.candidate-details{gap:6px;padding-top:8px}.discipline{font-size:10px}.student-id{font-size:10px}.foot{display:block}.foot span{display:block;margin-top:6px}}
     @media(max-width:360px){.top-tag{max-width:125px;text-align:center;line-height:1.2}.candidate-main{grid-template-columns:116px minmax(0,1fr);gap:10px}.candidate-photo{width:116px;height:145px}.group-head h2{font-size:15px}.seat-count,.group-count{padding:3px 5px;font-size:8px}}
+    .manifesto-link{display:inline-flex;align-items:center;gap:7px;width:max-content;max-width:100%;padding:8px 11px;border:1px solid #b9d6c9;border-radius:9px;background:#f1f8f3;color:var(--green-dark);font-size:11px;font-weight:750;text-decoration:none;transition:background .18s ease,border-color .18s ease}
+    .manifesto-link::after{content:"→";font-size:14px;line-height:1}
+    .manifesto-link:hover,.manifesto-link:focus-visible{background:#e5f2ea;border-color:#7ab29a}
     .export-button:disabled{opacity:.48;cursor:not-allowed}
     .top-nav{display:flex;align-items:center;gap:6px}.nav-link{padding:9px 12px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none}.nav-link:hover,.nav-link:focus-visible{background:#edf4ed;color:var(--green-dark)}.nav-link[aria-current="page"]{background:#e8f2e9;color:var(--green-dark)}
     @media(prefers-reduced-motion:reduce){.candidate,.export-button,.control,.reset{transition:none}}
@@ -675,7 +678,24 @@
     "discipline": "Architecture",
     "studentId": "120135",
     "batch": 2012,
-    "photo": "public/candidates/120135.jpeg"
+    "photo": "public/candidates/120135.jpeg",
+    "manifesto": {
+      "title": "একটি অন্তর্ভুক্তিমূলক ও সার্বজনীন KUAA গঠন ও কার্যক্রম বিকেন্দ্রীকরণের ইশতেহার",
+      "greeting": "আসসালামু আলাইকুম।",
+      "candidateIntro": "আমি লুশান (মোঃ সাইদুর রহমান, স্থাপত্য ১২ ব্যাচ)। আসন্ন “KUAA” নির্বাচনে আমি ক্রীড়া ও সাংস্কৃতিক সহ-সম্পাদক পদে অংশগ্রহণ করছি।",
+      "introduction": [
+        "আমার প্রাথমিক উদ্দেশ্য অবশ্যই জয়লাভ করা নয়; বরং ইউনিভার্সিটির অ্যাসোসিয়েশন নিয়ে সামগ্রিক স্বার্থে কিছু স্বপ্ন বাস্তবায়নের প্রক্রিয়ায় অবদান রাখার চেষ্টা করা। অংশগ্রহণের প্রক্রিয়ার মাধ্যমেও অনেকাংশে সেই স্বপ্ন বাস্তবায়নের চেষ্টা করা সম্ভব। আর তারই ধারাবাহিকতায় আমার ভাবনাগুলো উল্লেখ করেছি, যেখানে ভোটের চেয়ে KUAA নিয়ে সবার সম্মিলিত চিন্তা বেশি প্রয়োজন।",
+        "এই ভাবনায় KUAA’র ক্রীড়া ও সাংস্কৃতিক কার্যক্রমকে অন্তর্ভুক্তিমূলক ও বিকেন্দ্রীকরণের বিষয়টি বেশি প্রাধান্য পেয়েছে, যা KUAA-এর কার্যক্রম বাস্তবায়নে আরও সক্রিয় ভূমিকা রাখবে।"
+      ],
+      "proposals": [
+        "ক্রীড়া ও সংস্কৃতিকে অন্তর্ভুক্তিমূলক করতে সশরীরে উপস্থিতিনির্ভর ইভেন্টের পাশাপাশি অনলাইন ইভেন্টের ব্যবস্থা করা—যেমন অনলাইন গেমিং টুর্নামেন্ট, সাংস্কৃতিক স্মৃতিচারণ ও কোলাবোরেশন।",
+        "সকল অ্যালুমনির অবস্থান ও অংশগ্রহণের নিশ্চয়তা বিবেচনা করে শুধু ঢাকা-কেন্দ্রিক সিদ্ধান্ত ও কার্যক্রম বিকেন্দ্রীকরণ করা এবং শহরভিত্তিক নিয়মিত ক্রীড়া ও সাংস্কৃতিক ইভেন্ট আয়োজন করা।",
+        "বিভিন্ন জাতীয় ও আন্তর্জাতিক অরাজনৈতিক দিবসে শহরভিত্তিক ম্যারাথন রেস ও ফ্যামিলি ডে উদযাপনের ব্যবস্থা করা।",
+        "নিজেদের প্রাণের প্রিয় বিশ্ববিদ্যালয়ে প্রতি ছয় মাস অন্তর একটি ক্রীড়া ও সাংস্কৃতিক অনুষ্ঠানের আয়োজন করা।",
+        "বিশ্ববিদ্যালয়ের ক্রীড়া ও সাংস্কৃতিক কার্যক্রমে বর্তমান শিক্ষার্থীদের স্পনসরশিপসহ (অভ্যন্তরীণ ও বহিরাগত) সার্বিক সহযোগিতার ব্যবস্থা করা।",
+        "KUAA-কে অন্তর্ভুক্তিমূলক ও কার্যকর করতে প্রতিটি ক্ষেত্র অনুযায়ী শহরভিত্তিক সাবকমিটি গঠন করা।"
+      ]
+    }
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -1358,6 +1378,14 @@
           details.className = "candidate-details";
           details.append(textElement("span", "discipline", person.discipline), textElement("span", "student-id", `ID ${person.studentId}`));
           info.append(details);
+          if (person.manifesto) {
+            const manifestoLink = document.createElement("a");
+            manifestoLink.className = "manifesto-link";
+            manifestoLink.href = `candidate.html?id=${encodeURIComponent(person.studentId)}`;
+            manifestoLink.textContent = "View details";
+            manifestoLink.setAttribute("aria-label", `View ${person.name}'s candidate details`);
+            info.append(manifestoLink);
+          }
           let photo;
           if (person.photo) {
             photo = document.createElement("img");
