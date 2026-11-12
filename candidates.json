@@ -94,7 +94,8 @@
     "name": "Md. Tomig Uddin Ahmed",
     "discipline": "Computer Science and Engineering",
     "studentId": "970235",
-    "batch": 1997
+    "batch": 1997,
+    "photo": "public/candidates/970235.png"
   },
   {
     "position": "Vice President",
@@ -348,7 +349,8 @@
     "name": "Kamrul Hasan Sohag",
     "discipline": "Urban and Rural Planning",
     "studentId": "940401",
-    "batch": 1994
+    "batch": 1994,
+    "photo": "public/candidates/940401.png"
   },
   {
     "position": "Treasurer",
@@ -436,7 +438,8 @@
     "name": "Shaikh Al Mamun",
     "discipline": "Pharmacy",
     "studentId": "071109",
-    "batch": 2007
+    "batch": 2007,
+    "photo": "public/candidates/071109.png"
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -507,7 +510,8 @@
     "name": "Nasir Uddin (Tuhin)",
     "discipline": "Sociology",
     "studentId": "131630",
-    "batch": 2013
+    "batch": 2013,
+    "photo": "public/candidates/131630.png"
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -644,7 +648,8 @@
     "name": "Md. Tauhidul Islam",
     "discipline": "Computer Science and Engineering",
     "studentId": "090235",
-    "batch": 2009
+    "batch": 2009,
+    "photo": "public/candidates/090235.png"
   },
   {
     "position": "Assistant Information and Technology Secretary",
@@ -863,7 +868,8 @@
     "name": "Rabiul Islam (Robi)",
     "discipline": "Business Administration",
     "studentId": "070340",
-    "batch": 2007
+    "batch": 2007,
+    "photo": "public/candidates/070340.png"
   },
   {
     "position": "Executive Member",
@@ -942,7 +948,8 @@
     "name": "Md. Ali Ahmmed",
     "discipline": "Economics",
     "studentId": "111502",
-    "batch": 2011
+    "batch": 2011,
+    "photo": "public/candidates/111502.png"
   },
   {
     "position": "Executive Member",
