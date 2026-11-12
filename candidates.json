@@ -1154,7 +1154,8 @@
     "name": "Sheikh Sakib Rahman",
     "discipline": "Architecture",
     "studentId": "180129",
-    "batch": 2018
+    "batch": 2018,
+    "photo": "public/candidates/180129.png"
   },
   {
     "position": "Executive Member",
