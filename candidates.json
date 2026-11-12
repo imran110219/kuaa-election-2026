@@ -141,7 +141,8 @@
     "name": "Md. Jahed Pervez Chowdhury",
     "discipline": "Business Administration",
     "studentId": "990324",
-    "batch": 1999
+    "batch": 1999,
+    "photo": "public/candidates/990324.jpg"
   },
   {
     "position": "Vice President",
@@ -889,7 +890,8 @@
     "name": "A.K.M. Humayan Kabir Dewan (Swopon)",
     "discipline": "Environmental Science",
     "studentId": "041030",
-    "batch": 2004
+    "batch": 2004,
+    "photo": "public/candidates/041030.jpg"
   },
   {
     "position": "Executive Member",
