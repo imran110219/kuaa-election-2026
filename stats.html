@@ -1,0 +1,1391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="Explore KUAA Election 2026 candidates by batch cohort, exact batch year, and discipline.">
+  <title>Candidate Statistics — KUAA Election 2026</title>
+  <style>
+    :root{--ink:#152a2b;--muted:#617270;--paper:#f5f7f3;--card:#fff;--line:#dfe7e1;--green:#13715a;--green-dark:#0d5041;--lime:#dcf47c;--orange:#eea06c;--shadow:0 12px 32px rgba(19,49,39,.07)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f9faf7 0,#f5f7f3 440px);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.shell{width:min(1160px,calc(100% - 48px));margin:auto}
+    .topbar{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6ebe6}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(145deg,#116d55,#0b493d);display:grid;place-items:center;color:white;font-size:12px;font-weight:800;letter-spacing:-.04em;box-shadow:0 4px 10px #0b493d2e}.brand-name{font-weight:750;letter-spacing:-.025em}.brand-sub{display:block;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.top-nav{display:flex;align-items:center;gap:6px}.nav-link{padding:9px 12px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none}.nav-link:hover,.nav-link:focus-visible{background:#edf4ed;color:var(--green-dark)}.nav-link[aria-current=page]{background:#e8f2e9;color:var(--green-dark)}
+    main{padding-bottom:56px}.hero{padding:38px 0 24px}.eyebrow{display:flex;align-items:center;gap:9px;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:22px;height:2px;background:var(--orange)}h1{margin:10px 0 8px;font-size:clamp(38px,5vw,56px);line-height:1;letter-spacing:-.06em}.intro{max-width:650px;margin:0;color:#586b68;font-size:14px;line-height:1.7}.source-note{margin:9px 0 0;color:#7b8983;font-size:11px}
+    .summary{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:0 0 24px}.stat{min-height:70px;padding:14px 17px;border:1px solid #e7ece7;border-radius:14px;background:white;box-shadow:0 3px 12px #172a2a08;display:flex;align-items:center;justify-content:space-between}.stat-label{color:#62716e;font-size:11px;font-weight:650}.stat-value{color:var(--green-dark);font-size:24px;font-weight:800;letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums}
+    .section-nav{display:flex;gap:8px;margin:0 0 13px;overflow:auto;padding:1px 1px 5px}.section-nav a{flex:none;padding:8px 12px;border:1px solid #dce7de;border-radius:99px;background:#fff;color:#395b4b;text-decoration:none;font-size:11px;font-weight:700}.section-nav a:hover{border-color:#9ab8a2;background:#f4f8f3}
+    .panel{margin:0 0 24px;padding:20px;border:1px solid #e2e9e3;border-radius:17px;background:#fff;box-shadow:0 8px 26px #172a2a08;scroll-margin-top:20px}.panel-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:16px}.panel h2{margin:0;font-size:20px;line-height:1.2;letter-spacing:-.035em}.panel-copy{margin:5px 0 0;color:var(--muted);font-size:12px}.cohorts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.cohort{border:1px solid #e2e9e3;border-radius:13px;background:#fcfdfb;overflow:hidden}.cohort summary{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:15px 42px 15px 16px;cursor:pointer;list-style:none}.cohort summary::-webkit-details-marker{display:none}.cohort summary::after{position:absolute;right:16px;top:17px;content:"⌄";color:#567268;font-size:16px;font-weight:700;transition:transform .15s}.cohort[open] summary::after{transform:rotate(180deg)}.cohort summary:focus-visible{outline:3px solid #13715a40;outline-offset:-3px}.cohort summary:hover{background:#f5f9f4}.cohort-name{display:block;font-weight:760;font-size:14px;letter-spacing:-.02em}.cohort-years{display:block;color:#708079;font-size:10px;margin-top:2px}.cohort-total{display:flex;align-items:baseline;gap:5px;color:var(--green-dark);font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}.cohort-total small{color:#667772;font-size:10px;font-weight:650}.bar-track{height:7px;overflow:hidden;border-radius:99px;background:#e9efe9}.cohort-bar{height:100%;border-radius:inherit;background:linear-gradient(90deg,#126b55,#76b38b)}.cohort-summary-bottom{grid-column:1/-1;display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px}.share-label{color:#718079;font-size:10px;font-variant-numeric:tabular-nums}.batch-rows{padding:0 16px 13px;border-top:1px solid #edf1ed}.batch-rows table{width:100%;border-collapse:collapse;font-size:11px}.batch-rows th,.batch-rows td{padding:7px 3px;border-bottom:1px solid #eef2ee;text-align:left}.batch-rows th{color:#74817c;font-size:9px;font-weight:750;text-transform:uppercase;letter-spacing:.06em}.batch-rows td:last-child,.batch-rows th:last-child{text-align:right;font-variant-numeric:tabular-nums}.batch-rows tr:last-child td{border-bottom:0}.batch-year{font-weight:650}.batch-count{color:#405c4d;font-weight:750}.batch-count.zero{color:#8a9690;font-weight:500}
+    .discipline-search{width:min(300px,100%);height:40px;padding:0 12px;border:1px solid #dce5de;border-radius:10px;background:#fbfcfa;color:var(--ink);font:inherit;font-size:12px;outline:none}.discipline-search:focus{border-color:#6da58d;box-shadow:0 0 0 3px #126b551f}.discipline-list{display:grid;gap:11px}.discipline-row{display:grid;grid-template-columns:minmax(160px,1fr) minmax(100px,1.2fr) 34px;gap:13px;align-items:center}.discipline-name{font-size:11px;font-weight:650;line-height:1.35}.discipline-track{height:8px;overflow:hidden;border-radius:99px;background:#edf1ec}.discipline-bar{height:100%;border-radius:inherit;background:linear-gradient(90deg,#126b55,#84ba8c)}.discipline-count{text-align:right;color:#334d42;font-size:11px;font-weight:800;font-variant-numeric:tabular-nums}.no-discipline{padding:25px;text-align:center;color:var(--muted);font-size:12px}.foot{border-top:1px solid var(--line);padding:18px 0 28px;color:#697873;font-size:11px}.foot a{text-decoration:none;font-weight:700}.foot a:hover{color:var(--green);text-decoration:underline}.state{padding:18px;border:1px solid #e2e9e3;border-radius:12px;background:#fff;color:var(--muted);font-size:13px}.state.error{border-color:#edd0c9;background:#fff8f6;color:#824638}.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+    .cohort-visuals{display:grid;grid-template-columns:minmax(270px,.9fr) minmax(350px,1.1fr);gap:12px;margin-bottom:22px}.chart-card{min-width:0;padding:16px;border:1px solid #e5ebe6;border-radius:13px;background:#fcfdfb}.chart-card h3,.detail-heading h3{margin:0;font-size:13px;letter-spacing:-.01em}.chart-hint{margin:3px 0 12px;color:#76847e;font-size:10px}.pie-layout{display:flex;align-items:center;justify-content:center;gap:15px;min-height:200px}.cohort-pie{width:min(180px,46%);flex:none;overflow:visible}.pie-legend{display:grid;gap:10px;margin:0;padding:0;list-style:none;min-width:130px}.legend-row{display:grid;grid-template-columns:10px minmax(70px,1fr) auto;gap:7px;align-items:center;font-size:10px}.legend-swatch{width:9px;height:9px;border-radius:3px}.legend-name{color:#425750;font-weight:650}.legend-value{font-variant-numeric:tabular-nums;font-weight:800;color:#243c34}.legend-share{grid-column:2/-1;margin-top:-6px;color:#7b8982;font-size:9px}.cohort-bars{display:grid;gap:14px;padding:14px 2px 5px}.cohort-bar-row{display:grid;grid-template-columns:90px minmax(40px,1fr) 28px 34px;gap:8px;align-items:center}.cohort-bar-label{font-size:10px;font-weight:650;color:#455a51}.cohort-bar-value,.cohort-bar-share{font-size:10px;text-align:right;font-variant-numeric:tabular-nums}.cohort-bar-value{font-weight:800;color:#24493c}.cohort-bar-share{color:#7b8982}.cohort-bar-row .bar-track{height:10px}.cohort-bar-row .cohort-bar{background:var(--cohort-color,#36856b)}.detail-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 10px}.detail-heading .panel-copy{margin:0}.discipline-chart-hint{margin:-5px 0 15px}.discipline-row{grid-template-columns:minmax(190px,1fr) minmax(100px,1.15fr) 34px 42px}.discipline-share{text-align:right;color:#7b8982;font-size:10px;font-variant-numeric:tabular-nums}.batch-rows table{table-layout:fixed}.batch-rows th:nth-child(1),.batch-rows td:nth-child(1){width:22%}.batch-rows th:nth-child(2),.batch-rows td:nth-child(2){width:45%}.batch-rows th:nth-child(3),.batch-rows td:nth-child(3){width:18%;text-align:right}.batch-rows th:nth-child(4),.batch-rows td:nth-child(4){width:15%;text-align:right}.year-track{display:block;height:8px;overflow:hidden;border-radius:99px;background:#e9efe9}.year-bar{display:block;height:100%;border-radius:inherit;background:var(--cohort-color,#36856b)}.cohort-bar,.discipline-bar{display:block}.footnote{margin:14px 0 0;padding-top:12px;border-top:1px solid #edf1ed;color:#78847f;font-size:10px;line-height:1.55}
+    .summary{margin-bottom:12px}.insights{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-bottom:23px}.insight-card{display:grid;gap:3px;padding:13px 16px;border:1px solid #e2e9e3;border-radius:12px;background:linear-gradient(110deg,#fff,#f5f9f4)}.insight-label{color:#6c7d75;font-size:9px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.insight-card strong{font-size:13px;line-height:1.35;letter-spacing:-.01em}.insight-detail{color:#667772;font-size:10px;font-variant-numeric:tabular-nums}
+    @media(max-width:700px){.shell{width:calc(100% - 32px)}.hero{padding:29px 0 20px}.summary{gap:7px}.stat{min-height:64px;padding:10px}.stat-label{font-size:9px;max-width:90px}.stat-value{font-size:20px}.insights{gap:7px}.insight-card{padding:11px}.insight-card strong{font-size:12px}.insight-detail{font-size:9px}.panel{padding:15px;border-radius:14px}.panel-head{align-items:flex-start;flex-direction:column}.cohorts{grid-template-columns:1fr}.cohort-visuals{grid-template-columns:1fr}.pie-layout{min-height:0;justify-content:flex-start}.cohort-pie{width:160px}.discipline-search{width:100%}.discipline-row{grid-template-columns:minmax(110px,1.1fr) minmax(60px,1fr) 28px 34px;gap:9px}.discipline-name{font-size:10px}.detail-heading{align-items:flex-start;flex-direction:column;gap:3px}}
+    @media(max-width:420px){.pie-layout{gap:8px}.cohort-pie{width:135px}.pie-legend{min-width:0;gap:8px}.legend-row{grid-template-columns:9px minmax(55px,1fr) auto;gap:5px;font-size:9px}.cohort-bar-row{grid-template-columns:78px minmax(32px,1fr) 24px 30px;gap:6px}.discipline-row{grid-template-columns:minmax(95px,1fr) minmax(40px,.8fr) 25px 32px;gap:7px}.discipline-name{font-size:9px}}
+    @media(max-width:380px){.shell{width:calc(100% - 24px)}.brand{gap:8px}.brand-mark{width:35px;height:35px}.nav-link{padding:8px;font-size:11px}.cohort summary{padding:12px}.cohort-total{font-size:20px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="shell topbar">
+    <a class="brand" href="index.html" aria-label="KUAA Election 2026 candidate directory"><span class="brand-mark">KUAA</span><span class="brand-name">KUAA Election<span class="brand-sub">Candidate directory</span></span></a>
+    <nav class="top-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Candidates</a><a class="nav-link" href="stats.html" aria-current="page">Statistics</a></nav>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="eyebrow">Election 2026</div>
+      <h1 id="page-title">Candidate statistics</h1>
+      <p class="intro">Explore the candidate list by graduation batch and discipline. The batch cohorts use the ranges published for this overview.</p>
+      <p class="source-note">Source: Final Candidate List, November 12, 2026</p>
+    </section>
+    <section class="summary" aria-label="Candidate statistics summary">
+      <div class="stat"><span class="stat-label">Listed candidates</span><strong class="stat-value" id="total-candidates">—</strong></div>
+      <div class="stat"><span class="stat-label">Disciplines represented</span><strong class="stat-value" id="total-disciplines">—</strong></div>
+      <div class="stat"><span class="stat-label">Batch years represented</span><strong class="stat-value" id="total-batches">—</strong></div>
+    </section>
+    <section class="insights" aria-label="Quick insights">
+      <article class="insight-card"><span class="insight-label">Largest cohort</span><strong id="largest-cohort">—</strong><span id="largest-cohort-detail" class="insight-detail"></span></article>
+      <article class="insight-card"><span class="insight-label">Most represented discipline</span><strong id="largest-discipline">—</strong><span id="largest-discipline-detail" class="insight-detail"></span></article>
+    </section>
+    <nav class="section-nav" aria-label="Statistics sections"><a href="#batch-statistics">Batch statistics</a><a href="#discipline-statistics">Discipline statistics</a></nav>
+    <section class="panel" id="batch-statistics" aria-labelledby="batch-heading">
+      <div class="panel-head"><div><h2 id="batch-heading">Candidate participation by batch</h2><p class="panel-copy">The pie compares cohort shares; the bars compare listed candidates. Expand a cohort for exact batch-year participation.</p></div></div>
+      <div class="cohort-visuals">
+        <article class="chart-card"><h3>Cohort share</h3><p class="chart-hint">Share of all listed candidates</p><div class="pie-layout"><svg class="cohort-pie" id="cohort-pie" viewBox="0 0 180 180" role="img" aria-label="Candidate share by batch cohort"></svg><ul class="pie-legend" id="pie-legend" aria-label="Cohort chart legend"></ul></div></article>
+        <article class="chart-card"><h3>Candidate count by cohort</h3><p class="chart-hint">Each bar uses the same scale</p><div id="cohort-bars" class="cohort-bars" aria-live="polite"><div class="state">Loading batch cohorts…</div></div></article>
+      </div>
+      <div class="detail-heading"><h3>Exact batch year</h3><p class="panel-copy">Expand a cohort for its full year-by-year count.</p></div>
+      <div id="cohort-list" class="cohorts" aria-live="polite"><div class="state">Loading candidate statistics…</div></div>
+    </section>
+    <section class="panel" id="discipline-statistics" aria-labelledby="discipline-heading">
+      <div class="panel-head"><div><h2 id="discipline-heading">Candidate participation by discipline</h2><p class="panel-copy" id="discipline-count">Distribution across academic disciplines.</p></div><label><span class="visually-hidden">Search disciplines</span><input class="discipline-search" id="discipline-search" type="search" placeholder="Find a discipline" autocomplete="off"></label></div>
+      <p class="chart-hint discipline-chart-hint">Candidate count and share of the full final list. Bars use a shared scale.</p>
+      <div id="discipline-list" class="discipline-list" aria-live="polite"></div>
+      <p class="footnote">Counts are based on listed candidates, not votes cast or turnout. Batch cohorts use the batch years in the final candidate list; displayed percentages are shares of all candidates.</p>
+    </section>
+  </main>
+  <footer class="shell foot">KUAA Executive Committee Election 2026 · <a href="https://sadmansobhan.com" target="_blank" rel="noopener noreferrer">Developed by Sadman Sobhan (Imran)</a></footer>
+  <script id="embedded-candidate-data" type="application/json">
+[
+  {
+    "position": "President",
+    "name": "Khurshid Shahid Almeher (Tonmoy)",
+    "discipline": "Architecture",
+    "studentId": "920110",
+    "batch": 1992,
+    "photo": "public/candidates/920110.jpg"
+  },
+  {
+    "position": "President",
+    "name": "Mohammad Fazle Reza (Sumon)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "930409",
+    "batch": 1993,
+    "photo": "public/candidates/930409.jpg"
+  },
+  {
+    "position": "President",
+    "name": "Md. Najmul Ahasan Prince",
+    "discipline": "Business Administration",
+    "studentId": "950340",
+    "batch": 1995,
+    "photo": "public/candidates/950340.png"
+  },
+  {
+    "position": "President",
+    "name": "Md. Iftakharul Alam (Iftee)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970609",
+    "batch": 1997,
+    "photo": "public/candidates/970609.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Sahidur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "930508",
+    "batch": 1993
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr Md Shamim Parvez",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "930607",
+    "batch": 1993,
+    "photo": "public/candidates/930607.jpeg"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Ali Zakir (Rubel)",
+    "discipline": "Business Administration",
+    "studentId": "940338",
+    "batch": 1994
+  },
+  {
+    "position": "Vice President",
+    "name": "S M Ariful Islam (Kochi)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940418",
+    "batch": 1994
+  },
+  {
+    "position": "Vice President",
+    "name": "Shayka Imam Shanta",
+    "discipline": "Architecture",
+    "studentId": "950116",
+    "batch": 1995
+  },
+  {
+    "position": "Vice President",
+    "name": "Shahana Sultana",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "950602",
+    "batch": 1995
+  },
+  {
+    "position": "Vice President",
+    "name": "Md Maheb Hossain (Liton)",
+    "discipline": "Agrotechnology",
+    "studentId": "960827",
+    "batch": 1996
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Muzahidul Islam (Showrab)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970232",
+    "batch": 1997,
+    "photo": "public/candidates/970232.jpg"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Tomig Uddin Ahmed",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970235",
+    "batch": 1997,
+    "photo": "public/candidates/970235.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Akhtaruzzaman Bosunia (Liton)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970526",
+    "batch": 1997,
+    "photo": "public/candidates/970526.jpeg"
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Abdullah Farooq",
+    "discipline": "Pharmacy",
+    "studentId": "971121",
+    "batch": 1997,
+    "photo": "public/candidates/971121.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahidul Hasan (Ruhin)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "980630",
+    "batch": 1998
+  },
+  {
+    "position": "Vice President",
+    "name": "Mohd Israil Hossain",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "980717",
+    "batch": 1998,
+    "photo": "public/candidates/980717.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr. Md. Azizul Hasan (Piru)",
+    "discipline": "Agrotechnology",
+    "studentId": "980821",
+    "batch": 1998,
+    "photo": "public/candidates/980821.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahed Pervez Chowdhury",
+    "discipline": "Business Administration",
+    "studentId": "990324",
+    "batch": 1999
+  },
+  {
+    "position": "Vice President",
+    "name": "Shakil Alam",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990933",
+    "batch": 1999,
+    "photo": "public/candidates/990933.png"
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Mahedi Al Masud, Ph. D.",
+    "discipline": "Environmental Science",
+    "studentId": "991001",
+    "batch": 1999
+  },
+  {
+    "position": "Vice President",
+    "name": "Shaikh Abu Shamim",
+    "discipline": "Mathematics",
+    "studentId": "001231",
+    "batch": 2000
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Noor-E-Alom Siddiquee",
+    "discipline": "Economics",
+    "studentId": "001517",
+    "batch": 2000,
+    "photo": "public/candidates/001517.png"
+  },
+  {
+    "position": "General Secretary",
+    "name": "Ghulam Benazir (Pangsha Polash)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "940532",
+    "batch": 1994,
+    "photo": "public/candidates/940532.jpeg"
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Shariful Islam",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970518",
+    "batch": 1997,
+    "photo": "public/candidates/970518.jpg"
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Wahiduzzaman",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "970906",
+    "batch": 1997,
+    "photo": "public/candidates/970906.png"
+  },
+  {
+    "position": "General Secretary",
+    "name": "A K M Nazmul Islam (Nayan)",
+    "discipline": "Business Administration",
+    "studentId": "000341",
+    "batch": 2000
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Dipak Chandra Saha",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "970418",
+    "batch": 1997
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Khairuzzaman",
+    "discipline": "Economics",
+    "studentId": "991523",
+    "batch": 1999,
+    "photo": "public/candidates/991523.jpg"
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Amin Ahmed Arif",
+    "discipline": "Architecture",
+    "studentId": "000106",
+    "batch": 2000
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Matiur Rahman (Matin)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010226",
+    "batch": 2001,
+    "photo": "public/candidates/010226.jpg"
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Subroto Guha",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "010723",
+    "batch": 2001
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Imdadul Ikbal (Rana)",
+    "discipline": "Mathematics",
+    "studentId": "011224",
+    "batch": 2001,
+    "photo": "public/candidates/011224.png"
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Rejaur Rahman",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "030413",
+    "batch": 2003,
+    "photo": "public/candidates/030413.png"
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Obaidullah",
+    "discipline": "Pharmacy",
+    "studentId": "031135",
+    "batch": 2003
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Afzal Jamil",
+    "discipline": "Economics",
+    "studentId": "031522",
+    "batch": 2003
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Azmira Khatun (Shilpy)",
+    "discipline": "Economics",
+    "studentId": "991513",
+    "batch": 1999
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Mohiuddin Andalib (Shuvo)",
+    "discipline": "Pharmacy",
+    "studentId": "001118",
+    "batch": 2000,
+    "photo": "public/candidates/001118.jpg"
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Sathil Islam ( Dollar )",
+    "discipline": "Mathematics",
+    "studentId": "001207",
+    "batch": 2000,
+    "photo": "public/candidates/001207.jpg"
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shafayet Hossain Emon",
+    "discipline": "Soil, Water and Environment",
+    "studentId": "001325",
+    "batch": 2000,
+    "photo": "public/candidates/001325.png"
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Zahidul Haque",
+    "discipline": "Business Administration",
+    "studentId": "010348",
+    "batch": 2001
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Rashidul Islam",
+    "discipline": "Agrotechnology",
+    "studentId": "010805",
+    "batch": 2001,
+    "photo": "public/candidates/010805.png"
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shahidul Islam (Shahid)",
+    "discipline": "Sociology",
+    "studentId": "081638",
+    "batch": 2008
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md Latifur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "090513",
+    "batch": 2009
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Easin Ahmed Jibu",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162610",
+    "batch": 2016
+  },
+  {
+    "position": "Treasurer",
+    "name": "Mohammad Iqbal Kabir (Bipul)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "940221",
+    "batch": 1994,
+    "photo": "public/candidates/940221.png"
+  },
+  {
+    "position": "Treasurer",
+    "name": "Kamrul Hasan Sohag",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940401",
+    "batch": 1994,
+    "photo": "public/candidates/940401.png"
+  },
+  {
+    "position": "Treasurer",
+    "name": "Md. Moniruzzaman",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000611",
+    "batch": 2000
+  },
+  {
+    "position": "Treasurer",
+    "name": "Zakaria Mahmud (Bulbul)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "060621",
+    "batch": 2006,
+    "photo": "public/candidates/060621.png"
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Jibon Krishna Mondal",
+    "discipline": "Pharmacy",
+    "studentId": "991112",
+    "batch": 1999
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Bidhan Chandro Sarker",
+    "discipline": "Agrotechnology",
+    "studentId": "000811",
+    "batch": 2000
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Abdul Hai",
+    "discipline": "Agrotechnology",
+    "studentId": "040830",
+    "batch": 2004
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Md. Abdulla Al Mamun",
+    "discipline": "Sociology",
+    "studentId": "121632",
+    "batch": 2012
+  },
+  {
+    "position": "Assistant Office Management Secretary",
+    "name": "Md. Fahad Al Zobayer",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "150617",
+    "batch": 2015,
+    "unopposed": true
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Md. Shahadot Hossain (Sazzad)",
+    "discipline": "Agrotechnology",
+    "studentId": "010815",
+    "batch": 2001,
+    "photo": "public/candidates/010815.png"
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Abdul Alim Shaikh",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "030528",
+    "batch": 2003
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Nilufar Shabnom Doni",
+    "discipline": "Architecture",
+    "studentId": "040102",
+    "batch": 2004,
+    "photo": "public/candidates/040102.png"
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Bayezeedur Rahman Khan",
+    "discipline": "Mathematics",
+    "studentId": "071240",
+    "batch": 2007,
+    "photo": "public/candidates/071240.jpg"
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Shaikh Al Mamun",
+    "discipline": "Pharmacy",
+    "studentId": "071109",
+    "batch": 2007,
+    "photo": "public/candidates/071109.png"
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Talha Rahman",
+    "discipline": "Economics",
+    "studentId": "081517",
+    "batch": 2008
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Nazmul Hasan (Sajal)",
+    "discipline": "Bangla",
+    "studentId": "111919",
+    "batch": 2011
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Md. Badsha Sheikh",
+    "discipline": "Economics",
+    "studentId": "181521",
+    "batch": 2018
+  },
+  {
+    "position": "Literature and Publication Secretary",
+    "name": "Md. Nuruzzaman",
+    "discipline": "English",
+    "studentId": "001418",
+    "batch": 2000,
+    "unopposed": true
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Abdur Rahman",
+    "discipline": "Statistics",
+    "studentId": "152044",
+    "batch": 2015
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Md. Motiur Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162601",
+    "batch": 2016
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Dr. Alok Sarkar",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990910",
+    "batch": 1999
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Rashedul Alam Sarker",
+    "discipline": "Environmental Science",
+    "studentId": "051026",
+    "batch": 2005
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Imtiaz Ahmad",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "070403",
+    "batch": 2007
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Nasir Uddin (Tuhin)",
+    "discipline": "Sociology",
+    "studentId": "131630",
+    "batch": 2013,
+    "photo": "public/candidates/131630.png"
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Rubel Mahamud",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "100904",
+    "batch": 2010
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md Saydur Rahman Lushan",
+    "discipline": "Architecture",
+    "studentId": "120135",
+    "batch": 2012,
+    "photo": "public/candidates/120135.jpeg"
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Abu Rayhan Hossain",
+    "discipline": "Economics",
+    "studentId": "121532",
+    "batch": 2012
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Ramadujjaman (Ratin)",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "170930",
+    "batch": 2017,
+    "photo": "public/candidates/170930.png"
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Rawshonara Khatun",
+    "discipline": "Business Administration",
+    "studentId": "120330",
+    "batch": 2012
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Sanjida Yeasmin (Shefa)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "130601",
+    "batch": 2013
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "G M Atiqur Rahman",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "990227",
+    "batch": 1999,
+    "photo": "public/candidates/990227.png"
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Wasim Sabbir",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000621",
+    "batch": 2000,
+    "photo": "public/candidates/000621.png"
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Md. Ripul Kabir",
+    "discipline": "Sociology",
+    "studentId": "031601",
+    "batch": 2003
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Dr. Syed Md. Galib",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010210",
+    "batch": 2001
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Md. Touhiduzzaman (Xsumon)",
+    "discipline": "Business Administration",
+    "studentId": "010346",
+    "batch": 2001
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Biswajit Ray (Biswa)",
+    "discipline": "Mathematics",
+    "studentId": "051212",
+    "batch": 2005
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "B. M. Afsun Akter Anny",
+    "discipline": "Pharmacy",
+    "studentId": "101130",
+    "batch": 2010
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Abu Haidar Mohammad Sadequl Ghani (Bulbul)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "950209",
+    "batch": 1995
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Ruhul Amin Robin",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "050919",
+    "batch": 2005,
+    "photo": "public/candidates/050919.jpeg"
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Al Masud Uddin",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090220",
+    "batch": 2009,
+    "photo": "public/candidates/090220.png"
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "SM Naim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "210914",
+    "batch": 2021
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Ajgor Khan",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "050728",
+    "batch": 2005
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md. Tauhidul Islam",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090235",
+    "batch": 2009,
+    "photo": "public/candidates/090235.png"
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Mehadul Islam",
+    "discipline": "History and Civilization",
+    "studentId": "172713",
+    "batch": 2017
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Munsi Shahid Anis",
+    "discipline": "Mathematics",
+    "studentId": "011219",
+    "batch": 2001,
+    "photo": "public/candidates/011219.png"
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Md Abdur Rahman",
+    "discipline": "Economics",
+    "studentId": "061508",
+    "batch": 2006
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Abu Jubayer",
+    "discipline": "Environmental Science",
+    "studentId": "071033",
+    "batch": 2007
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "G. M. Masum Billah (Masum)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "110534",
+    "batch": 2011,
+    "photo": "public/candidates/110534.jpg"
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Nadira Khatun",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "140211",
+    "batch": 2014
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Mahamudul Hasan (Millat)",
+    "discipline": "Statistics",
+    "studentId": "182029",
+    "batch": 2018
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Abdur Rouf (Teacher)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "920612",
+    "batch": 1992,
+    "photo": "public/candidates/920612.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mostafa Zahid Sharif (Lavlu)",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "950712",
+    "batch": 1995,
+    "photo": "public/candidates/950712.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jakie-Ul Hassan",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970604",
+    "batch": 1997
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Abdul Alim (Teacher)",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "980917",
+    "batch": 1998
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Jahangir Alam",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990705",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Zillur Rahman",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990729",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mohammad Arifur Rahman",
+    "discipline": "Environmental Science",
+    "studentId": "991036",
+    "batch": 1999,
+    "photo": "public/candidates/991036.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fakrul Alam",
+    "discipline": "Pharmacy",
+    "studentId": "991120",
+    "batch": 1999
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Mahbubul Haque (Mahbub)",
+    "discipline": "Economics",
+    "studentId": "991518",
+    "batch": 1999,
+    "photo": "public/candidates/991518.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmud Ul Hasan (Rana)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "000212",
+    "batch": 2000,
+    "photo": "public/candidates/000212.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "M M Shahidur Rahman Shahin",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000613",
+    "batch": 2000,
+    "photo": "public/candidates/000613.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Aminul Islam",
+    "discipline": "Pharmacy",
+    "studentId": "001130",
+    "batch": 2000
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Aynal Sarder",
+    "discipline": "Economics",
+    "studentId": "001525",
+    "batch": 2000,
+    "photo": "public/candidates/001525.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Monirujjaman (Shakil)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "010602",
+    "batch": 2001
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Karim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "020921",
+    "batch": 2002,
+    "photo": "public/candidates/020921.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Abul Kashem (Sobuj)",
+    "discipline": "Environmental Science",
+    "studentId": "021025",
+    "batch": 2002
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fauzia Sultana",
+    "discipline": "Architecture",
+    "studentId": "030131",
+    "batch": 2003,
+    "photo": "public/candidates/030131.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sayed Md. Masum",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "030630",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rezwan Walid",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "030737",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazim Uddin (Shohel)",
+    "discipline": "Pharmacy",
+    "studentId": "031117",
+    "batch": 2003
+  },
+  {
+    "position": "Executive Member",
+    "name": "A.K.M. Humayan Kabir Dewan (Swopon)",
+    "discipline": "Environmental Science",
+    "studentId": "041030",
+    "batch": 2004
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Zakaria Hossain",
+    "discipline": "English",
+    "studentId": "051414",
+    "batch": 2005
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rabiul Islam (Robi)",
+    "discipline": "Business Administration",
+    "studentId": "070340",
+    "batch": 2007,
+    "photo": "public/candidates/070340.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arobind Mali",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "070715",
+    "batch": 2007
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Haque (Prince)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "080507",
+    "batch": 2008,
+    "photo": "public/candidates/080507.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mostafizur Rahman",
+    "discipline": "Agrotechnology",
+    "studentId": "080810",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Falguni Akter (Teacher)",
+    "discipline": "Soil Science",
+    "studentId": "081301",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Reazul Alam Shawon",
+    "discipline": "Economics",
+    "studentId": "081537",
+    "batch": 2008
+  },
+  {
+    "position": "Executive Member",
+    "name": "Tonmoy Chatterjee",
+    "discipline": "Architecture",
+    "studentId": "090134",
+    "batch": 2009
+  },
+  {
+    "position": "Executive Member",
+    "name": "Hizbul Bahar",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090225",
+    "batch": 2009,
+    "photo": "public/candidates/090225.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdur Razzak Moral",
+    "discipline": "Sociology",
+    "studentId": "091620",
+    "batch": 2009,
+    "photo": "public/candidates/091620.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "S. M. Mahfuzur Rahman",
+    "discipline": "Business Administration",
+    "studentId": "110333",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Attiquzzaman",
+    "discipline": "Pharmacy",
+    "studentId": "111109",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ali Ahmmed",
+    "discipline": "Economics",
+    "studentId": "111502",
+    "batch": 2011,
+    "photo": "public/candidates/111502.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shakila Alam (Teacher)",
+    "discipline": "Bangla",
+    "studentId": "111926",
+    "batch": 2011
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mojahidul Islam (Mojahid)",
+    "discipline": "Sociology",
+    "studentId": "121623",
+    "batch": 2012
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Sadique (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "130238",
+    "batch": 2013
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Hasan Sheikh",
+    "discipline": "Business Administration",
+    "studentId": "130328",
+    "batch": 2013,
+    "photo": "public/candidates/130328.png"
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jahidul Islam Sajal",
+    "discipline": "Agrotechnology",
+    "studentId": "130828",
+    "batch": 2013
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Shijan Islam",
+    "discipline": "Agrotechnology",
+    "studentId": "140803",
+    "batch": 2014
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shahed",
+    "discipline": "Business Administration",
+    "studentId": "150334",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmudul Hasan Sohan",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "150445",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Akhlak Un Nahar",
+    "discipline": "Pharmacy",
+    "studentId": "151114",
+    "batch": 2015
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdullah Al Noman (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "160217",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nur E Kutubul Alam",
+    "discipline": "Agrotechnology",
+    "studentId": "160815",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Saiful Alam Babu",
+    "discipline": "Environmental Science",
+    "studentId": "161063",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Sajib Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162604",
+    "batch": 2016
+  },
+  {
+    "position": "Executive Member",
+    "name": "Achia Khatun",
+    "discipline": "Sociology",
+    "studentId": "171631",
+    "batch": 2017
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sheikh Sakib Rahman",
+    "discipline": "Architecture",
+    "studentId": "180129",
+    "batch": 2018
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazmus Sakib",
+    "discipline": "Business Administration",
+    "studentId": "190344",
+    "batch": 2019
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Rafid Rahman",
+    "discipline": "Sociology",
+    "studentId": "191652",
+    "batch": 2019
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhibbullah (Muhib)",
+    "discipline": "Economics",
+    "studentId": "201538",
+    "batch": 2020
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ebrahim Kholil",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "210642",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arif Raihan Apon",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "210711",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Habibullah Mugdho",
+    "discipline": "Environmental Science",
+    "studentId": "211015",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Asadullah",
+    "discipline": "Pharmacy",
+    "studentId": "211125",
+    "batch": 2021
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shapla Singha (Teacher)",
+    "discipline": "Drawing and Painting",
+    "studentId": "IFA 120123",
+    "batch": 2012
+  }
+]
+  </script>
+  <script>
+    const cohorts = [
+      {start:1991,end:2000,label:"1991–2000"},
+      {start:2001,end:2010,label:"2001–2010"},
+      {start:2011,end:2020,label:"2011–2020"},
+      {start:2021,end:2022,label:"2021–2022"},
+    ];
+    const cohortColors = ["#147D92", "#D08C16", "#4A8B67", "#8660A7"];
+    const cohortList = document.querySelector("#cohort-list");
+    const cohortBars = document.querySelector("#cohort-bars");
+    const cohortPie = document.querySelector("#cohort-pie");
+    const pieLegend = document.querySelector("#pie-legend");
+    const disciplineList = document.querySelector("#discipline-list");
+    const disciplineSearch = document.querySelector("#discipline-search");
+    let candidates = [];
+    let disciplines = [];
+    const number = (value) => value.toLocaleString();
+    function element(tag, className, content) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (content !== undefined) node.textContent = content;
+      return node;
+    }
+    function renderCohortCharts(counts) {
+      const total = candidates.length;
+      const maxCohort = Math.max(...counts, 1);
+      const radius = 62;
+      const circumference = 2 * Math.PI * radius;
+      const ns = "http://www.w3.org/2000/svg";
+      cohortPie.replaceChildren();
+      const title = document.createElementNS(ns, "title");
+      title.textContent = "Candidate share by batch cohort";
+      const description = document.createElementNS(ns, "desc");
+      description.textContent = cohorts.map((cohort, i) => `${cohort.label}: ${counts[i]} candidates, ${total ? (counts[i] / total * 100).toFixed(1) : "0.0"} percent`).join(". ");
+      cohortPie.append(title, description);
+      const base = document.createElementNS(ns, "circle");
+      base.setAttribute("cx", "90"); base.setAttribute("cy", "90"); base.setAttribute("r", String(radius));
+      base.setAttribute("fill", "none"); base.setAttribute("stroke", "#edf1ec"); base.setAttribute("stroke-width", "25");
+      cohortPie.append(base);
+      let offset = 0;
+      pieLegend.replaceChildren();
+      cohortBars.replaceChildren();
+      cohorts.forEach((cohort, index) => {
+        const count = counts[index];
+        const percent = total ? count / total * 100 : 0;
+        const segment = circumference * percent / 100;
+        if (segment > 0) {
+          const arc = document.createElementNS(ns, "circle");
+          arc.setAttribute("cx", "90"); arc.setAttribute("cy", "90"); arc.setAttribute("r", String(radius));
+          arc.setAttribute("fill", "none"); arc.setAttribute("stroke", cohortColors[index]); arc.setAttribute("stroke-width", "25");
+          arc.setAttribute("stroke-dasharray", `${segment} ${circumference - segment}`);
+          arc.setAttribute("stroke-dashoffset", String(-offset));
+          arc.setAttribute("transform", "rotate(-90 90 90)");
+          cohortPie.append(arc);
+        }
+        offset += segment;
+
+        const item = element("li", "legend-item", "");
+        const legendRow = element("span", "legend-row", "");
+        const swatch = element("span", "legend-swatch", "");
+        swatch.style.backgroundColor = cohortColors[index];
+        legendRow.append(swatch, element("span", "legend-name", cohort.label), element("span", "legend-value", number(count)));
+        item.append(legendRow, element("span", "legend-share", `${percent.toFixed(1)}% of candidates`));
+        pieLegend.append(item);
+
+        const barRow = element("div", "cohort-bar-row", "");
+        const track = element("span", "bar-track", "");
+        track.setAttribute("role", "img");
+        track.setAttribute("aria-label", `${cohort.label}: ${number(count)} candidates`);
+        const bar = element("span", "cohort-bar", "");
+        bar.style.width = `${count / maxCohort * 100}%`;
+        bar.style.setProperty("--cohort-color", cohortColors[index]);
+        track.append(bar);
+        barRow.append(element("span", "cohort-bar-label", cohort.label), track, element("span", "cohort-bar-value", number(count)), element("span", "cohort-bar-share", `${percent.toFixed(1)}%`));
+        cohortBars.append(barRow);
+      });
+      const centerCount = document.createElementNS(ns, "text");
+      centerCount.setAttribute("x", "90"); centerCount.setAttribute("y", "88"); centerCount.setAttribute("text-anchor", "middle");
+      centerCount.setAttribute("fill", "#183a30"); centerCount.setAttribute("font-size", "24"); centerCount.setAttribute("font-weight", "800");
+      centerCount.textContent = number(total);
+      const centerLabel = document.createElementNS(ns, "text");
+      centerLabel.setAttribute("x", "90"); centerLabel.setAttribute("y", "105"); centerLabel.setAttribute("text-anchor", "middle");
+      centerLabel.setAttribute("fill", "#718079"); centerLabel.setAttribute("font-size", "8"); centerLabel.setAttribute("font-weight", "700");
+      centerLabel.textContent = "CANDIDATES";
+      cohortPie.append(centerCount, centerLabel);
+    }
+    function renderCohorts() {
+      const total = candidates.length;
+      const cohortCounts = cohorts.map(({start,end}) => candidates.filter((person) => person.batch >= start && person.batch <= end).length);
+      renderCohortCharts(cohortCounts);
+      cohortList.replaceChildren();
+      for (const [cohortIndex,cohort] of cohorts.entries()) {
+        const people = candidates.filter((person) => person.batch >= cohort.start && person.batch <= cohort.end);
+        const details = document.createElement("details");
+        details.className = "cohort";
+        const summary = document.createElement("summary");
+        const title = document.createElement("span");
+        title.append(element("span", "cohort-name", `Batch ${cohort.label}`), element("span", "cohort-years", `${cohort.end - cohort.start + 1} years`));
+        const totalLabel = element("span", "cohort-total", "");
+        totalLabel.append(document.createTextNode(number(people.length)), element("small", "", "candidates"));
+        const bottom = element("span", "cohort-summary-bottom", "");
+        const track = element("span", "bar-track", "");
+        const bar = element("span", "cohort-bar", "");
+        bar.style.width = `${(people.length / Math.max(...cohortCounts, 1)) * 100}%`;
+        bar.style.setProperty("--cohort-color", cohortColors[cohortIndex]);
+        track.append(bar);
+        bottom.append(track, element("span", "share-label", `${total ? (people.length / total * 100).toFixed(1) : "0.0"}% of candidates`));
+        summary.append(title, totalLabel, bottom);
+        details.append(summary);
+        const rows = element("div", "batch-rows", "");
+        const table = document.createElement("table");
+        table.setAttribute("aria-label", `Candidate counts by batch year, ${cohort.label}`);
+        const thead = document.createElement("thead");
+        const headRow = document.createElement("tr");
+        for (const label of ["Batch year", "Relative count", "Candidates", "Share"]) headRow.append(element("th", "", label));
+        thead.append(headRow);
+        const tbody = document.createElement("tbody");
+        const counts = new Map();
+        for (const person of people) counts.set(person.batch, (counts.get(person.batch) || 0) + 1);
+        const maxBatchCount = Math.max(...candidates.reduce((all, person) => all.set(person.batch, (all.get(person.batch) || 0) + 1), new Map()).values(), 1);
+        for (let year = cohort.start; year <= cohort.end; year += 1) {
+          const row = document.createElement("tr");
+          const count = counts.get(year) || 0;
+          const relativeTrack = element("span", "year-track", "");
+          relativeTrack.setAttribute("role", "img");
+          relativeTrack.setAttribute("aria-label", `${number(count)} candidates in batch ${year}`);
+          const relativeBar = element("span", "year-bar", "");
+          relativeBar.style.width = `${count / maxBatchCount * 100}%`;
+          relativeBar.style.setProperty("--cohort-color", cohortColors[cohortIndex]);
+          relativeTrack.append(relativeBar);
+          const share = total ? `${(count / total * 100).toFixed(1)}%` : "0.0%";
+          const relativeCell = element("td", "", "");
+          relativeCell.append(relativeTrack);
+          row.append(element("td", "batch-year", String(year)), relativeCell, element("td", `batch-count${count ? "" : " zero"}`, number(count)), element("td", "share-label", share));
+          tbody.append(row);
+        }
+        table.append(thead, tbody);
+        rows.append(table);
+        details.append(rows);
+        cohortList.append(details);
+      }
+    }
+    function renderDisciplines() {
+      const query = disciplineSearch.value.trim().toLocaleLowerCase();
+      const visible = disciplines.filter(([name]) => name.toLocaleLowerCase().includes(query));
+      const max = Math.max(...disciplines.map(([,count]) => count), 1);
+      disciplineList.replaceChildren();
+      document.querySelector("#discipline-count").textContent = query ? `${number(visible.length)} matching ${visible.length === 1 ? "discipline" : "disciplines"}` : `${number(disciplines.length)} disciplines, ordered by candidate count.`;
+      if (!visible.length) {
+        disciplineList.append(element("div", "no-discipline", "No disciplines match your search."));
+        return;
+      }
+      for (const [name,count] of visible) {
+        const row = element("div", "discipline-row", "");
+        const label = element("span", "discipline-name", name);
+        const track = element("span", "discipline-track", "");
+        track.setAttribute("role", "img");
+        track.setAttribute("aria-label", `${number(count)} of ${number(candidates.length)} candidates`);
+        const bar = element("span", "discipline-bar", "");
+        bar.style.width = `${count / max * 100}%`;
+        track.append(bar);
+        row.append(label, track, element("span", "discipline-count", number(count)), element("span", "discipline-share", `${(count / candidates.length * 100).toFixed(1)}%`));
+        disciplineList.append(row);
+      }
+    }
+    async function loadStats() {
+      try {
+        const embeddedCandidates = JSON.parse(document.querySelector("#embedded-candidate-data").textContent);
+        try {
+          const response = location.protocol === "file:" ? null : await fetch("candidates.json", {cache:"no-store"});
+          candidates = response?.ok ? await response.json() : embeddedCandidates;
+        } catch {
+          candidates = embeddedCandidates;
+        }
+        if (!Array.isArray(candidates)) throw new Error("Candidate data is not a list");
+        document.querySelector("#total-candidates").textContent = number(candidates.length);
+        document.querySelector("#total-disciplines").textContent = number(new Set(candidates.map((person) => person.discipline)).size);
+        document.querySelector("#total-batches").textContent = number(new Set(candidates.map((person) => person.batch)).size);
+        renderCohorts();
+        disciplines = [...candidates.reduce((counts, person) => counts.set(person.discipline, (counts.get(person.discipline) || 0) + 1), new Map())].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+        const cohortStats = cohorts.map((cohort) => ({...cohort,count:candidates.filter((person) => person.batch >= cohort.start && person.batch <= cohort.end).length}));
+        const leadingCohort = cohortStats.reduce((best, current) => current.count > best.count ? current : best);
+        document.querySelector("#largest-cohort").textContent = `Batch ${leadingCohort.label}`;
+        document.querySelector("#largest-cohort-detail").textContent = `${number(leadingCohort.count)} candidates · ${(leadingCohort.count / candidates.length * 100).toFixed(1)}% of list`;
+        if (disciplines.length) {
+          const [disciplineName, disciplineTotal] = disciplines[0];
+          document.querySelector("#largest-discipline").textContent = disciplineName;
+          document.querySelector("#largest-discipline-detail").textContent = `${number(disciplineTotal)} candidates · ${(disciplineTotal / candidates.length * 100).toFixed(1)}% of list`;
+        }
+        renderDisciplines();
+      } catch (error) {
+        const message = element("div", "state error", "Could not load the candidate data. Check that the embedded candidate list is valid.");
+        cohortList.replaceChildren(message);
+        disciplineList.replaceChildren();
+      }
+    }
+    disciplineSearch.addEventListener("input", renderDisciplines);
+    loadStats();
+  </script>
+</body>
+</html>

@@ -7,7 +7,7 @@ A responsive, self-contained candidate directory. All candidate data is embedded
 From the repository folder, add and push the page and this README to the `main` branch:
 
 ```bash
-git add index.html README.md
+git add index.html stats.html candidates.json README.md
 git commit -m "Add KUAA candidate directory"
 git push origin main
 ```
@@ -27,6 +27,9 @@ The site URL for this repository is <https://imran110219.github.io/kuaa-election
 - Search by candidate name or student ID
 - Filters for position, batch, and discipline
 - Downloads the current results as an Excel-compatible CSV or a print-ready PDF
+- Candidate statistics with a batch-cohort donut chart, cohort and discipline bar charts, exact batch-year counts, and discipline search
 - Responsive layout for phones and desktop screens
+
+The statistics page reads `candidates.json` when served from the site and includes an embedded copy as a fallback for direct `file://` viewing. Keep that embedded candidate list in `stats.html` in sync when changing candidate records in `candidates.json` and `index.html`.
 
 Batch years are inferred from the first two digits of the listed student ID: `90`–`99` map to 1990–1999, and `00`–`89` map to 2000–2089.

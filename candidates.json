@@ -194,7 +194,8 @@
     "name": "Md. Wahiduzzaman",
     "discipline": "Electronics and Communication Engineering",
     "studentId": "970906",
-    "batch": 1997
+    "batch": 1997,
+    "photo": "public/candidates/970906.png"
   },
   {
     "position": "General Secretary",
@@ -409,7 +410,8 @@
     "name": "Md. Shahadot Hossain (Sazzad)",
     "discipline": "Agrotechnology",
     "studentId": "010815",
-    "batch": 2001
+    "batch": 2001,
+    "photo": "public/candidates/010815.png"
   },
   {
     "position": "Public Relation Secretary",
@@ -830,7 +832,8 @@
     "name": "Fauzia Sultana",
     "discipline": "Architecture",
     "studentId": "030131",
-    "batch": 2003
+    "batch": 2003,
+    "photo": "public/candidates/030131.png"
   },
   {
     "position": "Executive Member",
@@ -923,7 +926,8 @@
     "name": "Hizbul Bahar",
     "discipline": "Computer Science and Engineering",
     "studentId": "090225",
-    "batch": 2009
+    "batch": 2009,
+    "photo": "public/candidates/090225.png"
   },
   {
     "position": "Executive Member",
