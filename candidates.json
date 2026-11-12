@@ -374,7 +374,8 @@
     "name": "Jibon Krishna Mondal",
     "discipline": "Pharmacy",
     "studentId": "991112",
-    "batch": 1999
+    "batch": 1999,
+    "photo": "public/candidates/991112.jpg"
   },
   {
     "position": "Office Management Secretary",
@@ -388,7 +389,8 @@
     "name": "Abdul Hai",
     "discipline": "Agrotechnology",
     "studentId": "040830",
-    "batch": 2004
+    "batch": 2004,
+    "photo": "public/candidates/040830.jpg"
   },
   {
     "position": "Office Management Secretary",
@@ -456,7 +458,8 @@
     "name": "Nazmul Hasan (Sajal)",
     "discipline": "Bangla",
     "studentId": "111919",
-    "batch": 2011
+    "batch": 2011,
+    "photo": "public/candidates/111919.jpg"
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -614,7 +617,8 @@
     "name": "Md. Touhiduzzaman (Xsumon)",
     "discipline": "Business Administration",
     "studentId": "010346",
-    "batch": 2001
+    "batch": 2001,
+    "photo": "public/candidates/010346.jpg"
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -1015,7 +1019,8 @@
     "name": "Md. Jahidul Islam Sajal",
     "discipline": "Agrotechnology",
     "studentId": "130828",
-    "batch": 2013
+    "batch": 2013,
+    "photo": "public/candidates/130828.jpg"
   },
   {
     "position": "Executive Member",
@@ -1099,7 +1104,8 @@
     "name": "Md Rafid Rahman",
     "discipline": "Sociology",
     "studentId": "191652",
-    "batch": 2019
+    "batch": 2019,
+    "photo": "public/candidates/191652.jpg"
   },
   {
     "position": "Executive Member",
@@ -1121,7 +1127,8 @@
     "name": "Arif Raihan Apon",
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "210711",
-    "batch": 2021
+    "batch": 2021,
+    "photo": "public/candidates/210711.jpg"
   },
   {
     "position": "Executive Member",
