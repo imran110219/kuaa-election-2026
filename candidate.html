@@ -1106,7 +1106,16 @@
     "discipline": "Business Administration",
     "studentId": "110333",
     "batch": 2011,
-    "photo": "public/candidates/110333.jpg"
+    "photo": "public/candidates/110333.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "manifesto": {
+      "title": "Manifesto",
+      "language": "en",
+      "proposals": [
+        "To make blood donors database accessible at geography filtered level",
+        "To create a one-stop contact point for database management"
+      ]
+    }
   },
   {
     "position": "Executive Member",
@@ -1321,12 +1330,16 @@
       if(person.manifesto){
         const manifesto=person.manifesto;
         const head=document.createElement("header");head.className="manifesto-head";
-        const title=element("h2","manifesto-title",manifesto.title);title.lang="bn";
-        const count=element("span","proposal-count",`${manifesto.proposals.length.toLocaleString("bn-BD")}টি প্রস্তাব`);count.lang="bn";head.append(title,count);section.append(head);
-        const copy=document.createElement("div");copy.className="manifesto-copy";copy.lang="bn";
-        copy.append(element("p","manifesto-greeting",manifesto.greeting),element("p","manifesto-candidate-intro",manifesto.candidateIntro));
-        for(const paragraph of manifesto.introduction)copy.append(element("p","",paragraph));section.append(copy);
-        const list=document.createElement("ol");list.className="proposal-list";list.lang="bn";
+        const language=manifesto.language||"bn";
+        const title=element("h2","manifesto-title",manifesto.title);title.lang=language;
+        const countLabel=language==="bn"?`${manifesto.proposals.length.toLocaleString("bn-BD")}টি প্রস্তাব`:`${manifesto.proposals.length} proposal${manifesto.proposals.length===1?"":"s"}`;
+        const count=element("span","proposal-count",countLabel);count.lang=language;head.append(title,count);section.append(head);
+        const copy=document.createElement("div");copy.className="manifesto-copy";copy.lang=language;
+        if(manifesto.greeting)copy.append(element("p","manifesto-greeting",manifesto.greeting));
+        if(manifesto.candidateIntro)copy.append(element("p","manifesto-candidate-intro",manifesto.candidateIntro));
+        for(const paragraph of manifesto.introduction||[])copy.append(element("p","",paragraph));
+        if(copy.childElementCount)section.append(copy);
+        const list=document.createElement("ol");list.className="proposal-list";list.lang=language;
         for(const [index,proposal] of manifesto.proposals.entries()){const item=document.createElement("li");const number=element("span","proposal-number",(index+1).toLocaleString("bn-BD",{minimumIntegerDigits:2,useGrouping:false}));number.setAttribute("aria-hidden","true");item.append(number,element("p","",proposal));list.append(item);}
         section.append(list);
       }else{section.append(element("div","notice","No manifesto has been published for this candidate yet."));}

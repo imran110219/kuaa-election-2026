@@ -1091,7 +1091,16 @@
     "discipline": "Business Administration",
     "studentId": "110333",
     "batch": 2011,
-    "photo": "public/candidates/110333.jpg"
+    "photo": "public/candidates/110333.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "manifesto": {
+      "title": "Manifesto",
+      "language": "en",
+      "proposals": [
+        "To make blood donors database accessible at geography filtered level",
+        "To create a one-stop contact point for database management"
+      ]
+    }
   },
   {
     "position": "Executive Member",
