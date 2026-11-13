@@ -264,7 +264,8 @@
     "name": "Subroto Guha",
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "010723",
-    "batch": 2001
+    "batch": 2001,
+    "photo": "public/candidates/010723.png"
   },
   {
     "position": "Joint Secretary",
@@ -1251,7 +1252,8 @@
     "name": "Md. Ebrahim Kholil",
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "210642",
-    "batch": 2021
+    "batch": 2021,
+    "photo": "public/candidates/210642.png"
   },
   {
     "position": "Executive Member",
