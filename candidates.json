@@ -368,7 +368,8 @@
     "discipline": "Sociology",
     "studentId": "081638",
     "batch": 2008,
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "photo": "public/candidates/081638.png"
   },
   {
     "position": "Organising Secretary",
@@ -1220,7 +1221,8 @@
     "name": "Shahed",
     "discipline": "Business Administration",
     "studentId": "150334",
-    "batch": 2015
+    "batch": 2015,
+    "photo": "public/candidates/150334.png"
   },
   {
     "position": "Executive Member",
@@ -1290,7 +1292,8 @@
     "name": "Nazmus Sakib",
     "discipline": "Business Administration",
     "studentId": "190344",
-    "batch": 2019
+    "batch": 2019,
+    "photo": "public/candidates/190344.png"
   },
   {
     "position": "Executive Member",
