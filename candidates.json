@@ -72,7 +72,8 @@
     "discipline": "Architecture",
     "studentId": "950116",
     "batch": 1995,
-    "photo": "public/candidates/950116.png"
+    "photo": "public/candidates/950116.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -99,7 +100,8 @@
     "studentId": "970232",
     "batch": 1997,
     "photo": "public/candidates/970232.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -116,7 +118,8 @@
     "discipline": "Forestry and Wood Technology",
     "studentId": "970526",
     "batch": 1997,
-    "photo": "public/candidates/970526.jpeg"
+    "photo": "public/candidates/970526.jpeg",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -148,7 +151,8 @@
     "discipline": "Agrotechnology",
     "studentId": "980821",
     "batch": 1998,
-    "photo": "public/candidates/980821.png"
+    "photo": "public/candidates/980821.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -257,7 +261,8 @@
     "studentId": "010226",
     "batch": 2001,
     "photo": "public/candidates/010226.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Joint Secretary",
@@ -326,7 +331,8 @@
     "studentId": "001207",
     "batch": 2000,
     "photo": "public/candidates/001207.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
@@ -353,14 +359,16 @@
     "studentId": "010805",
     "batch": 2001,
     "photo": "public/candidates/010805.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
     "name": "Md. Shahidul Islam (Shahid)",
     "discipline": "Sociology",
     "studentId": "081638",
-    "batch": 2008
+    "batch": 2008,
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
@@ -385,7 +393,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "940221",
     "batch": 1994,
-    "photo": "public/candidates/940221.png"
+    "photo": "public/candidates/940221.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Treasurer",
@@ -553,7 +562,8 @@
     "name": "Rashedul Alam Sarker",
     "discipline": "Environmental Science",
     "studentId": "051026",
-    "batch": 2005
+    "batch": 2005,
+    "previouslyElected": 2023
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -686,7 +696,8 @@
     "studentId": "051212",
     "batch": 2005,
     "photo": "public/candidates/051212.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -720,7 +731,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "090220",
     "batch": 2009,
-    "photo": "public/candidates/090220.png"
+    "photo": "public/candidates/090220.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Information and Technology Secretary",
@@ -824,7 +836,8 @@
     "name": "Mahamudul Hasan (Millat)",
     "discipline": "Statistics",
     "studentId": "182029",
-    "batch": 2018
+    "batch": 2018,
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -849,7 +862,8 @@
     "name": "Md. Jakie-Ul Hassan",
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "970604",
-    "batch": 1997
+    "batch": 1997,
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -1001,7 +1015,8 @@
     "studentId": "041030",
     "batch": 2004,
     "photo": "public/candidates/041030.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -1050,7 +1065,8 @@
     "studentId": "081301",
     "batch": 2008,
     "photo": "public/candidates/081301.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",

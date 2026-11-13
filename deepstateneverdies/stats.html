@@ -40,6 +40,8 @@ permalink: /deepstateneverdies/stats
     .gate-submit{width:100%;height:45px;margin-top:12px;border:0;border-radius:10px;background:#0d5041;color:#fff;font-weight:750;cursor:pointer}.gate-submit:hover{background:#13715a}.gate-error{margin:12px 0 0;color:#a33131;font-size:12px;font-weight:650}
     body:not(.private-unlocked)>:not(#private-gate):not(script){visibility:hidden}
 
+
+    .election-history{display:grid;gap:11px;margin:0 0 20px;padding:16px;border:1px solid #e5ebe6;border-radius:13px;background:#fcfdfb}.election-history-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.election-history-head h3{margin:0;font-size:13px}.election-history-legend{display:flex;flex-wrap:wrap;gap:12px;color:#53665e;font-size:10px;font-weight:650}.election-history-key{display:inline-flex;align-items:center;gap:6px}.election-history-swatch{width:9px;height:9px;border-radius:3px;background:#13715a}.election-history-swatch.no-win{background:#dce8df}.election-history-rows{display:grid;gap:10px}.election-history-row{display:grid;grid-template-columns:90px minmax(80px,1fr) 84px;gap:10px;align-items:center}.election-history-label{color:#455a51;font-size:10px;font-weight:700}.election-history-track{display:flex;height:13px;overflow:hidden;border-radius:99px;background:#e9efe9}.election-history-segment{height:100%;min-width:0}.election-history-segment.elected{background:#13715a}.election-history-segment.no-win{background:#dce8df}.election-history-count{color:#40584d;text-align:right;font-size:10px;font-weight:750;font-variant-numeric:tabular-nums}.election-history-note{margin:0;color:#78847f;font-size:10px;line-height:1.5}
   </style>
 </head>
 <body>
@@ -104,6 +106,12 @@ permalink: /deepstateneverdies/stats
         <article class="chart-card"><h3>Cohort share</h3><p class="chart-hint">Share of all listed candidates</p><div class="pie-layout"><svg class="cohort-pie" id="cohort-pie" viewBox="0 0 180 180" role="img" aria-label="Candidate share by batch cohort"></svg><ul class="pie-legend" id="pie-legend" aria-label="Cohort chart legend"></ul></div></article>
         <article class="chart-card"><h3>Candidate count by cohort</h3><p class="chart-hint">Each bar uses the same scale</p><div id="cohort-bars" class="cohort-bars" aria-live="polite"><div class="state">Loading batch cohorts…</div></div></article>
       </div>
+
+      <article class="election-history" aria-labelledby="election-history-heading">
+        <div class="election-history-head"><h3 id="election-history-heading">Previous election status by batch</h3><div class="election-history-legend" aria-label="Chart legend"><span class="election-history-key"><span class="election-history-swatch"></span>Elected in 2023</span><span class="election-history-key"><span class="election-history-swatch no-win"></span>No win recorded</span></div></div>
+        <div class="election-history-rows" id="election-history-rows" aria-live="polite"><div class="state">Loading election history…</div></div>
+        <p class="election-history-note">Bars show candidate counts within each cohort. “No win recorded” means no 2023 election win is recorded in this dataset.</p>
+      </article>
       <div class="detail-heading"><h3>Exact batch year</h3><p class="panel-copy">Expand a cohort for its full year-by-year count.</p></div>
       <div id="cohort-list" class="cohorts" aria-live="polite"><div class="state">Loading candidate statistics…</div></div>
     </section>
@@ -195,7 +203,8 @@ permalink: /deepstateneverdies/stats
     "discipline": "Architecture",
     "studentId": "950116",
     "batch": 1995,
-    "photo": "../public/candidates/950116.png"
+    "photo": "../public/candidates/950116.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -222,7 +231,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "970232",
     "batch": 1997,
     "photo": "../public/candidates/970232.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -239,7 +249,8 @@ permalink: /deepstateneverdies/stats
     "discipline": "Forestry and Wood Technology",
     "studentId": "970526",
     "batch": 1997,
-    "photo": "../public/candidates/970526.jpeg"
+    "photo": "../public/candidates/970526.jpeg",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -271,7 +282,8 @@ permalink: /deepstateneverdies/stats
     "discipline": "Agrotechnology",
     "studentId": "980821",
     "batch": 1998,
-    "photo": "../public/candidates/980821.png"
+    "photo": "../public/candidates/980821.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Vice President",
@@ -380,7 +392,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "010226",
     "batch": 2001,
     "photo": "../public/candidates/010226.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Joint Secretary",
@@ -449,7 +462,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "001207",
     "batch": 2000,
     "photo": "../public/candidates/001207.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
@@ -476,14 +490,16 @@ permalink: /deepstateneverdies/stats
     "studentId": "010805",
     "batch": 2001,
     "photo": "../public/candidates/010805.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
     "name": "Md. Shahidul Islam (Shahid)",
     "discipline": "Sociology",
     "studentId": "081638",
-    "batch": 2008
+    "batch": 2008,
+    "previouslyElected": 2023
   },
   {
     "position": "Organising Secretary",
@@ -508,7 +524,8 @@ permalink: /deepstateneverdies/stats
     "discipline": "Computer Science and Engineering",
     "studentId": "940221",
     "batch": 1994,
-    "photo": "../public/candidates/940221.png"
+    "photo": "../public/candidates/940221.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Treasurer",
@@ -676,7 +693,8 @@ permalink: /deepstateneverdies/stats
     "name": "Rashedul Alam Sarker",
     "discipline": "Environmental Science",
     "studentId": "051026",
-    "batch": 2005
+    "batch": 2005,
+    "previouslyElected": 2023
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -809,7 +827,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "051212",
     "batch": 2005,
     "photo": "../public/candidates/051212.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -843,7 +862,8 @@ permalink: /deepstateneverdies/stats
     "discipline": "Computer Science and Engineering",
     "studentId": "090220",
     "batch": 2009,
-    "photo": "../public/candidates/090220.png"
+    "photo": "../public/candidates/090220.png",
+    "previouslyElected": 2023
   },
   {
     "position": "Information and Technology Secretary",
@@ -946,7 +966,8 @@ permalink: /deepstateneverdies/stats
     "name": "Mahamudul Hasan (Millat)",
     "discipline": "Statistics",
     "studentId": "182029",
-    "batch": 2018
+    "batch": 2018,
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -971,7 +992,8 @@ permalink: /deepstateneverdies/stats
     "name": "Md. Jakie-Ul Hassan",
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "970604",
-    "batch": 1997
+    "batch": 1997,
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -1123,7 +1145,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "041030",
     "batch": 2004,
     "photo": "../public/candidates/041030.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -1172,7 +1195,8 @@ permalink: /deepstateneverdies/stats
     "studentId": "081301",
     "batch": 2008,
     "photo": "../public/candidates/081301.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023
   },
   {
     "position": "Executive Member",
@@ -1516,10 +1540,35 @@ permalink: /deepstateneverdies/stats
       centerLabel.textContent = "CANDIDATES";
       cohortPie.append(centerCount, centerLabel);
     }
+
+    function renderElectionHistory() {
+      const container = document.querySelector("#election-history-rows");
+      container.replaceChildren();
+      for (const cohort of cohorts) {
+        const people = candidates.filter((person) => person.batch >= cohort.start && person.batch <= cohort.end);
+        const elected = people.filter((person) => Boolean(person.previouslyElected)).length;
+        const noWin = people.length - elected;
+        const row = element("div", "election-history-row", "");
+        row.append(element("span", "election-history-label", cohort.label));
+        const track = element("span", "election-history-track", "");
+        track.setAttribute("role", "img");
+        track.setAttribute("aria-label", `${cohort.label}: ${number(elected)} elected in 2023; ${number(noWin)} with no win recorded; ${number(people.length)} candidates total`);
+        if (people.length) {
+          const electedBar = element("span", "election-history-segment elected", "");
+          electedBar.style.width = `${elected / people.length * 100}%`;
+          const noWinBar = element("span", "election-history-segment no-win", "");
+          noWinBar.style.width = `${noWin / people.length * 100}%`;
+          track.append(electedBar, noWinBar);
+        }
+        row.append(track, element("span", "election-history-count", `${number(elected)} / ${number(people.length)}`));
+        container.append(row);
+      }
+    }
     function renderCohorts() {
       const total = candidates.length;
       const cohortCounts = cohorts.map(({start,end}) => candidates.filter((person) => person.batch >= start && person.batch <= end).length);
       renderCohortCharts(cohortCounts);
+      renderElectionHistory();
       cohortList.replaceChildren();
       for (const [cohortIndex,cohort] of cohorts.entries()) {
         const people = candidates.filter((person) => person.batch >= cohort.start && person.batch <= cohort.end);
