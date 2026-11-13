@@ -827,7 +827,8 @@
     "name": "Abu Jubayer",
     "discipline": "Environmental Science",
     "studentId": "071033",
-    "batch": 2007
+    "batch": 2007,
+    "photo": "public/candidates/071033.png"
   },
   {
     "position": "Social Welfare Secretary",
