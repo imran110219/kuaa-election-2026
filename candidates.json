@@ -466,7 +466,9 @@
     "name": "Bidhan Chandro Sarker",
     "discipline": "Agrotechnology",
     "studentId": "000811",
-    "batch": 2000
+    "batch": 2000,
+    "photo": "public/candidates/000811.png",
+    "campaignSlogan": "Together Stronger for a KU Community"
   },
   {
     "position": "Office Management Secretary",
@@ -1226,7 +1228,9 @@
     "name": "Nazim Uddin (Shohel)",
     "discipline": "Pharmacy",
     "studentId": "031117",
-    "batch": 2003
+    "batch": 2003,
+    "photo": "public/candidates/031117.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
   },
   {
     "position": "Executive Member",
