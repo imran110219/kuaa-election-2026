@@ -1,0 +1,1829 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="Candidate-wise vote counts for the KUAA Executive Committee Election 2026.">
+  <title>KUAA Election 2026 — Results</title>
+  <style>
+    :root{--ink:#152a2b;--muted:#617270;--paper:#f5f7f3;--card:#fff;--line:#dfe7e1;--green:#13715a;--green-dark:#0d5041;--lime:#dcf47c;--orange:#eea06c;--shadow:0 12px 32px rgba(19,49,39,.07)}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f9faf7 0,#f5f7f3 440px);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.shell{width:min(1120px,calc(100% - 48px));margin:auto}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid #e6ebe6}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}.brand-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(145deg,#116d55,#0b493d);display:grid;place-items:center;color:white;font-size:12px;font-weight:800;letter-spacing:-.04em;box-shadow:0 4px 10px #0b493d2e}.brand-name{font-weight:750;letter-spacing:-.025em}.brand-sub{display:block;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.top-nav{display:flex;align-items:center;gap:5px;max-width:68%;overflow-x:auto;scrollbar-width:none}.top-nav::-webkit-scrollbar{display:none}.nav-link{flex:none;padding:9px 11px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}.nav-link:hover,.nav-link:focus-visible,.nav-link[aria-current=page]{background:#e8f2e9;color:var(--green-dark)}main{padding:35px 0 64px}.eyebrow{display:flex;align-items:center;gap:9px;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:22px;height:2px;background:var(--orange)}h1{margin:12px 0 8px;font-size:clamp(34px,5vw,53px);line-height:1;letter-spacing:-.055em}.intro{max-width:680px;margin:0;color:var(--muted);font-size:14px;line-height:1.7}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:24px 0 17px}.stat{padding:15px 17px;border:1px solid #e7ece7;border-radius:14px;background:#fff;box-shadow:0 3px 12px #172a2a08}.stat-label{display:block;color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.stat-value{display:block;margin-top:4px;font-size:25px;line-height:1.2;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}.status-note{margin:0 0 18px;padding:12px 14px;border:1px solid #ead9c8;border-radius:12px;background:#fffaf3;color:#775637;font-size:12px;line-height:1.6}.toolbar{display:grid;grid-template-columns:minmax(220px,1fr) minmax(220px,.55fr);gap:10px;margin:0 0 14px;padding:14px;border:1px solid var(--line);border-radius:15px;background:#fff;box-shadow:var(--shadow)}.field label{display:block;margin:0 0 6px 2px;color:#5e6e6b;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.control{height:43px;width:100%;padding:0 12px;border:1px solid #dce4dc;border-radius:10px;background:#fbfcfa;color:var(--ink);font:inherit;font-size:13px}.control:focus{outline:3px solid #13715a22;border-color:#6da58d}.result-list{display:grid;gap:16px}.position{overflow:hidden;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 3px 12px #172a2a08}.position-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 17px;border-bottom:1px solid #edf0eb}.position-head h2{margin:0;font-size:17px;letter-spacing:-.03em}.position-meta{color:var(--muted);font-size:11px;font-weight:700;text-align:right}.candidate-row{display:grid;grid-template-columns:40px 52px minmax(160px,1.1fr) minmax(140px,1.2fr) 90px 125px;gap:12px;align-items:center;padding:12px 17px;border-bottom:1px solid #f0f2ee}.candidate-row:last-child{border-bottom:0}.rank{color:#88958e;font-size:12px;font-weight:800;text-align:center;font-variant-numeric:tabular-nums}.photo{width:52px;height:64px;border-radius:8px;object-fit:cover;object-position:center 35%;background:#edf1eb}.candidate-name{min-width:0}.candidate-name a{color:var(--ink);font-size:13px;font-weight:800;text-decoration:none}.candidate-name a:hover{text-decoration:underline;color:var(--green)}.candidate-meta{display:block;margin-top:3px;color:var(--muted);font-size:10px;line-height:1.45}.vote-track{height:8px;overflow:hidden;border-radius:99px;background:#edf1ed}.vote-fill{height:100%;border-radius:inherit;background:linear-gradient(90deg,#13715a,#8dbd8c);transition:width .25s}.vote-share{margin-top:4px;color:var(--muted);font-size:10px;font-variant-numeric:tabular-nums}.vote-count{font-size:15px;font-weight:850;text-align:right;font-variant-numeric:tabular-nums}.vote-count:after{content:"votes";display:block;color:var(--muted);font-size:9px;font-weight:650;text-transform:uppercase}.state-pill{justify-self:end;padding:5px 8px;border-radius:99px;background:#f0f3ef;color:#65736b;font-size:10px;font-weight:800;text-align:center}.state-pill.leading{background:#e5f2e9;color:#145c46}.state-pill.tie{background:#fff1d8;color:#815817}.empty{padding:30px;border:1px dashed #cbd7ce;border-radius:15px;background:#fff;text-align:center;color:var(--muted)}.foot{padding:20px 0 30px;border-top:1px solid var(--line);color:#77837e;font-size:11px}.foot a{color:inherit;text-decoration:none;font-weight:650}.foot a:hover{color:var(--green);text-decoration:underline}
+    @media(max-width:760px){.shell{width:min(100% - 32px,620px)}.topbar{height:auto;min-height:66px}.top-nav{max-width:62%}.summary{gap:8px}.candidate-row{grid-template-columns:28px 44px minmax(0,1fr) 75px;gap:9px;padding:11px 12px}.photo{width:44px;height:56px}.vote-track-wrap{grid-column:3 / 4}.vote-count{grid-column:4;grid-row:1}.state-pill{grid-column:4;grid-row:2}.candidate-name{grid-column:3;grid-row:1}.rank{grid-column:1;grid-row:1}.photo{grid-column:2;grid-row:1 / span 2}.candidate-meta{font-size:9px}.position-head{padding:13px}.position-head h2{font-size:15px}}
+    @media(max-width:500px){.shell{width:calc(100% - 24px)}.brand{gap:8px}.brand-mark{width:35px;height:35px}.brand-name{font-size:13px}.brand-sub{font-size:8px}.top-nav{max-width:58%;gap:1px}.nav-link{padding:8px 7px;font-size:10px}.hero{padding-top:28px}.summary{grid-template-columns:1fr}.stat{padding:12px 14px}.stat-value{font-size:22px}.toolbar{grid-template-columns:1fr;padding:11px}.candidate-row{grid-template-columns:25px 42px minmax(0,1fr) 66px;gap:7px;padding:10px 8px}.photo{width:42px;height:54px}.candidate-name a{font-size:12px}.candidate-meta{font-size:9px}.vote-count{font-size:13px}.state-pill{font-size:9px;padding:4px 6px}.position-meta{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <!-- Generated candidate snapshot from candidates.json; Codex refreshes this when candidate data changes. -->
+  <script id="candidate-data" type="application/json">
+[
+  {
+    "position": "President",
+    "name": "Khurshid Shahid Almeher (Tonmoy)",
+    "discipline": "Architecture",
+    "studentId": "920110",
+    "batch": 1992,
+    "photo": "public/candidates/920110.jpg",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "President",
+    "name": "Mohammad Fazle Reza (Sumon)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "930409",
+    "batch": 1993,
+    "photo": "public/candidates/930409.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "President",
+    "name": "Md. Najmul Ahasan Prince",
+    "discipline": "Business Administration",
+    "studentId": "950340",
+    "batch": 1995,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/950340.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "President",
+    "name": "Md. Iftakharul Alam (Iftee)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970609",
+    "batch": 1997,
+    "photo": "public/candidates/970609.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Sahidur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "930508",
+    "batch": 1993,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr Md Shamim Parvez",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "930607",
+    "batch": 1993,
+    "photo": "public/candidates/930607.jpeg",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Ali Zakir (Rubel)",
+    "discipline": "Business Administration",
+    "studentId": "940338",
+    "batch": 1994,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "S M Ariful Islam (Kochi)",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940418",
+    "batch": 1994,
+    "photo": "public/candidates/940418.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Shayka Imam Shanta",
+    "discipline": "Architecture",
+    "studentId": "950116",
+    "batch": 1995,
+    "photo": "public/candidates/950116.png",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Shahana Sultana",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "950602",
+    "batch": 1995,
+    "photo": "public/candidates/950602.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md Maheb Hossain (Liton)",
+    "discipline": "Agrotechnology",
+    "studentId": "960827",
+    "batch": 1996,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/960827.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Muzahidul Islam (Showrab)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970232",
+    "batch": 1997,
+    "photo": "public/candidates/970232.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Tomig Uddin Ahmed",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "970235",
+    "batch": 1997,
+    "photo": "public/candidates/970235.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Akhtaruzzaman Bosunia (Liton)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970526",
+    "batch": 1997,
+    "photo": "public/candidates/970526.jpeg",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "A.K.M. Abdullah Farooq",
+    "discipline": "Pharmacy",
+    "studentId": "971121",
+    "batch": 1997,
+    "photo": "public/candidates/971121.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahidul Hasan (Ruhin)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "980630",
+    "batch": 1998,
+    "photo": "public/candidates/980630.png",
+    "manifesto": {
+      "title": "নির্বাচনের ইশতেহার",
+      "language": "bn",
+      "proposals": [
+        "ঢাকায় KUAA-এর একটি স্থায়ী অফিস গড়ে তোলা, যেখানে খুলনা বিশ্ববিদ্যালয়ের চাকরিপ্রত্যাশী ও গ্র্যাজুয়েটরা বিভিন্ন কাজে ঢাকায় গেলে থাকতে পারবেন।",
+        "বেকার ও সদ্য পাশ করা গ্র্যাজুয়েটদের চাকরি পেতে সার্বিক সহযোগিতার জন্য একটি প্ল্যাটফর্ম তৈরি করা।",
+        "KUAA পরিবারের সদস্যদের সামাজিক, মানবিক, স্বাস্থ্যগত ও আইনি সহায়তার জন্য একটি স্থায়ী প্ল্যাটফর্ম তৈরি করা।",
+        "এমন একটি অ্যাপ তৈরি করা, যেখানে খুলনা বিশ্ববিদ্যালয়ের সব গ্র্যাজুয়েটের যোগাযোগের তথ্য ও কর্মপরিচয় এক ক্লিকেই পাওয়া যাবে।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Mohd Israil Hossain",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "980717",
+    "batch": 1998,
+    "photo": "public/candidates/980717.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Dr. Md. Azizul Hasan (Piru)",
+    "discipline": "Agrotechnology",
+    "studentId": "980821",
+    "batch": 1998,
+    "photo": "public/candidates/980821.png",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Jahed Pervez Chowdhury",
+    "discipline": "Business Administration",
+    "studentId": "990324",
+    "batch": 1999,
+    "photo": "public/candidates/990324.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Shakil Alam",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990933",
+    "batch": 1999,
+    "photo": "public/candidates/990933.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Mahedi Al Masud, Ph. D.",
+    "discipline": "Environmental Science",
+    "studentId": "991001",
+    "batch": 1999,
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Shaikh Abu Shamim",
+    "discipline": "Mathematics",
+    "studentId": "001231",
+    "batch": 2000,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/001231.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Vice President",
+    "name": "Md. Noor-E-Alom Siddiquee",
+    "discipline": "Economics",
+    "studentId": "001517",
+    "batch": 2000,
+    "photo": "public/candidates/001517.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "General Secretary",
+    "name": "Ghulam Benazir (Pangsha Polash)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "940532",
+    "batch": 1994,
+    "photo": "public/candidates/940532.jpeg",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Shariful Islam",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "970518",
+    "batch": 1997,
+    "photo": "public/candidates/970518.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "General Secretary",
+    "name": "Md. Wahiduzzaman",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "970906",
+    "batch": 1997,
+    "photo": "public/candidates/970906.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "General Secretary",
+    "name": "A K M Nazmul Islam (Nayan)",
+    "discipline": "Business Administration",
+    "studentId": "000341",
+    "batch": 2000,
+    "photo": "public/candidates/000341.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Dipak Chandra Saha",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "970418",
+    "batch": 1997,
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "photo": "./public/candidates/970418.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Khairuzzaman",
+    "discipline": "Economics",
+    "studentId": "991523",
+    "batch": 1999,
+    "photo": "public/candidates/991523.jpg",
+    "manifesto": {
+      "title": "আমার ১০ দফা অঙ্গীকার",
+      "language": "bn",
+      "proposals": [
+        "কার্যকর যোগাযোগ — দেশ-বিদেশে অ্যালামনাইদের সম্পর্ক ও যোগাযোগ জোরদার।",
+        "সদস্যবান্ধব সংগঠন — সদস্যদের মতামত ও সমস্যা পরিষদে তুলে ধরা, অংশগ্রহণ বাড়ানো।",
+        "পেশাগত উন্নয়ন — ক্যারিয়ার, মেন্টরশিপ, উদ্যোগ ও গবেষণা নেটওয়ার্কে সহযোগিতা।",
+        "নবীনদের সম্পৃক্ততা — তরুণ অ্যালামনাই ও শিক্ষার্থীদের দক্ষতা উন্নয়নে সমন্বয়।",
+        "ব্যাচ ও ডিসিপ্লিনের সংযোগ — সকল ব্যাচ ও ডিসিপ্লিনের অন্তর্ভুক্তি এবং পুনর্মিলনীতে সহযোগিতা।",
+        "ডিজিটাল KUAA — হালনাগাদ তথ্য, সদস্য তথ্যভান্ডার ও অনলাইন যোগাযোগে সহযোগিতা।",
+        "মানবিক ও সামাজিক উদ্যোগ — দুর্যোগ, সংকটে ও জনকল্যাণে সম্মিলিত উদ্যোগে সহযোগিতা।",
+        "নারীর অংশগ্রহণ ও নেতৃত্ব — নারী অ্যালামনাইদের সম্পৃক্ততা ও সম্মানজনক পরিবেশে কাজ।",
+        "সমন্বয় ও জবাবদিহি — সাধারণ সম্পাদককে সহযোগিতা, গঠনতন্ত্র মেনে দায়িত্ব পালন।",
+        "পরিকল্পনা ও ধারাবাহিকতা — অগ্রাধিকারভিত্তিক উদ্যোগ, অগ্রগতি প্রকাশ ও সফল কাজের ধারাবাহিকতা."
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Amin Ahmed Arif",
+    "discipline": "Architecture",
+    "studentId": "000106",
+    "batch": 2000,
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Matiur Rahman (Matin)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010226",
+    "batch": 2001,
+    "photo": "public/candidates/010226.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Subroto Guha",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "010723",
+    "batch": 2001,
+    "photo": "public/candidates/010723.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Imdadul Ikbal (Rana)",
+    "discipline": "Mathematics",
+    "studentId": "011224",
+    "batch": 2001,
+    "photo": "public/candidates/011224.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Rejaur Rahman",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "030413",
+    "batch": 2003,
+    "photo": "public/candidates/030413.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md. Obaidullah",
+    "discipline": "Pharmacy",
+    "studentId": "031135",
+    "batch": 2003,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/031135.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Joint Secretary",
+    "name": "Md Afzal Jamil",
+    "discipline": "Economics",
+    "studentId": "031522",
+    "batch": 2003,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/031522.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Azmira Khatun (Shilpy)",
+    "discipline": "Economics",
+    "studentId": "991513",
+    "batch": 1999,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/991513.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Mohiuddin Andalib (Shuvo)",
+    "discipline": "Pharmacy",
+    "studentId": "001118",
+    "batch": 2000,
+    "photo": "public/candidates/001118.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Sathil Islam ( Dollar )",
+    "discipline": "Mathematics",
+    "studentId": "001207",
+    "batch": 2000,
+    "photo": "public/candidates/001207.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shafayet Hossain Emon",
+    "discipline": "Soil, Water and Environment",
+    "studentId": "001325",
+    "batch": 2000,
+    "photo": "public/candidates/001325.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Zahidul Haque",
+    "discipline": "Business Administration",
+    "studentId": "010348",
+    "batch": 2001,
+    "photo": "public/candidates/010348.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Rashidul Islam",
+    "discipline": "Agrotechnology",
+    "studentId": "010805",
+    "batch": 2001,
+    "photo": "public/candidates/010805.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md. Shahidul Islam (Shahid)",
+    "discipline": "Sociology",
+    "studentId": "081638",
+    "batch": 2008,
+    "previouslyElected": 2023,
+    "photo": "public/candidates/081638.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Md Latifur Rahman",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "090513",
+    "batch": 2009,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/090513.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Organising Secretary",
+    "name": "Easin Ahmed Jibu",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162610",
+    "batch": 2016,
+    "photo": "public/candidates/162610.jpeg",
+    "voteCount": 0
+  },
+  {
+    "position": "Treasurer",
+    "name": "Mohammad Iqbal Kabir (Bipul)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "940221",
+    "batch": 1994,
+    "photo": "public/candidates/940221.png",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Treasurer",
+    "name": "Kamrul Hasan Sohag",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "940401",
+    "batch": 1994,
+    "photo": "public/candidates/940401.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Treasurer",
+    "name": "Md. Moniruzzaman",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000611",
+    "batch": 2000,
+    "photo": "public/candidates/000611.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Treasurer",
+    "name": "Zakaria Mahmud (Bulbul)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "060621",
+    "batch": 2006,
+    "photo": "public/candidates/060621.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Jibon Krishna Mondal",
+    "discipline": "Pharmacy",
+    "studentId": "991112",
+    "batch": 1999,
+    "photo": "public/candidates/991112.jpg",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Bidhan Chandro Sarker",
+    "discipline": "Agrotechnology",
+    "studentId": "000811",
+    "batch": 2000,
+    "photo": "public/candidates/000811.png",
+    "campaignSlogan": "Together Stronger for a KU Community",
+    "voteCount": 0
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Abdul Hai",
+    "discipline": "Agrotechnology",
+    "studentId": "040830",
+    "batch": 2004,
+    "photo": "public/candidates/040830.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Office Management Secretary",
+    "name": "Md. Abdulla Al Mamun",
+    "discipline": "Sociology",
+    "studentId": "121632",
+    "batch": 2012,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/121632.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Office Management Secretary",
+    "name": "Md. Fahad Al Zobayer",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "150617",
+    "batch": 2015,
+    "unopposed": true,
+    "voteCount": 0
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Md. Shahadot Hossain (Sazzad)",
+    "discipline": "Agrotechnology",
+    "studentId": "010815",
+    "batch": 2001,
+    "photo": "public/candidates/010815.png",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "manifesto": {
+      "title": "আমার ৭টি অগ্রাধিকারমূলক অঙ্গীকার",
+      "language": "bn",
+      "proposals": [
+        "ঐক্যবদ্ধ ও অন্তর্ভুক্তিমূলক অ্যালামনাই পরিবার — দলমত নির্বিশেষে ঐক্য, সবার অংশগ্রহণ নিশ্চিতকরণ এবং বৈশ্বিক মেলবন্ধন।",
+        "ক্যারিয়ার উন্নয়ন, কর্মসংস্থান ও উদ্যোক্তা সহযোগিতা — ক্যারিয়ার প্রস্তুতি, মেন্টরশিপ ও নেটওয়ার্কিং এবং উচ্চশিক্ষার গাইডলাইন।",
+        "অ্যালামনাইদের কল্যাণ ও মানবিক সহায়তা — টেকসই কল্যাণ তহবিল, নিরাপদ বিনিয়োগ কাঠামো, ব্লাড ডোনার নেটওয়ার্ক ও শিক্ষাবৃত্তি।",
+        "ঢাকায় KUAA-এর নিজস্ব কার্যালয় ও গেস্টরুম স্থাপন — যোগাযোগের কেন্দ্রবিন্দু এবং আধুনিক গেস্টরুম।",
+        "ডিজিটাল KUAA ও আধুনিক নেটওয়ার্ক — সেন্ট্রাল ডাটাবেজ ও নিরাপত্তা, ডিজিটাল প্ল্যাটফর্ম এবং চ্যাপ্টার সম্প্রসারণ।",
+        "প্রিয় বিশ্ববিদ্যালয়ের উন্নয়নে অবদান — শিক্ষা ও গবেষণায় সহায়তা, ঐতিহ্য সংরক্ষণ এবং ইন্ডাস্ট্রি–একাডেমিয়া সংযোগ।",
+        "স্বচ্ছতা, জবাবদিহিতা ও সদস্যদের অধিকার — আর্থিক স্বচ্ছতা, অগ্রগতি প্রতিবেদন এবং ন্যায়সঙ্গত আচরণ।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Abdul Alim Shaikh",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "030528",
+    "batch": 2003,
+    "photo": "public/candidates/030528.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Nilufar Shabnom Doni",
+    "discipline": "Architecture",
+    "studentId": "040102",
+    "batch": 2004,
+    "photo": "public/candidates/040102.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "manifesto": {
+      "language": "bn",
+      "title": "আমার পাঁচ দফা নির্বাচনী ইশতেহার",
+      "sections": [
+        {
+          "title": "KUAA Career Bridge & Mentorship Circle - ক্যারিয়ারের পথে আমরা একসাথে",
+          "items": [
+            "চাকরি, ইন্টার্নশিপ ও পেশাগত সুযোগের তথ্য বিনিময়ের প্ল্যাটফর্ম।",
+            "বিসিএস, ব্যাংক, করপোরেট ও উন্নয়ন খাতের অভিজ্ঞদের সঙ্গে ক্যারিয়ার আড্ডা এবং সিভি ও ইন্টারভিউ প্রস্তুতির অনলাইন সেশন।",
+            "নবীন ও অভিজ্ঞ অ্যালামনাইদের মধ্যে মেন্টরশিপ নেটওয়ার্ক গড়ে তোলা।",
+            "তরুণ উদ্যোক্তাদের অভিজ্ঞ অ্যালামনাইদের সঙ্গে সংযোগের সুযোগ সৃষ্টি।"
+          ]
+        },
+        {
+          "title": "Alumni Voice & Global Pathways - সবার কণ্ঠে আগামী ও বিশ্বজুড়ে সম্ভাবনার পথ খোঁজা",
+          "items": [
+            "উচ্চশিক্ষা, স্কলারশিপ, গবেষণা ও আন্তর্জাতিক ক্যারিয়ার বিষয়ে তথ্য ও দিকনির্দেশনা।",
+            "প্রবাসী অ্যালামনাইদের অভিজ্ঞতা বিনিময়ের মাধ্যমে বিদেশে পড়াশোনা ও পেশাগত সম্ভাবনার পথ সহজ করা।",
+            "নতুন প্রজন্মের নেতৃত্ব বিকাশ এবং নবীন ও প্রবীণ সদস্যদের সম্মিলিত অংশগ্রহণের সুযোগ সৃষ্টি।"
+          ]
+        },
+        {
+          "title": "KUAA Spotlight & Global Showcase - বিশ্বমঞ্চে খুলনা বিশ্ববিদ্যালয়ের সাফল্য তুলে ধরা",
+          "items": [
+            "‘Young Achiever’ পরিচিতি উদ্যোগ।",
+            "পেশাগত সংযোগ ও অর্জন প্রদর্শনের জন্য KUAA-এর অফিশিয়াল LinkedIn প্রোফাইল গড়ে তোলা।",
+            "দেশি-বিদেশি বিশ্ববিদ্যালয়, গবেষণা প্রতিষ্ঠান ও পেশাজীবী সংগঠনের সঙ্গে KUAA-এর সংযোগ বৃদ্ধি।",
+            "অ্যালামনাইদের গবেষণা ও অর্জনের ডিজিটাল আর্কাইভ গড়ে তোলা।"
+          ]
+        },
+        {
+          "title": "KUAA Digital Connect & Helpline - হাতের মুঠোয় অ্যালামনাই পরিবার",
+          "items": [
+            "হালনাগাদ ডিজিটাল অ্যালামনাই ডিরেক্টরি এবং ডিজিটাল নিউজলেটার ‘KUAA Connect’।",
+            "পরিকল্পিত যোগাযোগ ক্যালেন্ডার অনুযায়ী নিয়মিত তথ্য বিনিময় ও কার্যক্রমের অগ্রগতি প্রকাশ।",
+            "সদস্যদের তথ্যের গোপনীয়তা ও দায়িত্বশীল যোগাযোগ নিশ্চিত করা।",
+            "তথ্য, পরামর্শ ও প্রয়োজনে দ্রুত সাড়া দেওয়ার জন্য নির্ভরযোগ্য KUAA Helpline চালুর উদ্যোগ।"
+          ]
+        },
+        {
+          "title": "KUAA Cares - পাশে থাকার অঙ্গীকার",
+          "items": [
+            "অসুস্থতা, দুর্যোগ ও জরুরি প্রয়োজনে অ্যালামনাইদের সহযোগিতামূলক উদ্যোগের প্রচার ও সমন্বয়।",
+            "স্বেচ্ছাসেবামূলক ও মানবিক কার্যক্রমে তরুণদের অংশগ্রহণ উৎসাহিত করা।",
+            "প্রয়োজনভিত্তিক সহযোগিতা ও সামাজিক দায়বদ্ধতার উদ্যোগে সদস্যদের সংযুক্ত করা।"
+          ]
+        }
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Public Relation Secretary",
+    "name": "Bayezeedur Rahman Khan",
+    "discipline": "Mathematics",
+    "studentId": "071240",
+    "batch": 2007,
+    "photo": "public/candidates/071240.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Shaikh Al Mamun",
+    "discipline": "Pharmacy",
+    "studentId": "071109",
+    "batch": 2007,
+    "photo": "public/candidates/071109.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Talha Rahman",
+    "discipline": "Economics",
+    "studentId": "081517",
+    "batch": 2008,
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Nazmul Hasan (Sajal)",
+    "discipline": "Bangla",
+    "studentId": "111919",
+    "batch": 2011,
+    "photo": "public/candidates/111919.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Public Relation Secretary",
+    "name": "Md. Badsha Sheikh",
+    "discipline": "Economics",
+    "studentId": "181521",
+    "batch": 2018,
+    "photo": "public/candidates/181521.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Literature and Publication Secretary",
+    "name": "Md. Nuruzzaman",
+    "discipline": "English",
+    "studentId": "001418",
+    "batch": 2000,
+    "unopposed": true,
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Abdur Rahman",
+    "discipline": "Statistics",
+    "studentId": "152044",
+    "batch": 2015,
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Literature and Publication Secretary",
+    "name": "Md. Motiur Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162601",
+    "batch": 2016,
+    "voteCount": 0
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Dr. Alok Sarkar",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "990910",
+    "batch": 1999,
+    "photo": "public/candidates/990910.jpg",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Rashedul Alam Sarker",
+    "discipline": "Environmental Science",
+    "studentId": "051026",
+    "batch": 2005,
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Imtiaz Ahmad",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "070403",
+    "batch": 2007,
+    "photo": "public/candidates/070403.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "manifesto": {
+      "title": "Sports & Culture Manifesto",
+      "language": "en",
+      "candidateIntro": "“Let sports & culture grow into a Khubi’an tradition.”",
+      "sections": [
+        {
+          "title": "Priorities",
+          "items": [
+            "Annual sports calendar: indoor, outdoor and online games in major cities.",
+            "Sports equipment at KUAA office and guest houses; weekend sports meets on campus.",
+            "Cultural festivals featuring film, art and photography, debate, theatre, music and recitation.",
+            "A global Khubi’an artists’ network, podcasts and recording.",
+            "Social media archiving, promotion, collaboration and revenue generation.",
+            "Alumni-organisation collaboration and networking through sports and culture.",
+            "Children’s art, family and food-culture activities.",
+            "Cultural and recreational group trips where feasible.",
+            "Language, communication and presentation practice."
+          ]
+        },
+        {
+          "title": "What I bring",
+          "ordered": false,
+          "items": [
+            "Monitoring & Evaluation Specialist, FAO Myanmar — 15+ years in development and humanitarian work.",
+            "Convener, School of Noize — 34 musicians, 1996–2026, 15 disciplines and 7 countries.",
+            "Former Executive Council Member, KU Planners’ Alumni; Bangladesh Institute of Planners Affairs.",
+            "Chief Coordinator, Nree-Nattya; General Secretary, Noise Factory; Hall Representative, Badhan.",
+            "Convener, Rag Day 2011; Manager, URP Football & Cricket.",
+            "Bassist, lyricist and manager, KU-based band Grimorium Verum.",
+            "President’s Scout Award; Bangladesh Team Leader, 2nd SAF-SAARC Friendship Camp, Maldives, 2003."
+          ]
+        }
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Sports and Cultural Secretary",
+    "name": "Nasir Uddin (Tuhin)",
+    "discipline": "Sociology",
+    "studentId": "131630",
+    "batch": 2013,
+    "photo": "public/candidates/131630.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Rubel Mahamud",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "100904",
+    "batch": 2010,
+    "photo": "public/candidates/100904.jpg",
+    "manifesto": {
+      "title": "KUAA-র ক্রীড়া ও সংস্কৃতিতে আমরা খুবিয়ানদের পরিকল্পনা",
+      "language": "bn",
+      "introduction": [
+        "আমরা চাই খুলনা বিশ্ববিদ্যালয়ের প্রতিটি অ্যালামনাই খেলাধুলা ও সংস্কৃতির মাধ্যমে একসূত্রে বাঁধা থাকুক। সেই লক্ষ্যে:"
+      ],
+      "sections": [
+        {
+          "title": "বার্ষিক ক্রীড়া ক্যালেন্ডার",
+          "items": [
+            "প্রধান শহরগুলোতে ইনডোর, আউটডোর ও অনলাইন গেমসের নিয়মিত আয়োজন।",
+            "বড় শহর গুলোতে বার্ষিক ম্যারাথনের আয়োজন।"
+          ]
+        },
+        {
+          "title": "খেলাধুলার সুযোগ",
+          "items": [
+            "KUAA অফিস ও গেস্ট হাউসে স্পোর্টস সরঞ্জাম এবং ক্যাম্পাসে সাপ্তাহিক স্পোর্টস মিট।"
+          ]
+        },
+        {
+          "title": "সাংস্কৃতিক উৎসব",
+          "items": [
+            "চলচ্চিত্র, চিত্রকলা ও আলোকচিত্র, বিতর্ক, নাটক, সংগীত ও আবৃত্তির আসর।"
+          ]
+        },
+        {
+          "title": "বৈশ্বিক শিল্পী নেটওয়ার্ক",
+          "items": [
+            "বিশ্বজুড়ে ছড়িয়ে থাকা খুবিয়ান শিল্পীদের নিয়ে গড়ে উঠবে নেটওয়ার্ক, থাকবে পডকাস্ট ও রেকর্ডিং।"
+          ]
+        },
+        {
+          "title": "সোশ্যাল মিডিয়া",
+          "items": [
+            "আর্কাইভিং, প্রচার, সহযোগিতা এবং আয়ের নতুন সুযোগ তৈরি।"
+          ]
+        },
+        {
+          "title": "নেটওয়ার্কিং",
+          "items": [
+            "খেলাধুলা ও সংস্কৃতির মাধ্যমে অন্যান্য অ্যালামনাই সংগঠনের সঙ্গে সহযোগিতা ও যোগাযোগ।"
+          ]
+        },
+        {
+          "title": "পরিবার ও শিশু",
+          "items": [
+            "শিশুদের চিত্রাঙ্কন, পারিবারিক আয়োজন এবং খাদ্য-সংস্কৃতির নানা কার্যক্রম।"
+          ]
+        },
+        {
+          "title": "ভ্রমণ",
+          "items": [
+            "সম্ভব হলে সাংস্কৃতিক ও বিনোদনমূলক গ্রুপ ট্রিপ।"
+          ]
+        },
+        {
+          "title": "দক্ষতা উন্নয়ন",
+          "items": [
+            "ভাষা, যোগাযোগ ও উপস্থাপনার চর্চা।"
+          ]
+        },
+        {
+          "title": "আমাদের অঙ্গীকার",
+          "items": [
+            "খেলা, গান, আড্ডা আর স্মৃতিতে আমরা সবাই একসঙ্গে।"
+          ]
+        }
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md Saydur Rahman Lushan",
+    "discipline": "Architecture",
+    "studentId": "120135",
+    "batch": 2012,
+    "photo": "public/candidates/120135.jpeg",
+    "manifesto": {
+      "title": "একটি অন্তর্ভুক্তিমূলক ও সার্বজনীন KUAA গঠন ও কার্যক্রম বিকেন্দ্রীকরণের ইশতেহার",
+      "greeting": "আসসালামু আলাইকুম।",
+      "candidateIntro": "আমি লুশান (মোঃ সাইদুর রহমান, স্থাপত্য ১২ ব্যাচ)। আসন্ন “KUAA” নির্বাচনে আমি ক্রীড়া ও সাংস্কৃতিক সহ-সম্পাদক পদে অংশগ্রহণ করছি।",
+      "introduction": [
+        "আমার প্রাথমিক উদ্দেশ্য অবশ্যই জয়লাভ করা নয়; বরং ইউনিভার্সিটির অ্যাসোসিয়েশন নিয়ে সামগ্রিক স্বার্থে কিছু স্বপ্ন বাস্তবায়নের প্রক্রিয়ায় অবদান রাখার চেষ্টা করা। অংশগ্রহণের প্রক্রিয়ার মাধ্যমেও অনেকাংশে সেই স্বপ্ন বাস্তবায়নের চেষ্টা করা সম্ভব। আর তারই ধারাবাহিকতায় আমার ভাবনাগুলো উল্লেখ করেছি, যেখানে ভোটের চেয়ে KUAA নিয়ে সবার সম্মিলিত চিন্তা বেশি প্রয়োজন।",
+        "এই ভাবনায় KUAA’র ক্রীড়া ও সাংস্কৃতিক কার্যক্রমকে অন্তর্ভুক্তিমূলক ও বিকেন্দ্রীকরণের বিষয়টি বেশি প্রাধান্য পেয়েছে, যা KUAA-এর কার্যক্রম বাস্তবায়নে আরও সক্রিয় ভূমিকা রাখবে।"
+      ],
+      "proposals": [
+        "ক্রীড়া ও সংস্কৃতিকে অন্তর্ভুক্তিমূলক করতে সশরীরে উপস্থিতিনির্ভর ইভেন্টের পাশাপাশি অনলাইন ইভেন্টের ব্যবস্থা করা—যেমন অনলাইন গেমিং টুর্নামেন্ট, সাংস্কৃতিক স্মৃতিচারণ ও কোলাবোরেশন।",
+        "সকল অ্যালুমনির অবস্থান ও অংশগ্রহণের নিশ্চয়তা বিবেচনা করে শুধু ঢাকা-কেন্দ্রিক সিদ্ধান্ত ও কার্যক্রম বিকেন্দ্রীকরণ করা এবং শহরভিত্তিক নিয়মিত ক্রীড়া ও সাংস্কৃতিক ইভেন্ট আয়োজন করা।",
+        "বিভিন্ন জাতীয় ও আন্তর্জাতিক অরাজনৈতিক দিবসে শহরভিত্তিক ম্যারাথন রেস ও ফ্যামিলি ডে উদযাপনের ব্যবস্থা করা।",
+        "নিজেদের প্রাণের প্রিয় বিশ্ববিদ্যালয়ে প্রতি ছয় মাস অন্তর একটি ক্রীড়া ও সাংস্কৃতিক অনুষ্ঠানের আয়োজন করা।",
+        "বিশ্ববিদ্যালয়ের ক্রীড়া ও সাংস্কৃতিক কার্যক্রমে বর্তমান শিক্ষার্থীদের স্পনসরশিপসহ (অভ্যন্তরীণ ও বহিরাগত) সার্বিক সহযোগিতার ব্যবস্থা করা।",
+        "KUAA-কে অন্তর্ভুক্তিমূলক ও কার্যকর করতে প্রতিটি ক্ষেত্র অনুযায়ী শহরভিত্তিক সাবকমিটি গঠন করা।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Abu Rayhan Hossain",
+    "discipline": "Economics",
+    "studentId": "121532",
+    "batch": 2012,
+    "photo": "public/candidates/121532.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Sports and Cultural Secretary",
+    "name": "Md. Ramadujjaman (Ratin)",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "170930",
+    "batch": 2017,
+    "photo": "public/candidates/170930.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Rawshonara Khatun",
+    "discipline": "Business Administration",
+    "studentId": "120330",
+    "batch": 2012,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/120330.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Women Affairs Secretary",
+    "name": "Sanjida Yeasmin (Shefa)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "130601",
+    "batch": 2013,
+    "photo": "public/candidates/130601.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "G M Atiqur Rahman",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "990227",
+    "batch": 1999,
+    "photo": "public/candidates/990227.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Wasim Sabbir",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000621",
+    "batch": 2000,
+    "photo": "public/candidates/000621.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Student Affairs Secretary",
+    "name": "Md. Ripul Kabir",
+    "discipline": "Sociology",
+    "studentId": "031601",
+    "batch": 2003,
+    "photo": "public/candidates/031601.png",
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Dr. Syed Md. Galib",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "010210",
+    "batch": 2001,
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "photo": "./public/candidates/010210.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Md. Touhiduzzaman (Xsumon)",
+    "discipline": "Business Administration",
+    "studentId": "010346",
+    "batch": 2001,
+    "photo": "public/candidates/010346.jpg",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "Biswajit Ray (Biswa)",
+    "discipline": "Mathematics",
+    "studentId": "051212",
+    "batch": 2005,
+    "photo": "public/candidates/051212.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Student Affairs Secretary",
+    "name": "B. M. Afsun Akter Anny",
+    "discipline": "Pharmacy",
+    "studentId": "101130",
+    "batch": 2010,
+    "photo": "public/candidates/101130.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "manifesto": {
+      "title": "আমার অঙ্গীকার",
+      "language": "bn",
+      "proposals": [
+        "স্টুডেন্ট–অ্যালামনাই মেন্টরশিপ প্রোগ্রাম: অভিজ্ঞ অ্যালামনাইদের সঙ্গে বর্তমান শিক্ষার্থীদের নিয়মিত মেন্টরিং ও দিকনির্দেশনা নিশ্চিত করা।",
+        "ক্যারিয়ার ও ইন্টার্নশিপ নেটওয়ার্ক: চাকরি, ইন্টার্নশিপ, প্রশিক্ষণ, গবেষণা ও উচ্চশিক্ষার সুযোগসংক্রান্ত তথ্যের একটি হালনাগাদ প্ল্যাটফর্ম গড়ে তোলা।",
+        "অ্যালামনাই ক্যারিয়ার টক: বিভিন্ন পেশায় প্রতিষ্ঠিত অ্যালামনাইদের নিয়ে নিয়মিত আলোচনা, অভিজ্ঞতা বিনিময় ও ওয়ার্কশপের আয়োজন।",
+        "নবীন গ্র্যাজুয়েট সহায়তা: সদ্য গ্র্যাজুয়েটদের CV প্রস্তুতি, সাক্ষাৎকার প্রস্তুতি, ক্যারিয়ার পরিকল্পনা ও নেটওয়ার্কিংয়ে সহায়তা।",
+        "শিক্ষার্থীদের মতামত ও প্রতিনিধিত্ব: বিভিন্ন ডিসিপ্লিনের শিক্ষার্থীদের মতামত, প্রয়োজন ও সমস্যাগুলো KUAA-এর কাছে তুলে ধরা এবং সমাধানে উদ্যোগ নেওয়া।",
+        "ডিজিটাল সংযোগ ও ডাটাবেজ: শিক্ষার্থী, সদ্য গ্র্যাজুয়েট ও মেন্টর অ্যালামনাইদের নিয়ে সমন্বিত ডাটাবেজ ও অনলাইন প্ল্যাটফর্ম গড়ে তোলা।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Abu Haidar Mohammad Sadequl Ghani (Bulbul)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "950209",
+    "batch": 1995,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/950209.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Ruhul Amin Robin",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "050919",
+    "batch": 2005,
+    "photo": "public/candidates/050919.jpeg",
+    "voteCount": 0
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "Md. Al Masud Uddin",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090220",
+    "batch": 2009,
+    "photo": "public/candidates/090220.png",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Information and Technology Secretary",
+    "name": "SM Naim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "210914",
+    "batch": 2021,
+    "photo": "public/candidates/210914.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Ajgor Khan",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "050728",
+    "batch": 2005,
+    "photo": "public/candidates/050728.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md. Tauhidul Islam",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090235",
+    "batch": 2009,
+    "photo": "public/candidates/090235.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Information and Technology Secretary",
+    "name": "Md Mehadul Islam",
+    "discipline": "History and Civilization",
+    "studentId": "172713",
+    "batch": 2017,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/172713.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Munsi Shahid Anis",
+    "discipline": "Mathematics",
+    "studentId": "011219",
+    "batch": 2001,
+    "photo": "public/candidates/011219.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Md Abdur Rahman",
+    "discipline": "Economics",
+    "studentId": "061508",
+    "batch": 2006,
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "photo": "./public/candidates/061508.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "Abu Jubayer",
+    "discipline": "Environmental Science",
+    "studentId": "071033",
+    "batch": 2007,
+    "photo": "public/candidates/071033.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Social Welfare Secretary",
+    "name": "G. M. Masum Billah (Masum)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "110534",
+    "batch": 2011,
+    "photo": "public/candidates/110534.jpg",
+    "manifesto": {
+      "title": "নির্বাচনী ইশতেহার",
+      "greeting": "একসাথে এগিয়ে চলি, ঐক্যের শক্তিতে গড়ি, সহমর্মিতার পাশে থাকি।",
+      "candidateIntro": "জি এম মাসুম বিল্লাহ — সমাজ কল্যাণ সম্পাদক পদপ্রার্থী।",
+      "introduction": [
+        "শিক্ষার্থী এবং অ্যালামনাইদের মধ্যে সমাজসেবামূলক কাজ করতে চাই। তাই নির্বাচনে জয়-পরাজয় যাই হোক, ইশতেহারের পরিকল্পনাগুলো বাস্তবায়নে কুয়া এবং সমাজকল্যাণ সম্পাদকের পাশে থেকে সর্বাত্মক সহযোগিতা ও পাশে থাকার প্রতিশ্রুতি ব্যক্ত করছি।"
+      ],
+      "proposals": [
+        "অসচ্ছল শিক্ষার্থীদের আর্থিক সহায়তা — অ্যালামনাইদের অনুদানে স্থায়ী তহবিল গঠন করে প্রতি বছর কমপক্ষে ২০ জন শিক্ষার্থীকে বৃত্তি প্রদান করা।",
+        "অ্যালামনাই সম্মাননা ও স্বীকৃতি — শিক্ষার্থীদের মধ্যে একাডেমিক সাফল্য ও উদ্ভাবনী কাজে অবদানের জন্য, শিক্ষকদের গবেষণায়, উদ্যোগে ও দেশ-বিদেশে বিশেষ অবদানের স্বীকৃতিস্বরূপ মোট ২০ জন শিক্ষার্থী বা অ্যালামনাইকে সম্মাননা প্রদান করা।",
+        "আবাসন সুবিধা ও ক্লাব প্রতিষ্ঠা — শিক্ষার্থীদের সুবিধা ও অ্যালামনাইদের নেটওয়ার্কিং নিশ্চিত করতে ঢাকা ও খুলনায় সাময়িক আবাসন এবং ‘বিশ্ববিদ্যালয় ক্লাব’ প্রতিষ্ঠা করা।",
+        "জব ফেয়ার ও ক্যারিয়ার সাপোর্ট — ৩ বছরের মধ্যে অন্তত একবার ‘কুয়া জব ফেয়ার’ আয়োজন, চাকরিপ্রার্থী ও উদ্যোক্তাদের নেটওয়ার্কিং সহায়তা এবং বিদেশে উচ্চশিক্ষায় ইচ্ছুক শিক্ষার্থীদের জন্য গাইডলাইন নিশ্চিত করা।",
+        "ডাটাবেজ আধুনিকায়ন ও সাপোর্ট টিম — অ্যালামনাইদের কর্মক্ষেত্রের তথ্য প্রতি ৬ মাস অন্তর ওয়েবসাইটে হালনাগাদ করা এবং সরাসরি সেবার জন্য একটি কার্যকর ‘সাপোর্ট টিম’ গঠন করা।",
+        "জরুরি চিকিৎসা সহায়তা — অ্যালামনাই কিংবা বিশ্ববিদ্যালয়ের কর্মচারীদের কেউ গুরুতর অসুস্থ হলে দ্রুত চিকিৎসাসেবা ও সার্বিক সাপোর্ট নিশ্চিত করা।",
+        "রক্তদান কর্মসূচি ও বনায়ন — অ্যালামনাই প্রোফাইলে রক্তের গ্রুপ যুক্ত করা আবশ্যক করা, অ্যাপস-ভিত্তিক প্ল্যাটফর্ম তৈরি, ‘ব্লাড ডোনার সাপোর্ট টিম’ গঠন এবং বাঁধনের সাথে যৌথ কাজ করা। বর্ষায় মৌসুমি বৃক্ষরোপণ কর্মসূচি পালন করা।",
+        "উৎসব উপহার বিতরণ — ধর্মীয় উৎসবের সময় ক্যাম্পাসের দুস্থ ও নিম্নআয়ের পরিবারগুলোর মাঝে উপহার ও প্রয়োজনীয় সামগ্রী বিতরণ।",
+        "শীতবস্ত্র বিতরণ — শীতকালে অসচ্ছল বা দুস্থ পরিবারের মাঝে প্রয়োজনীয় শীতবস্ত্র ও কম্বল বিতরণ।",
+        "প্রাকৃতিক দুর্যোগে সহায়তা — যেকোনো প্রাকৃতিক দুর্যোগের সময় অ্যালামনাইদের সক্রিয় সহযোগিতায় ক্ষতিগ্রস্ত এলাকায় দ্রুত ত্রাণ ও জরুরি সাহায্য পৌঁছে দেওয়া।",
+        "আর্থিক স্বচ্ছতা ও জবাবদিহিতা — প্রতিটি সামাজিক কার্যক্রম শেষে সকল আয় ও ব্যয়ের পূর্ণাঙ্গ এবং স্বচ্ছ হিসাব অ্যালামনাইদের নিকট প্রকাশ করা।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Nadira Khatun",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "140211",
+    "batch": 2014,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/140211.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Assistant Social Welfare Secretary",
+    "name": "Mahamudul Hasan (Millat)",
+    "discipline": "Statistics",
+    "studentId": "182029",
+    "batch": 2018,
+    "previouslyElected": 2023,
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "photo": "public/candidates/182029.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Abdur Rouf (Teacher)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "920612",
+    "batch": 1992,
+    "photo": "public/candidates/920612.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mostafa Zahid Sharif (Lavlu)",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "950712",
+    "batch": 1995,
+    "photo": "public/candidates/950712.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jakie-Ul Hassan",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "970604",
+    "batch": 1997,
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Abdul Alim (Teacher)",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "980917",
+    "batch": 1998,
+    "photo": "public/candidates/980917.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Jahangir Alam",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990705",
+    "batch": 1999,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/990705.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Zillur Rahman",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "990729",
+    "batch": 1999,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/990729.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mohammad Arifur Rahman",
+    "discipline": "Environmental Science",
+    "studentId": "991036",
+    "batch": 1999,
+    "photo": "public/candidates/991036.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fakrul Alam",
+    "discipline": "Pharmacy",
+    "studentId": "991120",
+    "batch": 1999,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/991120.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Mahbubul Haque (Mahbub)",
+    "discipline": "Economics",
+    "studentId": "991518",
+    "batch": 1999,
+    "photo": "public/candidates/991518.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmud Ul Hasan (Rana)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "000212",
+    "batch": 2000,
+    "photo": "public/candidates/000212.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "M M Shahidur Rahman Shahin",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "000613",
+    "batch": 2000,
+    "photo": "public/candidates/000613.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Aminul Islam",
+    "discipline": "Pharmacy",
+    "studentId": "001130",
+    "batch": 2000,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/001130.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Aynal Sarder",
+    "discipline": "Economics",
+    "studentId": "001525",
+    "batch": 2000,
+    "photo": "public/candidates/001525.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Monirujjaman (Shakil)",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "010602",
+    "batch": 2001,
+    "photo": "public/candidates/010602.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Karim",
+    "discipline": "Electronics and Communication Engineering",
+    "studentId": "020921",
+    "batch": 2002,
+    "photo": "public/candidates/020921.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Dr. Md. Abul Kashem (Sobuj)",
+    "discipline": "Environmental Science",
+    "studentId": "021025",
+    "batch": 2002,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Fauzia Sultana",
+    "discipline": "Architecture",
+    "studentId": "030131",
+    "batch": 2003,
+    "photo": "public/candidates/030131.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sayed Md. Masum",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "030630",
+    "batch": 2003,
+    "photo": "public/candidates/030630.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rezwan Walid",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "030737",
+    "batch": 2003,
+    "photo": "public/candidates/030737.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazim Uddin (Shohel)",
+    "discipline": "Pharmacy",
+    "studentId": "031117",
+    "batch": 2003,
+    "photo": "public/candidates/031117.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "A.K.M. Humayan Kabir Dewan (Swopon)",
+    "discipline": "Environmental Science",
+    "studentId": "041030",
+    "batch": 2004,
+    "photo": "public/candidates/041030.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhammad Zakaria Hossain",
+    "discipline": "English",
+    "studentId": "051414",
+    "batch": 2005,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/051414.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Rabiul Islam (Robi)",
+    "discipline": "Business Administration",
+    "studentId": "070340",
+    "batch": 2007,
+    "photo": "public/candidates/070340.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arobind Mali",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "070715",
+    "batch": 2007,
+    "photo": "public/candidates/070715.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Haque (Prince)",
+    "discipline": "Forestry and Wood Technology",
+    "studentId": "080507",
+    "batch": 2008,
+    "photo": "public/candidates/080507.png",
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mostafizur Rahman",
+    "discipline": "Agrotechnology",
+    "studentId": "080810",
+    "batch": 2008,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Falguni Akter (Teacher)",
+    "discipline": "Soil Science",
+    "studentId": "081301",
+    "batch": 2008,
+    "photo": "public/candidates/081301.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "previouslyElected": 2023,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Reazul Alam Shawon",
+    "discipline": "Economics",
+    "studentId": "081537",
+    "batch": 2008,
+    "photo": "public/candidates/081537.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Tonmoy Chatterjee",
+    "discipline": "Architecture",
+    "studentId": "090134",
+    "batch": 2009,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Hizbul Bahar",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "090225",
+    "batch": 2009,
+    "photo": "public/candidates/090225.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "manifesto": {
+      "language": "bn",
+      "title": "ক্যারিয়ার, উচ্চশিক্ষা, চিকিৎসা ও অ্যালামনাই সংযোগ",
+      "proposals": [
+        "ক্যারিয়ার ও চাকরি গাইডলাইন: বিসিএস, সরকারি ও কর্পোরেট সেক্টরে কর্মরত সফল সিনিয়রদের সঙ্গে সরাসরি সংযোগ ঘটিয়ে ফ্রেশারদের জন্য সঠিক ক্যারিয়ার গাইডলাইনের ব্যবস্থা করা।",
+        "উচ্চশিক্ষা সহায়তা: দেশে ও বিদেশে উচ্চশিক্ষায় আগ্রহী গ্র্যাজুয়েটদের স্কলারশিপ ও আবেদন প্রক্রিয়ায় দিকনির্দেশনা দিতে সফল অ্যালামনাইদের নিয়ে মেন্টরশিপ নেটওয়ার্ক তৈরি করা।",
+        "চিকিৎসা তহবিল ও সমন্বয়: কোনো সদস্য অসুস্থ হলে ফান্ড সংগ্রহের মাধ্যমে আর্থিক সহায়তা এবং দেশের সেরা চিকিৎসকদের সঙ্গে যোগাযোগ করিয়ে সঠিক চিকিৎসা নিশ্চিত করা।",
+        "সমন্বিত অ্যালামনাই ডাটাবেস: সবার বর্তমান কর্মস্থল, পদমর্যাদা ও নিজ জেলার তথ্যসহ পূর্ণাঙ্গ ডাটাবেস তৈরি করা, যাতে বিপদে বা প্রয়োজনে দ্রুত একে অপরের পাশে দাঁড়ানো যায়।"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdur Razzak Moral",
+    "discipline": "Sociology",
+    "studentId": "091620",
+    "batch": 2009,
+    "photo": "public/candidates/091620.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "S. M. Mahfuzur Rahman",
+    "discipline": "Business Administration",
+    "studentId": "110333",
+    "batch": 2011,
+    "photo": "public/candidates/110333.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "manifesto": {
+      "title": "Manifesto",
+      "language": "en",
+      "proposals": [
+        "To make blood donors database accessible at geography filtered level",
+        "To create a one-stop contact point for database management"
+      ]
+    },
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Attiquzzaman",
+    "discipline": "Pharmacy",
+    "studentId": "111109",
+    "batch": 2011,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ali Ahmmed",
+    "discipline": "Economics",
+    "studentId": "111502",
+    "batch": 2011,
+    "photo": "public/candidates/111502.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shakila Alam (Teacher)",
+    "discipline": "Bangla",
+    "studentId": "111926",
+    "batch": 2011,
+    "photo": "public/candidates/111926.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Mojahidul Islam (Mojahid)",
+    "discipline": "Sociology",
+    "studentId": "121623",
+    "batch": 2012,
+    "photo": "public/candidates/121623.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Farhan Sadique (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "130238",
+    "batch": 2013,
+    "photo": "public/candidates/130238.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Nazmul Hasan Sheikh",
+    "discipline": "Business Administration",
+    "studentId": "130328",
+    "batch": 2013,
+    "photo": "public/candidates/130328.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Jahidul Islam Sajal",
+    "discipline": "Agrotechnology",
+    "studentId": "130828",
+    "batch": 2013,
+    "photo": "public/candidates/130828.jpg",
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Shijan Islam",
+    "discipline": "Agrotechnology",
+    "photo": "public/candidates/140803.png",
+    "studentId": "140803",
+    "batch": 2014,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shahed",
+    "discipline": "Business Administration",
+    "studentId": "150334",
+    "batch": 2015,
+    "photo": "public/candidates/150334.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Mahmudul Hasan Sohan",
+    "discipline": "Urban and Rural Planning",
+    "studentId": "150445",
+    "batch": 2015,
+    "photo": "public/candidates/150445.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Akhlak Un Nahar",
+    "discipline": "Pharmacy",
+    "studentId": "151114",
+    "batch": 2015,
+    "photo": "public/candidates/151114.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Abdullah Al Noman (Teacher)",
+    "discipline": "Computer Science and Engineering",
+    "studentId": "160217",
+    "batch": 2016,
+    "photo": "public/candidates/160217.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nur E Kutubul Alam",
+    "discipline": "Agrotechnology",
+    "studentId": "160815",
+    "batch": 2016,
+    "photo": "public/candidates/160815.png",
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Saiful Alam Babu",
+    "discipline": "Environmental Science",
+    "studentId": "161063",
+    "batch": 2016,
+    "photo": "public/candidates/161063.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Sajib Rahman",
+    "discipline": "Mass Communication and Journalism",
+    "studentId": "162604",
+    "batch": 2016,
+    "photo": "public/candidates/162604.png",
+    "campaignSlogan": "অভিজ্ঞতার প্রজ্ঞা, দায়িত্বের দৃঢ়তা—একসাথে গড়বো প্রাণের KUAA",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Achia Khatun",
+    "discipline": "Sociology",
+    "studentId": "171631",
+    "batch": 2017,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/171631.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Sheikh Sakib Rahman",
+    "discipline": "Architecture",
+    "studentId": "180129",
+    "batch": 2018,
+    "photo": "public/candidates/180129.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Nazmus Sakib",
+    "discipline": "Business Administration",
+    "studentId": "190344",
+    "batch": 2019,
+    "photo": "public/candidates/190344.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Rafid Rahman",
+    "discipline": "Sociology",
+    "studentId": "191652",
+    "batch": 2019,
+    "photo": "public/candidates/191652.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Muhibbullah (Muhib)",
+    "discipline": "Economics",
+    "studentId": "201538",
+    "batch": 2020,
+    "photo": "public/candidates/201538.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Ebrahim Kholil",
+    "discipline": "Fisheries and Marine Resource Technology",
+    "studentId": "210642",
+    "batch": 2021,
+    "photo": "public/candidates/210642.png",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Arif Raihan Apon",
+    "discipline": "Biotechnology and Genetic Engineering",
+    "studentId": "210711",
+    "batch": 2021,
+    "photo": "public/candidates/210711.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md Habibullah Mugdho",
+    "discipline": "Environmental Science",
+    "studentId": "211015",
+    "batch": 2021,
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Md. Asadullah",
+    "discipline": "Pharmacy",
+    "studentId": "211125",
+    "batch": 2021,
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "photo": "public/candidates/211125.jpg",
+    "voteCount": 0
+  },
+  {
+    "position": "Executive Member",
+    "name": "Shapla Singha (Teacher)",
+    "discipline": "Drawing and Painting",
+    "studentId": "IFA 120123",
+    "batch": 2012,
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "photo": "public/candidates/120123.png",
+    "voteCount": 0
+  }
+]
+  </script>
+  <!-- End generated candidate snapshot. -->
+  <header class="shell topbar">
+    <a class="brand" href="index.html" aria-label="KUAA Election 2026 candidate directory"><span class="brand-mark">KUAA</span><span class="brand-name">KUAA Election<span class="brand-sub">Candidate directory</span></span></a>
+    <nav class="top-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Candidates</a><a class="nav-link" href="stats.html">Candidate stats</a><a class="nav-link" href="voters.html">Voter stats</a></nav>
+  </header>
+  <main class="shell">
+    <div class="eyebrow">Election 2026 · results</div>
+    <h1>Candidate vote counts</h1>
+    <p class="intro">Browse reported votes by position. Counts are grouped by candidate, with seat limits shown for context.</p>
+    <section class="summary" aria-label="Results overview">
+      <article class="stat"><span class="stat-label">Candidates listed</span><strong class="stat-value" id="candidate-total">—</strong></article>
+      <article class="stat"><span class="stat-label">Votes reported</span><strong class="stat-value" id="vote-total">—</strong></article>
+      <article class="stat"><span class="stat-label">Positions with votes</span><strong class="stat-value" id="positions-reported">—</strong></article>
+    </section>
+    <p class="status-note" id="result-status" role="status" aria-live="polite">Vote counts are initialized to zero and have not been reported yet.</p>
+    <section class="toolbar" aria-label="Filter results">
+      <div class="field"><label for="result-search">Search candidates</label><input class="control" id="result-search" type="search" placeholder="Name or student ID" autocomplete="off"></div>
+      <div class="field"><label for="result-position">Position</label><select class="control" id="result-position"><option value="">All positions</option></select></div>
+    </section>
+    <section class="result-list" id="result-list" aria-label="Candidate results by position" aria-live="polite"><div class="empty">Loading candidate vote counts…</div></section>
+  </main>
+  <footer class="shell foot">KUAA Executive Committee Election 2026 · Counts display as supplied; seat-range indicators are calculated from the listed positions and seats.</footer>
+<script>
+    const POSITION_ORDER = ["President","Vice President","General Secretary","Joint Secretary","Organising Secretary","Treasurer","Office Management Secretary","Assistant Office Management Secretary","Public Relation Secretary","Assistant Public Relation Secretary","Literature and Publication Secretary","Assistant Literature and Publication Secretary","Sports and Cultural Secretary","Assistant Sports and Cultural Secretary","Women Affairs Secretary","Student Affairs Secretary","Assistant Student Affairs Secretary","Information and Technology Secretary","Assistant Information and Technology Secretary","Social Welfare Secretary","Assistant Social Welfare Secretary","Executive Member"];
+    const POSITION_SEATS = {"President":1,"Vice President":5,"General Secretary":1,"Joint Secretary":2,"Organising Secretary":3,"Treasurer":1,"Office Management Secretary":1,"Assistant Office Management Secretary":1,"Public Relation Secretary":1,"Assistant Public Relation Secretary":1,"Literature and Publication Secretary":1,"Assistant Literature and Publication Secretary":1,"Sports and Cultural Secretary":1,"Assistant Sports and Cultural Secretary":1,"Women Affairs Secretary":1,"Student Affairs Secretary":1,"Assistant Student Affairs Secretary":1,"Information and Technology Secretary":1,"Assistant Information and Technology Secretary":1,"Social Welfare Secretary":1,"Assistant Social Welfare Secretary":1,"Executive Member":22};
+    const number = value => new Intl.NumberFormat("en-US").format(value);
+    const el = (tag, className, text) => { const node=document.createElement(tag); if(className) node.className=className; if(text!==undefined) node.textContent=text; return node; };
+    const list = document.querySelector("#result-list");
+    const search = document.querySelector("#result-search");
+    const positionFilter = document.querySelector("#result-position");
+    let candidates = JSON.parse(document.querySelector("#candidate-data").textContent);
+    function setData(data) {
+      if (!Array.isArray(data)) return;
+      candidates = data.map(person => ({...person, voteCount: Math.max(0, Math.trunc(Number(person.voteCount) || 0))}));
+      render();
+    }
+    if (location.protocol !== "file:") fetch("candidates.json",{cache:"no-store"}).then(response => response.ok ? response.json() : null).then(data => { if(Array.isArray(data)) setData(data); }).catch(() => {});
+    setData(candidates);
+    function render() {
+      for (const position of POSITION_ORDER) if (candidates.some(person => person.position===position) && ![...positionFilter.options].some(option => option.value===position)) positionFilter.add(new Option(position,position));
+      const totalVotes = candidates.reduce((sum, person) => sum+person.voteCount,0);
+      const reportedPositions = new Set(candidates.filter(person => person.voteCount>0).map(person => person.position));
+      document.querySelector("#candidate-total").textContent=number(candidates.length);
+      document.querySelector("#vote-total").textContent=number(totalVotes);
+      document.querySelector("#positions-reported").textContent=`${reportedPositions.size} / ${new Set(candidates.map(person=>person.position)).size}`;
+      document.querySelector("#result-status").textContent=totalVotes===0 ? "Vote counts are initialized to zero and have not been reported yet." : "Vote counts are displayed as entered. Seat-range labels are provisional and based on the listed number of seats.";
+      list.replaceChildren();
+      const query=search.value.trim().toLocaleLowerCase();
+      const grouped=new Map();
+      for(const person of candidates){
+        if(positionFilter.value && person.position!==positionFilter.value) continue;
+        if(query && !`${person.name} ${person.studentId}`.toLocaleLowerCase().includes(query)) continue;
+        if(!grouped.has(person.position)) grouped.set(person.position,[]);
+        grouped.get(person.position).push(person);
+      }
+      const positions=POSITION_ORDER.filter(position=>grouped.has(position));
+      if(!positions.length){list.append(el("div","empty","No candidates match your filters."));return;}
+      for(const position of positions){
+        const people=grouped.get(position).sort((a,b)=>b.voteCount-a.voteCount || a.name.localeCompare(b.name));
+        const seats=POSITION_SEATS[position]||1;
+        const total=people.reduce((sum,person)=>sum+person.voteCount,0);
+        const counts=people.map(person=>person.voteCount);
+        const cutoff=total>0 ? counts[Math.min(seats-1,counts.length-1)] : 0;
+        const candidatesAboveCutoff=counts.filter(count=>count>cutoff).length;
+        const cutoffTied=total>0 && counts.filter(count=>count===cutoff).length > Math.max(0,seats-candidatesAboveCutoff);
+        const max=Math.max(...counts,1);
+        const section=el("section","position");
+        const head=el("div","position-head");
+        head.append(el("h2","",position),el("span","position-meta",`${seats} ${seats===1?"seat":"seats"} · ${people.length} ${people.length===1?"candidate":"candidates"}`));
+        section.append(head);
+        people.forEach((person,index)=>{
+          const row=el("article","candidate-row");
+          row.append(el("span","rank",total>0?`#${index+1}`:"—"));
+          const photo=el("img","photo"); photo.src=person.photo||""; photo.alt=`${person.name} portrait`; photo.loading="lazy"; photo.addEventListener("error",()=>photo.replaceWith(el("div","photo")),{once:true}); row.append(photo);
+          const info=el("div","candidate-name"); const link=el("a","",person.name); link.href=`candidate.html?id=${encodeURIComponent(person.studentId)}`; info.append(link,el("span","candidate-meta",`ID ${person.studentId} · Batch ${person.batch} · ${person.discipline}`)); row.append(info);
+          const track=el("div","vote-track-wrap"); const bar=el("div","vote-track"); const fill=el("div","vote-fill"); fill.style.width=`${total>0?person.voteCount/max*100:0}%`; bar.append(fill); track.append(bar,el("div","vote-share",total>0?`${(person.voteCount/total*100).toFixed(1)}% of votes in this position`:"No votes reported yet")); row.append(track);
+          const voteValue=el("strong","vote-count",number(person.voteCount)); voteValue.setAttribute("aria-label",`${number(person.voteCount)} votes`); row.append(voteValue);
+          let state="No result";let stateClass="";
+          if(total>0){
+            if(cutoffTied && person.voteCount===cutoff){state="Tie at cutoff";stateClass="tie";}
+            else if(person.voteCount>cutoff || (index<seats && !cutoffTied)){state="In seat range";stateClass="leading";}
+            else state="Outside seat range";
+          }
+          row.append(el("span",`state-pill ${stateClass}`,state)); section.append(row);
+        });
+        list.append(section);
+      }
+    }
+    search.addEventListener("input",render);
+    positionFilter.addEventListener("change",render);
+  </script>
+</body>
+</html>

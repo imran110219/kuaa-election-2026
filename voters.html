@@ -1,6 +1,3 @@
----
-permalink: /voters
----
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +5,7 @@ permalink: /voters
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f7f3">
   <meta name="description" content="Aggregate voter-list statistics for the KUAA Election 2026.">
-  <title>Voter Statistics — KUAA Election 2026</title>
+  <title>KUAA Election 2026 — Voter Stats</title>
   <style>
     :root{--ink:#152a2b;--muted:#617270;--paper:#f5f7f3;--card:#fff;--line:#dfe7e1;--green:#13715a;--green-dark:#0d5041;--mint:#b9dec8;--orange:#eea06c;--shadow:0 12px 32px rgba(19,49,39,.07)}
     *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#f9faf7 0,#f5f7f3 460px);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.shell{width:min(1080px,calc(100% - 48px));margin:auto}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6ebe6}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(145deg,#116d55,#0b493d);display:grid;place-items:center;color:white;font-size:12px;font-weight:800;letter-spacing:-.04em;box-shadow:0 4px 10px #0b493d2e}.brand-name{font-weight:750;letter-spacing:-.025em}.brand-sub{display:block;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}.top-nav{display:flex;align-items:center;gap:5px}.nav-link{padding:9px 11px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none}.nav-link:hover,.nav-link:focus-visible,.nav-link[aria-current=page]{background:#e8f2e9;color:var(--green-dark)}
@@ -22,6 +19,11 @@ permalink: /voters
     @media(max-width:380px){.batch-cohort summary{padding:12px 38px 12px 12px}.cohort-total{font-size:20px}.batch-year-list{padding-left:12px;padding-right:12px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
+
+  <style>
+    .topbar{gap:8px}.top-nav{max-width:65%;min-width:0;overflow-x:auto;scrollbar-width:none}.top-nav::-webkit-scrollbar{display:none}.nav-link{flex:none;white-space:nowrap}
+  </style>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <header class="shell topbar">

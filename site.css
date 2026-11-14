@@ -1,0 +1,130 @@
+/* Shared visual system for every KUAA Election page. */
+:root {
+  --ink: #172a2a;
+  --muted: #667674;
+  --paper: #f4f5ef;
+  --page: #f4f5ef;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --line: #e1e7df;
+  --green: #126b55;
+  --green-dark: #0b493d;
+  --orange: #f29b61;
+  --shadow: 0 10px 28px rgba(23, 42, 42, .055);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: var(--paper) !important;
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+.shell {
+  width: min(1180px, calc(100% - 48px)) !important;
+  margin-inline: auto;
+}
+
+.topbar {
+  min-height: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-color: var(--line);
+}
+
+.topbar .brand { flex: 0 0 auto; color: var(--ink); }
+.topbar .brand-mark { background: var(--green-dark); color: #fff; }
+.topbar .brand-name { color: var(--ink); }
+.topbar .brand-sub { color: var(--muted); }
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  max-width: 100%;
+  min-width: 0;
+  overflow: visible;
+}
+
+.top-nav .nav-link {
+  flex: 0 0 auto;
+  padding: 9px 11px;
+  border-radius: 9px;
+  color: #596d66;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.top-nav .nav-link:hover,
+.top-nav .nav-link:focus-visible,
+.top-nav .nav-link[aria-current="page"] {
+  background: #e8f2e9;
+  color: var(--green-dark);
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid #126b5540;
+  outline-offset: 2px;
+}
+
+.eyebrow { color: var(--green); }
+.eyebrow::before { background: var(--orange); }
+
+.hero h1,
+main.shell > h1,
+#page-title,
+#private-gate-title {
+  color: var(--ink);
+  font-size: clamp(34px, 4.8vw, 54px);
+  font-weight: 760;
+  line-height: 1.05;
+  letter-spacing: -.055em;
+}
+
+.hero .intro,
+.hero-copy,
+.intro {
+  max-width: 700px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.profile .name {
+  color: var(--ink);
+  font-size: clamp(27px, 4vw, 42px);
+  font-weight: 760;
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+@media (max-width: 760px) {
+  .shell { width: calc(100% - 32px) !important; }
+  .topbar {
+    height: auto !important;
+    min-height: 68px;
+    padding-block: 9px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+  .top-nav {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .top-nav .nav-link { padding: 7px 9px; font-size: 11px; }
+  .hero h1, main.shell > h1, #page-title, #private-gate-title {
+    font-size: clamp(30px, 8vw, 40px);
+  }
+  .profile .name { font-size: clamp(24px, 7vw, 34px); }
+}

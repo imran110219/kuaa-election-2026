@@ -6,7 +6,8 @@
     "studentId": "920110",
     "batch": 1992,
     "photo": "public/candidates/920110.jpg",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "President",
@@ -15,7 +16,8 @@
     "studentId": "930409",
     "batch": 1993,
     "photo": "public/candidates/930409.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "President",
@@ -24,7 +26,8 @@
     "studentId": "950340",
     "batch": 1995,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/950340.jpg"
+    "photo": "public/candidates/950340.jpg",
+    "voteCount": 0
   },
   {
     "position": "President",
@@ -33,14 +36,16 @@
     "studentId": "970609",
     "batch": 1997,
     "photo": "public/candidates/970609.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
     "name": "Md. Sahidur Rahman",
     "discipline": "Forestry and Wood Technology",
     "studentId": "930508",
-    "batch": 1993
+    "batch": 1993,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -48,14 +53,16 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "930607",
     "batch": 1993,
-    "photo": "public/candidates/930607.jpeg"
+    "photo": "public/candidates/930607.jpeg",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
     "name": "Md. Ali Zakir (Rubel)",
     "discipline": "Business Administration",
     "studentId": "940338",
-    "batch": 1994
+    "batch": 1994,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -64,7 +71,8 @@
     "studentId": "940418",
     "batch": 1994,
     "photo": "public/candidates/940418.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -73,7 +81,8 @@
     "studentId": "950116",
     "batch": 1995,
     "photo": "public/candidates/950116.png",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -82,7 +91,8 @@
     "studentId": "950602",
     "batch": 1995,
     "photo": "public/candidates/950602.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -91,7 +101,8 @@
     "studentId": "960827",
     "batch": 1996,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/960827.jpg"
+    "photo": "public/candidates/960827.jpg",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -101,7 +112,8 @@
     "batch": 1997,
     "photo": "public/candidates/970232.jpg",
     "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -110,7 +122,8 @@
     "studentId": "970235",
     "batch": 1997,
     "photo": "public/candidates/970235.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -119,7 +132,8 @@
     "studentId": "970526",
     "batch": 1997,
     "photo": "public/candidates/970526.jpeg",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -128,7 +142,8 @@
     "studentId": "971121",
     "batch": 1997,
     "photo": "public/candidates/971121.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -146,7 +161,8 @@
         "KUAA পরিবারের সদস্যদের সামাজিক, মানবিক, স্বাস্থ্যগত ও আইনি সহায়তার জন্য একটি স্থায়ী প্ল্যাটফর্ম তৈরি করা।",
         "এমন একটি অ্যাপ তৈরি করা, যেখানে খুলনা বিশ্ববিদ্যালয়ের সব গ্র্যাজুয়েটের যোগাযোগের তথ্য ও কর্মপরিচয় এক ক্লিকেই পাওয়া যাবে।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -155,7 +171,8 @@
     "studentId": "980717",
     "batch": 1998,
     "photo": "public/candidates/980717.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -164,7 +181,8 @@
     "studentId": "980821",
     "batch": 1998,
     "photo": "public/candidates/980821.png",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -172,7 +190,8 @@
     "discipline": "Business Administration",
     "studentId": "990324",
     "batch": 1999,
-    "photo": "public/candidates/990324.jpg"
+    "photo": "public/candidates/990324.jpg",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -180,14 +199,16 @@
     "discipline": "Electronics and Communication Engineering",
     "studentId": "990933",
     "batch": 1999,
-    "photo": "public/candidates/990933.png"
+    "photo": "public/candidates/990933.png",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
     "name": "Md. Mahedi Al Masud, Ph. D.",
     "discipline": "Environmental Science",
     "studentId": "991001",
-    "batch": 1999
+    "batch": 1999,
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -196,7 +217,8 @@
     "studentId": "001231",
     "batch": 2000,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/001231.jpg"
+    "photo": "public/candidates/001231.jpg",
+    "voteCount": 0
   },
   {
     "position": "Vice President",
@@ -205,7 +227,8 @@
     "studentId": "001517",
     "batch": 2000,
     "photo": "public/candidates/001517.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "General Secretary",
@@ -214,7 +237,8 @@
     "studentId": "940532",
     "batch": 1994,
     "photo": "public/candidates/940532.jpeg",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "General Secretary",
@@ -223,7 +247,8 @@
     "studentId": "970518",
     "batch": 1997,
     "photo": "public/candidates/970518.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "General Secretary",
@@ -232,7 +257,8 @@
     "studentId": "970906",
     "batch": 1997,
     "photo": "public/candidates/970906.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "General Secretary",
@@ -241,7 +267,8 @@
     "studentId": "000341",
     "batch": 2000,
     "photo": "public/candidates/000341.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -250,7 +277,8 @@
     "studentId": "970418",
     "batch": 1997,
     "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
-    "photo": "./public/candidates/970418.png"
+    "photo": "./public/candidates/970418.png",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -274,14 +302,16 @@
         "সমন্বয় ও জবাবদিহি — সাধারণ সম্পাদককে সহযোগিতা, গঠনতন্ত্র মেনে দায়িত্ব পালন।",
         "পরিকল্পনা ও ধারাবাহিকতা — অগ্রাধিকারভিত্তিক উদ্যোগ, অগ্রগতি প্রকাশ ও সফল কাজের ধারাবাহিকতা."
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
     "name": "Amin Ahmed Arif",
     "discipline": "Architecture",
     "studentId": "000106",
-    "batch": 2000
+    "batch": 2000,
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -291,7 +321,8 @@
     "batch": 2001,
     "photo": "public/candidates/010226.jpg",
     "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -299,7 +330,8 @@
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "010723",
     "batch": 2001,
-    "photo": "public/candidates/010723.png"
+    "photo": "public/candidates/010723.png",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -308,7 +340,8 @@
     "studentId": "011224",
     "batch": 2001,
     "photo": "public/candidates/011224.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -316,7 +349,8 @@
     "discipline": "Urban and Rural Planning",
     "studentId": "030413",
     "batch": 2003,
-    "photo": "public/candidates/030413.png"
+    "photo": "public/candidates/030413.png",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -325,7 +359,8 @@
     "studentId": "031135",
     "batch": 2003,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/031135.jpg"
+    "photo": "public/candidates/031135.jpg",
+    "voteCount": 0
   },
   {
     "position": "Joint Secretary",
@@ -334,7 +369,8 @@
     "studentId": "031522",
     "batch": 2003,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/031522.jpg"
+    "photo": "public/candidates/031522.jpg",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -343,7 +379,8 @@
     "studentId": "991513",
     "batch": 1999,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/991513.jpg"
+    "photo": "public/candidates/991513.jpg",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -351,7 +388,8 @@
     "discipline": "Pharmacy",
     "studentId": "001118",
     "batch": 2000,
-    "photo": "public/candidates/001118.jpg"
+    "photo": "public/candidates/001118.jpg",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -361,7 +399,8 @@
     "batch": 2000,
     "photo": "public/candidates/001207.jpg",
     "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -370,7 +409,8 @@
     "studentId": "001325",
     "batch": 2000,
     "photo": "public/candidates/001325.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -379,7 +419,8 @@
     "studentId": "010348",
     "batch": 2001,
     "photo": "public/candidates/010348.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -389,7 +430,8 @@
     "batch": 2001,
     "photo": "public/candidates/010805.png",
     "campaignSlogan": "ঐক্যবদ্ধ KUAA",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -398,7 +440,8 @@
     "studentId": "081638",
     "batch": 2008,
     "previouslyElected": 2023,
-    "photo": "public/candidates/081638.png"
+    "photo": "public/candidates/081638.png",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -407,7 +450,8 @@
     "studentId": "090513",
     "batch": 2009,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/090513.jpg"
+    "photo": "public/candidates/090513.jpg",
+    "voteCount": 0
   },
   {
     "position": "Organising Secretary",
@@ -415,7 +459,8 @@
     "discipline": "Mass Communication and Journalism",
     "studentId": "162610",
     "batch": 2016,
-    "photo": "public/candidates/162610.jpeg"
+    "photo": "public/candidates/162610.jpeg",
+    "voteCount": 0
   },
   {
     "position": "Treasurer",
@@ -424,7 +469,8 @@
     "studentId": "940221",
     "batch": 1994,
     "photo": "public/candidates/940221.png",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Treasurer",
@@ -433,7 +479,8 @@
     "studentId": "940401",
     "batch": 1994,
     "photo": "public/candidates/940401.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Treasurer",
@@ -441,7 +488,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "000611",
     "batch": 2000,
-    "photo": "public/candidates/000611.png"
+    "photo": "public/candidates/000611.png",
+    "voteCount": 0
   },
   {
     "position": "Treasurer",
@@ -450,7 +498,8 @@
     "studentId": "060621",
     "batch": 2006,
     "photo": "public/candidates/060621.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Office Management Secretary",
@@ -459,7 +508,8 @@
     "studentId": "991112",
     "batch": 1999,
     "photo": "public/candidates/991112.jpg",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Office Management Secretary",
@@ -468,7 +518,8 @@
     "studentId": "000811",
     "batch": 2000,
     "photo": "public/candidates/000811.png",
-    "campaignSlogan": "Together Stronger for a KU Community"
+    "campaignSlogan": "Together Stronger for a KU Community",
+    "voteCount": 0
   },
   {
     "position": "Office Management Secretary",
@@ -476,7 +527,8 @@
     "discipline": "Agrotechnology",
     "studentId": "040830",
     "batch": 2004,
-    "photo": "public/candidates/040830.jpg"
+    "photo": "public/candidates/040830.jpg",
+    "voteCount": 0
   },
   {
     "position": "Office Management Secretary",
@@ -485,7 +537,8 @@
     "studentId": "121632",
     "batch": 2012,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/121632.jpg"
+    "photo": "public/candidates/121632.jpg",
+    "voteCount": 0
   },
   {
     "position": "Assistant Office Management Secretary",
@@ -493,7 +546,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "150617",
     "batch": 2015,
-    "unopposed": true
+    "unopposed": true,
+    "voteCount": 0
   },
   {
     "position": "Public Relation Secretary",
@@ -515,7 +569,8 @@
         "প্রিয় বিশ্ববিদ্যালয়ের উন্নয়নে অবদান — শিক্ষা ও গবেষণায় সহায়তা, ঐতিহ্য সংরক্ষণ এবং ইন্ডাস্ট্রি–একাডেমিয়া সংযোগ।",
         "স্বচ্ছতা, জবাবদিহিতা ও সদস্যদের অধিকার — আর্থিক স্বচ্ছতা, অগ্রগতি প্রতিবেদন এবং ন্যায়সঙ্গত আচরণ।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Public Relation Secretary",
@@ -523,7 +578,8 @@
     "discipline": "Forestry and Wood Technology",
     "studentId": "030528",
     "batch": 2003,
-    "photo": "public/candidates/030528.png"
+    "photo": "public/candidates/030528.png",
+    "voteCount": 0
   },
   {
     "position": "Public Relation Secretary",
@@ -581,7 +637,8 @@
           ]
         }
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Public Relation Secretary",
@@ -589,7 +646,8 @@
     "discipline": "Mathematics",
     "studentId": "071240",
     "batch": 2007,
-    "photo": "public/candidates/071240.jpg"
+    "photo": "public/candidates/071240.jpg",
+    "voteCount": 0
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -597,7 +655,8 @@
     "discipline": "Pharmacy",
     "studentId": "071109",
     "batch": 2007,
-    "photo": "public/candidates/071109.png"
+    "photo": "public/candidates/071109.png",
+    "voteCount": 0
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -605,7 +664,8 @@
     "discipline": "Economics",
     "studentId": "081517",
     "batch": 2008,
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -613,7 +673,8 @@
     "discipline": "Bangla",
     "studentId": "111919",
     "batch": 2011,
-    "photo": "public/candidates/111919.png"
+    "photo": "public/candidates/111919.png",
+    "voteCount": 0
   },
   {
     "position": "Assistant Public Relation Secretary",
@@ -621,7 +682,8 @@
     "discipline": "Economics",
     "studentId": "181521",
     "batch": 2018,
-    "photo": "public/candidates/181521.png"
+    "photo": "public/candidates/181521.png",
+    "voteCount": 0
   },
   {
     "position": "Literature and Publication Secretary",
@@ -629,21 +691,24 @@
     "discipline": "English",
     "studentId": "001418",
     "batch": 2000,
-    "unopposed": true
+    "unopposed": true,
+    "voteCount": 0
   },
   {
     "position": "Assistant Literature and Publication Secretary",
     "name": "Abdur Rahman",
     "discipline": "Statistics",
     "studentId": "152044",
-    "batch": 2015
+    "batch": 2015,
+    "voteCount": 0
   },
   {
     "position": "Assistant Literature and Publication Secretary",
     "name": "Md. Motiur Rahman",
     "discipline": "Mass Communication and Journalism",
     "studentId": "162601",
-    "batch": 2016
+    "batch": 2016,
+    "voteCount": 0
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -652,7 +717,8 @@
     "studentId": "990910",
     "batch": 1999,
     "photo": "public/candidates/990910.jpg",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -660,7 +726,8 @@
     "discipline": "Environmental Science",
     "studentId": "051026",
     "batch": 2005,
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -703,7 +770,8 @@
           ]
         }
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Sports and Cultural Secretary",
@@ -712,7 +780,8 @@
     "studentId": "131630",
     "batch": 2013,
     "photo": "public/candidates/131630.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -790,7 +859,8 @@
           ]
         }
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -815,7 +885,8 @@
         "বিশ্ববিদ্যালয়ের ক্রীড়া ও সাংস্কৃতিক কার্যক্রমে বর্তমান শিক্ষার্থীদের স্পনসরশিপসহ (অভ্যন্তরীণ ও বহিরাগত) সার্বিক সহযোগিতার ব্যবস্থা করা।",
         "KUAA-কে অন্তর্ভুক্তিমূলক ও কার্যকর করতে প্রতিটি ক্ষেত্র অনুযায়ী শহরভিত্তিক সাবকমিটি গঠন করা।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -824,7 +895,8 @@
     "studentId": "121532",
     "batch": 2012,
     "photo": "public/candidates/121532.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Assistant Sports and Cultural Secretary",
@@ -833,7 +905,8 @@
     "studentId": "170930",
     "batch": 2017,
     "photo": "public/candidates/170930.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Women Affairs Secretary",
@@ -842,7 +915,8 @@
     "studentId": "120330",
     "batch": 2012,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/120330.jpg"
+    "photo": "public/candidates/120330.jpg",
+    "voteCount": 0
   },
   {
     "position": "Women Affairs Secretary",
@@ -850,7 +924,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "130601",
     "batch": 2013,
-    "photo": "public/candidates/130601.png"
+    "photo": "public/candidates/130601.png",
+    "voteCount": 0
   },
   {
     "position": "Student Affairs Secretary",
@@ -858,7 +933,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "990227",
     "batch": 1999,
-    "photo": "public/candidates/990227.png"
+    "photo": "public/candidates/990227.png",
+    "voteCount": 0
   },
   {
     "position": "Student Affairs Secretary",
@@ -866,7 +942,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "000621",
     "batch": 2000,
-    "photo": "public/candidates/000621.png"
+    "photo": "public/candidates/000621.png",
+    "voteCount": 0
   },
   {
     "position": "Student Affairs Secretary",
@@ -875,7 +952,8 @@
     "studentId": "031601",
     "batch": 2003,
     "photo": "public/candidates/031601.png",
-    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
+    "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
+    "voteCount": 0
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -884,7 +962,8 @@
     "studentId": "010210",
     "batch": 2001,
     "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
-    "photo": "./public/candidates/010210.png"
+    "photo": "./public/candidates/010210.png",
+    "voteCount": 0
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -893,7 +972,8 @@
     "studentId": "010346",
     "batch": 2001,
     "photo": "public/candidates/010346.jpg",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -903,7 +983,8 @@
     "batch": 2005,
     "photo": "public/candidates/051212.jpg",
     "campaignSlogan": "ঐক্যবদ্ধ KUAA",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Assistant Student Affairs Secretary",
@@ -924,7 +1005,8 @@
         "শিক্ষার্থীদের মতামত ও প্রতিনিধিত্ব: বিভিন্ন ডিসিপ্লিনের শিক্ষার্থীদের মতামত, প্রয়োজন ও সমস্যাগুলো KUAA-এর কাছে তুলে ধরা এবং সমাধানে উদ্যোগ নেওয়া।",
         "ডিজিটাল সংযোগ ও ডাটাবেজ: শিক্ষার্থী, সদ্য গ্র্যাজুয়েট ও মেন্টর অ্যালামনাইদের নিয়ে সমন্বিত ডাটাবেজ ও অনলাইন প্ল্যাটফর্ম গড়ে তোলা।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Information and Technology Secretary",
@@ -933,7 +1015,8 @@
     "studentId": "950209",
     "batch": 1995,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/950209.jpg"
+    "photo": "public/candidates/950209.jpg",
+    "voteCount": 0
   },
   {
     "position": "Information and Technology Secretary",
@@ -941,7 +1024,8 @@
     "discipline": "Electronics and Communication Engineering",
     "studentId": "050919",
     "batch": 2005,
-    "photo": "public/candidates/050919.jpeg"
+    "photo": "public/candidates/050919.jpeg",
+    "voteCount": 0
   },
   {
     "position": "Information and Technology Secretary",
@@ -950,7 +1034,8 @@
     "studentId": "090220",
     "batch": 2009,
     "photo": "public/candidates/090220.png",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Information and Technology Secretary",
@@ -959,7 +1044,8 @@
     "studentId": "210914",
     "batch": 2021,
     "photo": "public/candidates/210914.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Assistant Information and Technology Secretary",
@@ -967,7 +1053,8 @@
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "050728",
     "batch": 2005,
-    "photo": "public/candidates/050728.png"
+    "photo": "public/candidates/050728.png",
+    "voteCount": 0
   },
   {
     "position": "Assistant Information and Technology Secretary",
@@ -975,7 +1062,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "090235",
     "batch": 2009,
-    "photo": "public/candidates/090235.png"
+    "photo": "public/candidates/090235.png",
+    "voteCount": 0
   },
   {
     "position": "Assistant Information and Technology Secretary",
@@ -984,7 +1072,8 @@
     "studentId": "172713",
     "batch": 2017,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/172713.jpg"
+    "photo": "public/candidates/172713.jpg",
+    "voteCount": 0
   },
   {
     "position": "Social Welfare Secretary",
@@ -993,7 +1082,8 @@
     "studentId": "011219",
     "batch": 2001,
     "photo": "public/candidates/011219.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Social Welfare Secretary",
@@ -1002,7 +1092,8 @@
     "studentId": "061508",
     "batch": 2006,
     "campaignSlogan": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে",
-    "photo": "./public/candidates/061508.png"
+    "photo": "./public/candidates/061508.png",
+    "voteCount": 0
   },
   {
     "position": "Social Welfare Secretary",
@@ -1010,7 +1101,8 @@
     "discipline": "Environmental Science",
     "studentId": "071033",
     "batch": 2007,
-    "photo": "public/candidates/071033.png"
+    "photo": "public/candidates/071033.png",
+    "voteCount": 0
   },
   {
     "position": "Social Welfare Secretary",
@@ -1039,7 +1131,8 @@
         "প্রাকৃতিক দুর্যোগে সহায়তা — যেকোনো প্রাকৃতিক দুর্যোগের সময় অ্যালামনাইদের সক্রিয় সহযোগিতায় ক্ষতিগ্রস্ত এলাকায় দ্রুত ত্রাণ ও জরুরি সাহায্য পৌঁছে দেওয়া।",
         "আর্থিক স্বচ্ছতা ও জবাবদিহিতা — প্রতিটি সামাজিক কার্যক্রম শেষে সকল আয় ও ব্যয়ের পূর্ণাঙ্গ এবং স্বচ্ছ হিসাব অ্যালামনাইদের নিকট প্রকাশ করা।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Assistant Social Welfare Secretary",
@@ -1048,7 +1141,8 @@
     "studentId": "140211",
     "batch": 2014,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/140211.jpg"
+    "photo": "public/candidates/140211.jpg",
+    "voteCount": 0
   },
   {
     "position": "Assistant Social Welfare Secretary",
@@ -1058,7 +1152,8 @@
     "batch": 2018,
     "previouslyElected": 2023,
     "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
-    "photo": "public/candidates/182029.png"
+    "photo": "public/candidates/182029.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1067,7 +1162,8 @@
     "studentId": "920612",
     "batch": 1992,
     "photo": "public/candidates/920612.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1076,7 +1172,8 @@
     "studentId": "950712",
     "batch": 1995,
     "photo": "public/candidates/950712.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1084,7 +1181,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "970604",
     "batch": 1997,
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1092,7 +1190,8 @@
     "discipline": "Electronics and Communication Engineering",
     "studentId": "980917",
     "batch": 1998,
-    "photo": "public/candidates/980917.jpg"
+    "photo": "public/candidates/980917.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1101,7 +1200,8 @@
     "studentId": "990705",
     "batch": 1999,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/990705.jpg"
+    "photo": "public/candidates/990705.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1110,7 +1210,8 @@
     "studentId": "990729",
     "batch": 1999,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/990729.jpg"
+    "photo": "public/candidates/990729.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1119,7 +1220,8 @@
     "studentId": "991036",
     "batch": 1999,
     "photo": "public/candidates/991036.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1128,7 +1230,8 @@
     "studentId": "991120",
     "batch": 1999,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/991120.jpg"
+    "photo": "public/candidates/991120.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1137,7 +1240,8 @@
     "studentId": "991518",
     "batch": 1999,
     "photo": "public/candidates/991518.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1145,7 +1249,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "000212",
     "batch": 2000,
-    "photo": "public/candidates/000212.png"
+    "photo": "public/candidates/000212.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1154,7 +1259,8 @@
     "studentId": "000613",
     "batch": 2000,
     "photo": "public/candidates/000613.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1163,7 +1269,8 @@
     "studentId": "001130",
     "batch": 2000,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/001130.jpg"
+    "photo": "public/candidates/001130.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1172,7 +1279,8 @@
     "studentId": "001525",
     "batch": 2000,
     "photo": "public/candidates/001525.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1180,7 +1288,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "010602",
     "batch": 2001,
-    "photo": "public/candidates/010602.png"
+    "photo": "public/candidates/010602.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1189,14 +1298,16 @@
     "studentId": "020921",
     "batch": 2002,
     "photo": "public/candidates/020921.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
     "name": "Dr. Md. Abul Kashem (Sobuj)",
     "discipline": "Environmental Science",
     "studentId": "021025",
-    "batch": 2002
+    "batch": 2002,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1204,7 +1315,8 @@
     "discipline": "Architecture",
     "studentId": "030131",
     "batch": 2003,
-    "photo": "public/candidates/030131.png"
+    "photo": "public/candidates/030131.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1213,7 +1325,8 @@
     "studentId": "030630",
     "batch": 2003,
     "photo": "public/candidates/030630.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1221,7 +1334,8 @@
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "030737",
     "batch": 2003,
-    "photo": "public/candidates/030737.png"
+    "photo": "public/candidates/030737.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1230,7 +1344,8 @@
     "studentId": "031117",
     "batch": 2003,
     "photo": "public/candidates/031117.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1240,7 +1355,8 @@
     "batch": 2004,
     "photo": "public/candidates/041030.jpg",
     "campaignSlogan": "ঐক্যবদ্ধ KUAA",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1249,7 +1365,8 @@
     "studentId": "051414",
     "batch": 2005,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/051414.jpg"
+    "photo": "public/candidates/051414.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1257,7 +1374,8 @@
     "discipline": "Business Administration",
     "studentId": "070340",
     "batch": 2007,
-    "photo": "public/candidates/070340.png"
+    "photo": "public/candidates/070340.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1266,7 +1384,8 @@
     "studentId": "070715",
     "batch": 2007,
     "photo": "public/candidates/070715.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1275,14 +1394,16 @@
     "studentId": "080507",
     "batch": 2008,
     "photo": "public/candidates/080507.png",
-    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন"
+    "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
     "name": "Md. Mostafizur Rahman",
     "discipline": "Agrotechnology",
     "studentId": "080810",
-    "batch": 2008
+    "batch": 2008,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1292,7 +1413,8 @@
     "batch": 2008,
     "photo": "public/candidates/081301.png",
     "campaignSlogan": "ঐক্যবদ্ধ KUAA",
-    "previouslyElected": 2023
+    "previouslyElected": 2023,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1301,14 +1423,16 @@
     "studentId": "081537",
     "batch": 2008,
     "photo": "public/candidates/081537.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
     "name": "Tonmoy Chatterjee",
     "discipline": "Architecture",
     "studentId": "090134",
-    "batch": 2009
+    "batch": 2009,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1327,7 +1451,8 @@
         "চিকিৎসা তহবিল ও সমন্বয়: কোনো সদস্য অসুস্থ হলে ফান্ড সংগ্রহের মাধ্যমে আর্থিক সহায়তা এবং দেশের সেরা চিকিৎসকদের সঙ্গে যোগাযোগ করিয়ে সঠিক চিকিৎসা নিশ্চিত করা।",
         "সমন্বিত অ্যালামনাই ডাটাবেস: সবার বর্তমান কর্মস্থল, পদমর্যাদা ও নিজ জেলার তথ্যসহ পূর্ণাঙ্গ ডাটাবেস তৈরি করা, যাতে বিপদে বা প্রয়োজনে দ্রুত একে অপরের পাশে দাঁড়ানো যায়।"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1336,7 +1461,8 @@
     "studentId": "091620",
     "batch": 2009,
     "photo": "public/candidates/091620.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1353,14 +1479,16 @@
         "To make blood donors database accessible at geography filtered level",
         "To create a one-stop contact point for database management"
       ]
-    }
+    },
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
     "name": "Md. Attiquzzaman",
     "discipline": "Pharmacy",
     "studentId": "111109",
-    "batch": 2011
+    "batch": 2011,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1368,7 +1496,8 @@
     "discipline": "Economics",
     "studentId": "111502",
     "batch": 2011,
-    "photo": "public/candidates/111502.png"
+    "photo": "public/candidates/111502.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1376,7 +1505,8 @@
     "discipline": "Bangla",
     "studentId": "111926",
     "batch": 2011,
-    "photo": "public/candidates/111926.png"
+    "photo": "public/candidates/111926.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1385,7 +1515,8 @@
     "studentId": "121623",
     "batch": 2012,
     "photo": "public/candidates/121623.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1393,7 +1524,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "130238",
     "batch": 2013,
-    "photo": "public/candidates/130238.png"
+    "photo": "public/candidates/130238.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1401,7 +1533,8 @@
     "discipline": "Business Administration",
     "studentId": "130328",
     "batch": 2013,
-    "photo": "public/candidates/130328.png"
+    "photo": "public/candidates/130328.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1410,7 +1543,8 @@
     "studentId": "130828",
     "batch": 2013,
     "photo": "public/candidates/130828.jpg",
-    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান"
+    "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1418,7 +1552,8 @@
     "discipline": "Agrotechnology",
     "photo": "public/candidates/140803.png",
     "studentId": "140803",
-    "batch": 2014
+    "batch": 2014,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1426,7 +1561,8 @@
     "discipline": "Business Administration",
     "studentId": "150334",
     "batch": 2015,
-    "photo": "public/candidates/150334.png"
+    "photo": "public/candidates/150334.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1434,7 +1570,8 @@
     "discipline": "Urban and Rural Planning",
     "studentId": "150445",
     "batch": 2015,
-    "photo": "public/candidates/150445.png"
+    "photo": "public/candidates/150445.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1442,7 +1579,8 @@
     "discipline": "Pharmacy",
     "studentId": "151114",
     "batch": 2015,
-    "photo": "public/candidates/151114.jpg"
+    "photo": "public/candidates/151114.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1450,7 +1588,8 @@
     "discipline": "Computer Science and Engineering",
     "studentId": "160217",
     "batch": 2016,
-    "photo": "public/candidates/160217.png"
+    "photo": "public/candidates/160217.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1459,7 +1598,8 @@
     "studentId": "160815",
     "batch": 2016,
     "photo": "public/candidates/160815.png",
-    "campaignSlogan": "ঐক্যবদ্ধ KUAA"
+    "campaignSlogan": "ঐক্যবদ্ধ KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1467,7 +1607,8 @@
     "discipline": "Environmental Science",
     "studentId": "161063",
     "batch": 2016,
-    "photo": "public/candidates/161063.jpg"
+    "photo": "public/candidates/161063.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1476,7 +1617,8 @@
     "studentId": "162604",
     "batch": 2016,
     "photo": "public/candidates/162604.png",
-    "campaignSlogan": "অভিজ্ঞতার প্রজ্ঞা, দায়িত্বের দৃঢ়তা—একসাথে গড়বো প্রাণের KUAA"
+    "campaignSlogan": "অভিজ্ঞতার প্রজ্ঞা, দায়িত্বের দৃঢ়তা—একসাথে গড়বো প্রাণের KUAA",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1485,7 +1627,8 @@
     "studentId": "171631",
     "batch": 2017,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/171631.jpg"
+    "photo": "public/candidates/171631.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1493,7 +1636,8 @@
     "discipline": "Architecture",
     "studentId": "180129",
     "batch": 2018,
-    "photo": "public/candidates/180129.png"
+    "photo": "public/candidates/180129.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1501,7 +1645,8 @@
     "discipline": "Business Administration",
     "studentId": "190344",
     "batch": 2019,
-    "photo": "public/candidates/190344.png"
+    "photo": "public/candidates/190344.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1509,7 +1654,8 @@
     "discipline": "Sociology",
     "studentId": "191652",
     "batch": 2019,
-    "photo": "public/candidates/191652.jpg"
+    "photo": "public/candidates/191652.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1517,7 +1663,8 @@
     "discipline": "Economics",
     "studentId": "201538",
     "batch": 2020,
-    "photo": "public/candidates/201538.jpg"
+    "photo": "public/candidates/201538.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1525,7 +1672,8 @@
     "discipline": "Fisheries and Marine Resource Technology",
     "studentId": "210642",
     "batch": 2021,
-    "photo": "public/candidates/210642.png"
+    "photo": "public/candidates/210642.png",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1533,14 +1681,16 @@
     "discipline": "Biotechnology and Genetic Engineering",
     "studentId": "210711",
     "batch": 2021,
-    "photo": "public/candidates/210711.jpg"
+    "photo": "public/candidates/210711.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
     "name": "Md Habibullah Mugdho",
     "discipline": "Environmental Science",
     "studentId": "211015",
-    "batch": 2021
+    "batch": 2021,
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1549,7 +1699,8 @@
     "studentId": "211125",
     "batch": 2021,
     "campaignSlogan": "ঐক্যবদ্ধ খুবিয়ান",
-    "photo": "public/candidates/211125.jpg"
+    "photo": "public/candidates/211125.jpg",
+    "voteCount": 0
   },
   {
     "position": "Executive Member",
@@ -1558,6 +1709,7 @@
     "studentId": "IFA 120123",
     "batch": 2012,
     "campaignSlogan": "আমরা খুবিয়ান এক আত্মার বন্ধন",
-    "photo": "public/candidates/120123.png"
+    "photo": "public/candidates/120123.png",
+    "voteCount": 0
   }
 ]
