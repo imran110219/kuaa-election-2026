@@ -2172,7 +2172,7 @@
           if (person.photo) {
             photo = document.createElement("img");
             photo.className = "candidate-photo";
-            photo.src = person.photo;
+            photo.src = /^(\.\/)?public\//.test(person.photo) ? `../${person.photo.replace(/^\.\//, "")}` : person.photo;
             photo.alt = `${person.name} photo`;
             photo.loading = "lazy";
             photo.addEventListener("error", () => {
