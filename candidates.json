@@ -1572,7 +1572,8 @@
     "discipline": "Architecture",
     "studentId": "090134",
     "batch": 2009,
-    "voteCount": 0
+    "voteCount": 0,
+    "photo": "public/candidates/090134.png"
   },
   {
     "position": "Executive Member",
