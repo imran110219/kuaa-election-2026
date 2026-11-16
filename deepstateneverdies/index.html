@@ -2354,6 +2354,7 @@
     const resultLabel = document.querySelector("#result-label");
     let candidates = JSON.parse(document.querySelector("#candidate-data").textContent);
     let campaignSloganFilter = "";
+    let independentCampaignFilter = false;
     let privateAnalysisActive = false;
 
     function getFilteredCandidates() {
@@ -2361,7 +2362,10 @@
       return candidates.filter((person) => {
         const matchesQuery = !query || [person.name, person.studentId, person.position, person.discipline, String(person.batch)].some((value) => value.toLocaleLowerCase().includes(query));
         const matchesPreviousElection = !previousElectionSelect.value || (previousElectionSelect.value === "elected" ? Boolean(person.previouslyElected) : !person.previouslyElected);
-        return matchesQuery && (!positionSelect.value || person.position === positionSelect.value) && (!batchSelect.value || String(person.batch) === batchSelect.value) && (!disciplineSelect.value || person.discipline === disciplineSelect.value) && matchesPreviousElection && (!campaignSloganFilter || person.campaignSlogan === campaignSloganFilter);
+        const matchesCampaign = independentCampaignFilter
+          ? !TRACKED_CAMPAIGN_SLOGANS.includes(person.campaignSlogan || "")
+          : (!campaignSloganFilter || person.campaignSlogan === campaignSloganFilter);
+        return matchesQuery && (!positionSelect.value || person.position === positionSelect.value) && (!batchSelect.value || String(person.batch) === batchSelect.value) && (!disciplineSelect.value || person.discipline === disciplineSelect.value) && matchesPreviousElection && matchesCampaign;
       });
     }
 
@@ -2475,6 +2479,7 @@
       previousElectionSelect.value = "";
       campaignSloganSelect.value = "";
       campaignSloganFilter = "";
+      independentCampaignFilter = false;
       privateAnalysisActive = false;
       const cleanUrl = new URL(window.location.href);
       cleanUrl.searchParams.delete("analysis");
@@ -2523,6 +2528,8 @@
       "Mw": "আমরা খুবিয়ান এক আত্মার বন্ধন",
       "NA": "পরিবর্তনের অঙ্গীকারে সমৃদ্ধির আহ্বানে"
     };
+    const TRACKED_CAMPAIGN_SLOGANS = Object.values(CAMPAIGN_ANALYSIS_CODES);
+    CAMPAIGN_ANALYSIS_CODES.IN = "Independent";
     for (const [code, slogan] of Object.entries(CAMPAIGN_ANALYSIS_CODES)) {
       const option = document.createElement("option");
       option.value = code;
@@ -2530,15 +2537,18 @@
       campaignSloganSelect.append(option);
     }
     function applyCampaignSlogan(code, updateUrl = false) {
-      const slogan = CAMPAIGN_ANALYSIS_CODES[code] || "";
+      const isIndependent = code === "IN";
+      const slogan = !isIndependent && TRACKED_CAMPAIGN_SLOGANS.includes(CAMPAIGN_ANALYSIS_CODES[code]) ? CAMPAIGN_ANALYSIS_CODES[code] : "";
+      const analysisLabel = isIndependent ? "Independent" : slogan;
       campaignSloganFilter = slogan;
-      privateAnalysisActive = Boolean(slogan);
-      campaignSloganSelect.value = slogan ? code : "";
-      document.querySelector(".sort-note").textContent = slogan ? `Personal analysis · ${slogan}` : "Grouped by position";
-      document.querySelector(".print-heading").textContent = slogan ? `KUAA Executive Committee Election 2026 — ${slogan}` : "KUAA Executive Committee Election 2026 — Candidate List";
+      independentCampaignFilter = isIndependent;
+      privateAnalysisActive = Boolean(analysisLabel);
+      campaignSloganSelect.value = analysisLabel ? code : "";
+      document.querySelector(".sort-note").textContent = analysisLabel ? `Personal analysis · ${analysisLabel}` : "Grouped by position";
+      document.querySelector(".print-heading").textContent = analysisLabel ? `KUAA Executive Committee Election 2026 — ${analysisLabel}` : "KUAA Executive Committee Election 2026 — Candidate List";
       if (updateUrl) {
         const url = new URL(window.location.href);
-        if (slogan) url.searchParams.set("analysis", code);
+        if (analysisLabel) url.searchParams.set("analysis", code);
         else url.searchParams.delete("analysis");
         window.history.replaceState(null, "", url);
       }
