@@ -1,0 +1,1350 @@
+{
+  "title": "KUAA Election 2026 Manifesto Theme Review",
+  "methodology": {
+    "reviewedOn": "2026-11-17",
+    "reviewedManifestoIds": [
+      "100904",
+      "101130",
+      "110333",
+      "110534",
+      "120135",
+      "210642",
+      "920110",
+      "930409",
+      "950340",
+      "970232",
+      "970235",
+      "970418",
+      "970518",
+      "980630",
+      "991523",
+      "001517",
+      "000341",
+      "030413",
+      "060621",
+      "010815",
+      "040102",
+      "070403",
+      "010210",
+      "051212",
+      "050919",
+      "090220",
+      "030131",
+      "090225",
+      "IFA 120123"
+    ],
+    "description": "Each published manifesto in this reviewed set was manually read and assigned one or more themes using the shared definitions below. This is an editorial grouping, not raw keyword matching, manifesto scoring, or a measure of voter support. Each chart count counts a candidate once per theme. Theme references point to section or proposal indexes in candidates.json; the page displays those source passages directly."
+  },
+  "themes": [
+    {
+      "id": "community",
+      "labelBn": "অ্যালামনাই সংযোগ ও অন্তর্ভুক্তি",
+      "labelEn": "Alumni connection & inclusion",
+      "definition": "Membership, cross-batch and discipline connections, regional chapters, networking, and community-building."
+    },
+    {
+      "id": "career",
+      "labelBn": "ক্যারিয়ার, কর্মসংস্থান ও উদ্যোক্তা",
+      "labelEn": "Career, jobs & entrepreneurship",
+      "definition": "Jobs, internships, career guidance, mentoring for work, professional development, and entrepreneurship."
+    },
+    {
+      "id": "education",
+      "labelBn": "শিক্ষা, গবেষণা ও দক্ষতা",
+      "labelEn": "Education, research & skills",
+      "definition": "Higher education, research, practical training, seminars, and skill development."
+    },
+    {
+      "id": "student",
+      "labelBn": "শিক্ষার্থী ও নবীন গ্র্যাজুয়েট সহায়তা",
+      "labelEn": "Student & new graduate support",
+      "definition": "Scholarships, student mentoring, project support, graduate transition, and early-career assistance."
+    },
+    {
+      "id": "welfare",
+      "labelBn": "কল্যাণ, স্বাস্থ্য ও মানবিক সহায়তা",
+      "labelEn": "Welfare, health & humanitarian support",
+      "definition": "Emergency, medical, legal, social, blood-donor, and hardship support."
+    },
+    {
+      "id": "digital",
+      "labelBn": "ডিজিটাল সেবা, তথ্য ও যোগাযোগ",
+      "labelEn": "Digital services, data & communication",
+      "definition": "Websites, apps, directories, databases, digital access, communication channels, and portals."
+    },
+    {
+      "id": "governance",
+      "labelBn": "স্বচ্ছতা, জবাবদিহি ও অংশগ্রহণ",
+      "labelEn": "Transparency, accountability & participation",
+      "definition": "Financial reporting, member voice, inclusive decision-making, organizational accountability, and participation."
+    },
+    {
+      "id": "facilities",
+      "labelBn": "অফিস, আবাসন ও প্রবেশাধিকার",
+      "labelEn": "Office, housing & access",
+      "definition": "Offices, guest houses, accommodation, campus access, and physical member facilities."
+    },
+    {
+      "id": "events",
+      "labelBn": "ক্রীড়া, সংস্কৃতি ও পুনর্মিলনী",
+      "labelEn": "Sports, culture & events",
+      "definition": "Sports, cultural programs, reunions, family activities, and alumni events."
+    },
+    {
+      "id": "university",
+      "labelBn": "বিশ্ববিদ্যালয় ও ক্যাম্পাস সম্পৃক্ততা",
+      "labelEn": "University & campus engagement",
+      "definition": "Current students, university development, academic links, campus programs, and institutional collaboration."
+    },
+    {
+      "id": "women",
+      "labelBn": "নারীর অগ্রগতি ও অংশগ্রহণ",
+      "labelEn": "Women’s advancement & participation",
+      "definition": "Women’s leadership, professional growth, entrepreneurship, safety, and participation."
+    },
+    {
+      "id": "global",
+      "labelBn": "আন্তর্জাতিক শিক্ষা ও বৈশ্বিক নেটওয়ার্ক",
+      "labelEn": "International study & global networks",
+      "definition": "Overseas alumni, international chapters, exchange programs, global study, and international collaboration."
+    },
+    {
+      "id": "recognition",
+      "labelBn": "স্বীকৃতি ও অর্জন",
+      "labelEn": "Recognition & achievement",
+      "definition": "Recognition of alumni, student, academic, or professional achievements."
+    }
+  ],
+  "classifications": {
+    "100904": {
+      "events": {
+        "sections": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "community": {
+        "sections": [
+          5,
+          6,
+          7
+        ]
+      },
+      "global": {
+        "sections": [
+          3,
+          5
+        ]
+      },
+      "digital": {
+        "sections": [
+          4
+        ]
+      },
+      "facilities": {
+        "sections": [
+          1
+        ]
+      },
+      "education": {
+        "sections": [
+          8
+        ]
+      },
+      "university": {
+        "sections": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    "101130": {
+      "career": {
+        "proposals": [
+          1,
+          2,
+          3
+        ]
+      },
+      "education": {
+        "proposals": [
+          0,
+          1,
+          2
+        ]
+      },
+      "student": {
+        "proposals": [
+          0,
+          3,
+          4
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          4
+        ]
+      },
+      "digital": {
+        "proposals": [
+          5
+        ]
+      },
+      "governance": {
+        "proposals": [
+          4
+        ]
+      }
+    },
+    "110333": {
+      "welfare": {
+        "proposals": [
+          0
+        ]
+      },
+      "digital": {
+        "proposals": [
+          0,
+          1
+        ]
+      }
+    },
+    "110534": {
+      "student": {
+        "proposals": [
+          0
+        ]
+      },
+      "recognition": {
+        "proposals": [
+          1
+        ]
+      },
+      "facilities": {
+        "proposals": [
+          2
+        ]
+      },
+      "community": {
+        "proposals": [
+          2
+        ]
+      },
+      "career": {
+        "proposals": [
+          3
+        ]
+      },
+      "digital": {
+        "proposals": [
+          4
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "governance": {
+        "proposals": [
+          10
+        ]
+      },
+      "university": {
+        "proposals": [
+          1,
+          2,
+          6
+        ]
+      },
+      "events": {
+        "proposals": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "120135": {
+      "events": {
+        "proposals": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      "community": {
+        "proposals": [
+          1,
+          2,
+          5
+        ]
+      },
+      "global": {
+        "proposals": [
+          1,
+          2,
+          5
+        ]
+      },
+      "facilities": {
+        "proposals": [
+          1
+        ]
+      },
+      "university": {
+        "proposals": [
+          4
+        ]
+      },
+      "governance": {
+        "proposals": [
+          5
+        ]
+      },
+      "digital": {
+        "proposals": [
+          5
+        ]
+      },
+      "student": {
+        "proposals": [
+          4
+        ]
+      }
+    },
+    "210642": {
+      "career": {
+        "proposals": [
+          0,
+          1,
+          2
+        ]
+      },
+      "student": {
+        "proposals": [
+          2
+        ]
+      },
+      "community": {
+        "proposals": [
+          1,
+          3
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          3
+        ]
+      }
+    },
+    "920110": {
+      "community": {
+        "sections": [
+          0,
+          1
+        ]
+      },
+      "career": {
+        "sections": [
+          1
+        ]
+      },
+      "education": {
+        "sections": [
+          1
+        ]
+      },
+      "student": {
+        "sections": [
+          1
+        ]
+      },
+      "welfare": {
+        "sections": [
+          1
+        ]
+      },
+      "digital": {
+        "sections": [
+          0
+        ]
+      },
+      "governance": {
+        "sections": [
+          1
+        ]
+      },
+      "facilities": {
+        "sections": [
+          0
+        ]
+      },
+      "events": {
+        "sections": [
+          1
+        ]
+      },
+      "university": {
+        "sections": [
+          1
+        ]
+      },
+      "global": {
+        "sections": [
+          0,
+          1
+        ]
+      },
+      "recognition": {
+        "sections": [
+          1
+        ]
+      }
+    },
+    "930409": {
+      "community": {
+        "sections": [
+          0,
+          4
+        ]
+      },
+      "career": {
+        "sections": [
+          1
+        ]
+      },
+      "education": {
+        "sections": [
+          1,
+          5
+        ]
+      },
+      "student": {
+        "sections": [
+          1,
+          2
+        ]
+      },
+      "welfare": {
+        "sections": [
+          2
+        ]
+      },
+      "digital": {
+        "sections": [
+          4
+        ]
+      },
+      "governance": {
+        "sections": [
+          6
+        ]
+      },
+      "facilities": {
+        "sections": [
+          3
+        ]
+      },
+      "events": {
+        "sections": [
+          0
+        ]
+      },
+      "university": {
+        "sections": [
+          5
+        ]
+      },
+      "global": {
+        "sections": [
+          1,
+          4
+        ]
+      }
+    },
+    "950340": {
+      "career": {
+        "sections": [
+          0,
+          1
+        ]
+      },
+      "education": {
+        "sections": [
+          0,
+          1,
+          3
+        ]
+      },
+      "student": {
+        "sections": [
+          0,
+          2
+        ]
+      },
+      "welfare": {
+        "sections": [
+          2
+        ]
+      },
+      "digital": {
+        "sections": [
+          5
+        ]
+      },
+      "governance": {
+        "sections": [
+          5
+        ]
+      },
+      "university": {
+        "sections": [
+          3
+        ]
+      },
+      "women": {
+        "sections": [
+          4
+        ]
+      },
+      "global": {
+        "sections": [
+          0
+        ]
+      }
+    },
+    "970232": {
+      "community": {
+        "sections": [
+          0
+        ]
+      },
+      "career": {
+        "sections": [
+          0
+        ]
+      },
+      "welfare": {
+        "sections": [
+          0
+        ]
+      },
+      "digital": {
+        "sections": [
+          0
+        ]
+      },
+      "facilities": {
+        "sections": [
+          0
+        ]
+      }
+    },
+    "970235": {
+      "community": {
+        "sections": [
+          0,
+          1
+        ]
+      },
+      "career": {
+        "sections": [
+          0,
+          1,
+          2
+        ]
+      },
+      "education": {
+        "sections": [
+          1,
+          2
+        ]
+      },
+      "student": {
+        "sections": [
+          1,
+          2
+        ]
+      },
+      "welfare": {
+        "sections": [
+          2
+        ]
+      },
+      "digital": {
+        "sections": [
+          0,
+          3
+        ]
+      },
+      "governance": {
+        "sections": [
+          0,
+          3
+        ]
+      },
+      "facilities": {
+        "sections": [
+          2
+        ]
+      },
+      "events": {
+        "sections": [
+          2
+        ]
+      },
+      "university": {
+        "sections": [
+          2
+        ]
+      },
+      "global": {
+        "sections": [
+          2
+        ]
+      },
+      "recognition": {
+        "sections": [
+          2
+        ]
+      }
+    },
+    "970418": {
+      "community": {
+        "sections": [
+          1
+        ]
+      },
+      "career": {
+        "sections": [
+          2
+        ]
+      },
+      "welfare": {
+        "sections": [
+          2
+        ]
+      },
+      "student": {
+        "sections": [
+          2
+        ]
+      },
+      "governance": {
+        "sections": [
+          0,
+          1
+        ]
+      }
+    },
+    "970518": {
+      "facilities": {
+        "proposals": [
+          0
+        ]
+      },
+      "career": {
+        "proposals": [
+          1
+        ]
+      },
+      "education": {
+        "proposals": [
+          1,
+          2
+        ]
+      },
+      "student": {
+        "proposals": [
+          2,
+          5,
+          6
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          6
+        ]
+      },
+      "community": {
+        "proposals": [
+          3,
+          4,
+          5
+        ]
+      },
+      "global": {
+        "proposals": [
+          2,
+          3
+        ]
+      },
+      "governance": {
+        "proposals": [
+          7
+        ]
+      }
+    },
+    "980630": {
+      "facilities": {
+        "proposals": [
+          0
+        ]
+      },
+      "career": {
+        "proposals": [
+          1
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          2
+        ]
+      },
+      "digital": {
+        "proposals": [
+          3
+        ]
+      }
+    },
+    "991523": {
+      "community": {
+        "proposals": [
+          0,
+          1,
+          4
+        ]
+      },
+      "career": {
+        "proposals": [
+          2,
+          3
+        ]
+      },
+      "education": {
+        "proposals": [
+          2,
+          3
+        ]
+      },
+      "student": {
+        "proposals": [
+          3
+        ]
+      },
+      "digital": {
+        "proposals": [
+          5
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          6
+        ]
+      },
+      "governance": {
+        "proposals": [
+          1,
+          8,
+          9
+        ]
+      },
+      "events": {
+        "proposals": [
+          4
+        ]
+      },
+      "women": {
+        "proposals": [
+          7
+        ]
+      },
+      "global": {
+        "proposals": [
+          0,
+          4
+        ]
+      }
+    },
+    "001517": {
+      "community": {
+        "sections": [
+          0
+        ]
+      },
+      "career": {
+        "sections": [
+          0
+        ]
+      },
+      "education": {
+        "sections": [
+          0
+        ]
+      },
+      "student": {
+        "sections": [
+          0
+        ]
+      },
+      "welfare": {
+        "sections": [
+          0
+        ]
+      },
+      "digital": {
+        "sections": [
+          0
+        ]
+      },
+      "governance": {
+        "sections": [
+          0
+        ]
+      },
+      "university": {
+        "sections": [
+          0
+        ]
+      },
+      "women": {
+        "sections": [
+          0
+        ]
+      },
+      "global": {
+        "sections": [
+          0
+        ]
+      }
+    },
+    "000341": {
+      "community": {
+        "sections": [
+          0
+        ]
+      },
+      "career": {
+        "sections": [
+          1
+        ]
+      },
+      "digital": {
+        "sections": [
+          2
+        ]
+      },
+      "welfare": {
+        "sections": [
+          3
+        ]
+      },
+      "student": {
+        "sections": [
+          4
+        ]
+      },
+      "governance": {
+        "sections": [
+          5
+        ]
+      }
+    },
+    "030413": {
+      "community": {
+        "sections": [
+          3,
+          4
+        ]
+      },
+      "career": {
+        "sections": [
+          2
+        ]
+      },
+      "digital": {
+        "sections": [
+          0,
+          3
+        ]
+      },
+      "governance": {
+        "sections": [
+          4,
+          5
+        ]
+      },
+      "facilities": {
+        "sections": [
+          1
+        ]
+      }
+    },
+    "060621": {
+      "welfare": {
+        "sections": [
+          2
+        ]
+      },
+      "governance": {
+        "sections": [
+          0,
+          1
+        ]
+      }
+    },
+    "010815": {
+      "community": {
+        "proposals": [
+          0
+        ]
+      },
+      "career": {
+        "proposals": [
+          1
+        ]
+      },
+      "education": {
+        "proposals": [
+          1,
+          5
+        ]
+      },
+      "student": {
+        "proposals": [
+          1,
+          2
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          2
+        ]
+      },
+      "digital": {
+        "proposals": [
+          4
+        ]
+      },
+      "governance": {
+        "proposals": [
+          6
+        ]
+      },
+      "facilities": {
+        "proposals": [
+          3
+        ]
+      },
+      "university": {
+        "proposals": [
+          5
+        ]
+      },
+      "global": {
+        "proposals": [
+          0,
+          4
+        ]
+      }
+    },
+    "040102": {
+      "career": {
+        "sections": [
+          0
+        ]
+      },
+      "education": {
+        "sections": [
+          1
+        ]
+      },
+      "student": {
+        "sections": [
+          1
+        ]
+      },
+      "global": {
+        "sections": [
+          1,
+          2
+        ]
+      },
+      "recognition": {
+        "sections": [
+          2
+        ]
+      },
+      "digital": {
+        "sections": [
+          3
+        ]
+      },
+      "governance": {
+        "sections": [
+          3
+        ]
+      },
+      "welfare": {
+        "sections": [
+          4
+        ]
+      },
+      "community": {
+        "sections": [
+          4
+        ]
+      },
+      "university": {
+        "sections": [
+          2
+        ]
+      }
+    },
+    "070403": {
+      "events": {
+        "sections": [
+          0
+        ]
+      },
+      "community": {
+        "sections": [
+          0
+        ]
+      },
+      "global": {
+        "sections": [
+          0
+        ]
+      },
+      "digital": {
+        "sections": [
+          0
+        ]
+      },
+      "education": {
+        "sections": [
+          0
+        ]
+      },
+      "facilities": {
+        "sections": [
+          0
+        ]
+      },
+      "university": {
+        "sections": [
+          0
+        ]
+      }
+    },
+    "010210": {
+      "career": {
+        "proposals": [
+          0,
+          1
+        ]
+      },
+      "education": {
+        "proposals": [
+          0,
+          2
+        ]
+      },
+      "student": {
+        "proposals": [
+          2
+        ]
+      },
+      "community": {
+        "proposals": [
+          3
+        ]
+      },
+      "university": {
+        "proposals": [
+          2,
+          3
+        ]
+      }
+    },
+    "051212": {
+      "community": {
+        "sections": [
+          0
+        ]
+      },
+      "career": {
+        "sections": [
+          0
+        ]
+      },
+      "education": {
+        "sections": [
+          0
+        ]
+      },
+      "student": {
+        "sections": [
+          0
+        ]
+      },
+      "welfare": {
+        "sections": [
+          0
+        ]
+      },
+      "events": {
+        "sections": [
+          0
+        ]
+      },
+      "governance": {
+        "sections": [
+          0
+        ]
+      },
+      "global": {
+        "sections": [
+          0
+        ]
+      }
+    },
+    "050919": {
+      "community": {
+        "sections": [
+          0,
+          1,
+          4
+        ]
+      },
+      "career": {
+        "sections": [
+          3
+        ]
+      },
+      "education": {
+        "sections": [
+          3,
+          5
+        ]
+      },
+      "student": {
+        "sections": [
+          0,
+          3,
+          5
+        ]
+      },
+      "digital": {
+        "sections": [
+          0,
+          1,
+          2,
+          4,
+          6
+        ]
+      },
+      "governance": {
+        "sections": [
+          4,
+          6
+        ]
+      },
+      "global": {
+        "sections": [
+          3
+        ]
+      }
+    },
+    "090220": {
+      "digital": {
+        "sections": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "career": {
+        "sections": [
+          1,
+          2
+        ]
+      },
+      "education": {
+        "sections": [
+          2
+        ]
+      },
+      "student": {
+        "sections": [
+          5
+        ]
+      },
+      "welfare": {
+        "sections": [
+          5
+        ]
+      },
+      "governance": {
+        "sections": [
+          1,
+          6
+        ]
+      },
+      "university": {
+        "sections": [
+          4
+        ]
+      }
+    },
+    "030131": {
+      "community": {
+        "sections": [
+          0,
+          4
+        ]
+      },
+      "women": {
+        "sections": [
+          1
+        ]
+      },
+      "career": {
+        "sections": [
+          2
+        ]
+      },
+      "student": {
+        "sections": [
+          2,
+          3
+        ]
+      },
+      "education": {
+        "sections": [
+          3
+        ]
+      },
+      "welfare": {
+        "sections": [
+          3,
+          4
+        ]
+      },
+      "governance": {
+        "sections": [
+          4
+        ]
+      }
+    },
+    "090225": {
+      "career": {
+        "proposals": [
+          0
+        ]
+      },
+      "education": {
+        "proposals": [
+          1
+        ]
+      },
+      "student": {
+        "proposals": [
+          0,
+          1
+        ]
+      },
+      "welfare": {
+        "proposals": [
+          2
+        ]
+      },
+      "digital": {
+        "proposals": [
+          3
+        ]
+      },
+      "community": {
+        "proposals": [
+          3
+        ]
+      }
+    },
+    "IFA 120123": {
+      "community": {
+        "sections": [
+          0,
+          2,
+          4
+        ]
+      },
+      "education": {
+        "sections": [
+          1
+        ]
+      },
+      "global": {
+        "sections": [
+          2
+        ]
+      },
+      "events": {
+        "sections": [
+          3
+        ]
+      },
+      "women": {
+        "sections": [
+          4
+        ]
+      },
+      "governance": {
+        "sections": [
+          4,
+          5
+        ]
+      },
+      "university": {
+        "sections": [
+          1,
+          3
+        ]
+      },
+      "career": {
+        "sections": [
+          1
+        ]
+      },
+      "student": {
+        "sections": [
+          0,
+          1,
+          4
+        ]
+      },
+      "digital": {
+        "sections": [
+          5
+        ]
+      }
+    }
+  }
+}

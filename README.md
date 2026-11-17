@@ -7,7 +7,7 @@ A responsive candidate directory and election statistics dashboard. The site wor
 From the repository folder, add and push the public pages, protected analysis copies, candidate data, portraits, and README to the `main` branch:
 
 ```bash
-git add index.html results.html stats.html voters.html candidate.html candidates.json site.css README.md deepstateneverdies/ public/candidates/
+git add index.html results.html stats.html voters.html candidate.html manifesto-insights.html manifesto-themes.json candidates.json site.css README.md deepstateneverdies/ public/candidates/
 git commit -m "Add KUAA candidate directory"
 git push origin main
 ```
@@ -30,9 +30,12 @@ The site URL for this repository is <https://imran110219.github.io/kuaa-election
 - Candidate-wise vote count dashboard at `results.html`, available by direct URL and grouped by position with seat-range context
 - Candidate-list statistics by batch cohort, exact batch year, and discipline, with donut and bar charts
 - Candidate profile pages and inline PDF manifestos for candidates with a published manifesto
+- Manifesto Explorer with Bangla/English text search, candidate filters, and a clickable top-10 theme chart
 - Responsive layout for phones and desktop screens
 
 `candidates.json` is the single editable source for candidate records, including `voteCount`, photos, manifestos, slogans, and previous-election status. The HTML pages contain generated snapshots so they also work when opened directly as files. When candidate data changes, ask Codex to refresh the snapshots. On GitHub Pages, pages also fetch the JSON file so the canonical data is used. Candidate vote counts start at `0` and should be updated in `candidates.json` as candidate-wise counts are provided. Each `photo` field should point to an existing image under `public/candidates/`. Add a structured `manifesto` object only when a candidate has published one, with its title, introduction, and proposal text transcribed from the source document. Candidate cards link to the reusable `candidate.html?id=...` details page, where the manifesto is rendered in the site layout.
+
+`manifesto-themes.json` is the separate, manually reviewed theme map used by `manifesto-insights.html`. It stores theme definitions and candidate IDs with indexes pointing back to the relevant manifesto sections or proposals in `candidates.json`; it does not duplicate names or manifesto text. Theme assignment is semantic and may be multi-label. Counts represent candidates whose reviewed manifesto addresses a theme, not raw word occurrences or endorsement. When a new manifesto is added, review it against the shared theme definitions, update the reviewed ID list and references, and ask Codex to refresh the explorer's embedded local snapshot. The page fetches both JSON sources on GitHub Pages and uses embedded snapshots when opened directly as a local HTML file.
 
 Batch years are inferred from the first two digits of the listed student ID: `90`–`99` map to 1990–1999, and `00`–`89` map to 2000–2089.
 
