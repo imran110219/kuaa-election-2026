@@ -33,7 +33,8 @@
       "090225",
       "IFA 120123",
       "940401",
-      "980717"
+      "980717",
+      "970609"
     ],
     "description": "Each published manifesto in this reviewed set was manually read and assigned one or more themes using the shared definitions below. This is an editorial grouping, not raw keyword matching, manifesto scoring, or a measure of voter support. Each chart count counts a candidate once per theme. Theme references point to section or proposal indexes in candidates.json; the page displays those source passages directly."
   },
@@ -716,6 +717,50 @@
       "governance": {
         "proposals": [
           7
+        ]
+      }
+    },
+    "970609": {
+      "community": {
+        "sections": [
+          0,
+          3
+        ]
+      },
+      "digital": {
+        "sections": [
+          0
+        ]
+      },
+      "welfare": {
+        "sections": [
+          1
+        ]
+      },
+      "career": {
+        "sections": [
+          2
+        ]
+      },
+      "student": {
+        "sections": [
+          2
+        ]
+      },
+      "global": {
+        "sections": [
+          3
+        ]
+      },
+      "facilities": {
+        "sections": [
+          4
+        ]
+      },
+      "governance": {
+        "sections": [
+          1,
+          5
         ]
       }
     },
