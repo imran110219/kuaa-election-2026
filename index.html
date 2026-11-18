@@ -131,7 +131,20 @@
 
   <style>
     .topbar{gap:8px}.top-nav{max-width:65%;min-width:0;overflow-x:auto;scrollbar-width:none}.top-nav::-webkit-scrollbar{display:none}.nav-link{flex:none;white-space:nowrap}
-  </style>
+
+    .countdown-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:12px;padding:14px;border:1px solid rgba(255,255,255,.2)}
+    .countdown-stage{min-width:0;padding:15px;border:1px solid rgba(255,255,255,.2);border-radius:14px;background:rgba(255,255,255,.08)}
+    .countdown-stage .countdown-copy{min-width:0}
+    .countdown-stage .countdown-title{font-size:18px}
+    .countdown-stage .countdown-date{min-height:2.8em;line-height:1.45}
+    .countdown-stage .countdown-timer{width:100%;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+    .countdown-stage .countdown-unit{min-width:0;padding:9px 4px}
+    .countdown-stage .countdown-value{font-size:clamp(20px,2.4vw,28px)}
+    .countdown-stage .countdown-label{font-size:8px;letter-spacing:.08em}
+    .countdown-stage .countdown-live{margin-top:9px;font-size:13px;line-height:1.4}
+    @media(max-width:720px){.countdown-panel{grid-template-columns:1fr;gap:10px}.countdown-stage{padding:13px}}
+    @media(max-width:600px){.countdown-stage .countdown-title{font-size:17px}.countdown-stage .countdown-unit{padding:9px 3px}.countdown-stage .countdown-value{font-size:clamp(20px,7vw,27px)}}
+</style>
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
@@ -2704,19 +2717,34 @@
       <div><div class="eyebrow">Official candidate directory</div><h1 id="page-title">Meet your<br>candidates.</h1><p class="hero-copy">Browse candidates by position, batch, or discipline. Search by name or student ID to find someone quickly.</p></div>
       <div class="year-mark" aria-hidden="true">26</div>
     </section>
-    <section class="countdown-panel" aria-labelledby="countdown-heading">
-      <div class="countdown-copy">
-        <div class="eyebrow">Election day</div>
-        <h2 class="countdown-title" id="countdown-heading">Election starts in</h2>
-        <p class="countdown-date"><time datetime="2026-11-20T00:00:00+06:00">November 20, 2026 · 12:00 AM Bangladesh time (UTC+6)</time></p>
-      </div>
-      <div class="countdown-timer" id="countdown-timer" role="timer" aria-label="Time remaining until the election starts">
-        <div class="countdown-unit"><strong class="countdown-value" id="countdown-days">—</strong><span class="countdown-label">Days</span></div>
-        <div class="countdown-unit"><strong class="countdown-value" id="countdown-hours">—</strong><span class="countdown-label">Hours</span></div>
-        <div class="countdown-unit"><strong class="countdown-value" id="countdown-minutes">—</strong><span class="countdown-label">Minutes</span></div>
-        <div class="countdown-unit"><strong class="countdown-value" id="countdown-seconds">—</strong><span class="countdown-label">Seconds</span></div>
-      </div>
-      <p class="countdown-live" id="countdown-live" role="status" hidden>Election has started</p>
+    <section class="countdown-panel" aria-label="Campaign and election timeline">
+      <article class="countdown-stage" aria-labelledby="campaign-heading">
+        <div class="countdown-copy">
+          <div class="eyebrow">Campaign period</div>
+          <h2 class="countdown-title" id="campaign-heading" aria-live="polite">Campaign ends in</h2>
+          <p class="countdown-date"><time datetime="2026-11-19T00:00:00+06:00">November 18, 2026 · 11:59 PM Bangladesh time (UTC+6)</time></p>
+        </div>
+        <div class="countdown-timer" id="campaign-timer" role="timer" aria-label="Time remaining until the campaign period ends">
+          <div class="countdown-unit"><strong class="countdown-value" id="campaign-days">—</strong><span class="countdown-label">Days</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="campaign-hours">—</strong><span class="countdown-label">Hours</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="campaign-minutes">—</strong><span class="countdown-label">Minutes</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="campaign-seconds">—</strong><span class="countdown-label">Seconds</span></div>
+        </div>
+      </article>
+      <article class="countdown-stage" aria-labelledby="countdown-heading">
+        <div class="countdown-copy">
+          <div class="eyebrow">Election period</div>
+          <h2 class="countdown-title" id="countdown-heading" aria-live="polite">Election starts in</h2>
+          <p class="countdown-date"><time id="countdown-date-time" datetime="2026-11-20T00:00:00+06:00">November 20, 2026 · 12:00 AM Bangladesh time (UTC+6)</time></p>
+        </div>
+        <div class="countdown-timer" id="countdown-timer" role="timer" aria-label="Time remaining until the election starts">
+          <div class="countdown-unit"><strong class="countdown-value" id="countdown-days">—</strong><span class="countdown-label">Days</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="countdown-hours">—</strong><span class="countdown-label">Hours</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="countdown-minutes">—</strong><span class="countdown-label">Minutes</span></div>
+          <div class="countdown-unit"><strong class="countdown-value" id="countdown-seconds">—</strong><span class="countdown-label">Seconds</span></div>
+        </div>
+        <p class="countdown-live" id="countdown-live" role="status" hidden></p>
+      </article>
     </section>
     <section class="summary" aria-label="Directory summary">
       <div class="stat"><span class="stat-label">Listed candidates</span><strong class="stat-value" id="candidate-total">—</strong></div>
@@ -3154,28 +3182,71 @@
     loadCandidates();
   </script>
   <script>
+    // Campaign closes at the end of Nov 18, Bangladesh time. Election opens Nov 20 at 12:00 AM and runs for exactly 24 hours.
+    const campaignEndTime = new Date("2026-11-19T00:00:00+06:00").getTime();
     const electionStartTime = new Date("2026-11-20T00:00:00+06:00").getTime();
+    const electionEndTime = electionStartTime + 24 * 60 * 60 * 1000;
+    const campaignTimer = document.querySelector("#campaign-timer");
+    const campaignHeading = document.querySelector("#campaign-heading");
+    const campaignFields = {
+      days: document.querySelector("#campaign-days"),
+      hours: document.querySelector("#campaign-hours"),
+      minutes: document.querySelector("#campaign-minutes"),
+      seconds: document.querySelector("#campaign-seconds"),
+    };
     const countdownTimer = document.querySelector("#countdown-timer");
     const countdownLive = document.querySelector("#countdown-live");
+    const countdownHeading = document.querySelector("#countdown-heading");
+    const countdownDate = document.querySelector("#countdown-date-time");
     const countdownFields = {
       days: document.querySelector("#countdown-days"),
       hours: document.querySelector("#countdown-hours"),
       minutes: document.querySelector("#countdown-minutes"),
       seconds: document.querySelector("#countdown-seconds"),
     };
+    function updateClock(fields, target) {
+      const totalSeconds = Math.max(0, Math.floor((target - Date.now()) / 1000));
+      fields.days.textContent = String(Math.floor(totalSeconds / 86400)).padStart(2, "0");
+      fields.hours.textContent = String(Math.floor((totalSeconds % 86400) / 3600)).padStart(2, "0");
+      fields.minutes.textContent = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
+      fields.seconds.textContent = String(totalSeconds % 60).padStart(2, "0");
+    }
     function updateCountdown() {
-      const remaining = electionStartTime - Date.now();
-      if (remaining <= 0) {
-        countdownTimer.hidden = true;
-        countdownLive.hidden = false;
-        window.clearInterval(countdownInterval);
-        return;
+      const now = Date.now();
+      if (now < campaignEndTime) {
+        campaignHeading.textContent = "Campaign ends in";
+        campaignTimer.hidden = false;
+        updateClock(campaignFields, campaignEndTime);
+      } else {
+        campaignHeading.textContent = "Campaign period has ended";
+        campaignTimer.hidden = true;
       }
-      const totalSeconds = Math.floor(remaining / 1000);
-      countdownFields.days.textContent = String(Math.floor(totalSeconds / 86400)).padStart(2, "0");
-      countdownFields.hours.textContent = String(Math.floor((totalSeconds % 86400) / 3600)).padStart(2, "0");
-      countdownFields.minutes.textContent = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
-      countdownFields.seconds.textContent = String(totalSeconds % 60).padStart(2, "0");
+      if (now < electionStartTime) {
+        countdownHeading.textContent = "Election starts in";
+        countdownDate.dateTime = "2026-11-20T00:00:00+06:00";
+        countdownDate.textContent = "November 20, 2026 · 12:00 AM Bangladesh time (UTC+6)";
+        countdownLive.hidden = true;
+        countdownTimer.hidden = false;
+        countdownTimer.setAttribute("aria-label", "Time remaining until the election starts");
+        updateClock(countdownFields, electionStartTime);
+      } else if (now < electionEndTime) {
+        countdownHeading.textContent = "Election ends in";
+        countdownDate.dateTime = "2026-11-21T00:00:00+06:00";
+        countdownDate.textContent = "November 21, 2026 · 12:00 AM Bangladesh time (UTC+6)";
+        countdownLive.textContent = "The election period is underway.";
+        countdownLive.hidden = false;
+        countdownTimer.hidden = false;
+        countdownTimer.setAttribute("aria-label", "Time remaining until the election ends");
+        updateClock(countdownFields, electionEndTime);
+      } else {
+        countdownHeading.textContent = "Election has ended";
+        countdownDate.dateTime = "2026-11-21T00:00:00+06:00";
+        countdownDate.textContent = "Election ended November 21, 2026 · 12:00 AM Bangladesh time (UTC+6)";
+        countdownLive.textContent = "The election period has ended.";
+        countdownLive.hidden = false;
+        countdownTimer.hidden = true;
+        window.clearInterval(countdownInterval);
+      }
     }
     const countdownInterval = window.setInterval(updateCountdown, 1000);
     updateCountdown();
