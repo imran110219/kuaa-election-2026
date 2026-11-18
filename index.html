@@ -96,6 +96,9 @@
     .export-button:disabled{opacity:.48;cursor:not-allowed}
     .top-nav{display:flex;align-items:center;gap:6px}.nav-link{padding:9px 12px;border-radius:9px;color:#596d66;font-size:12px;font-weight:700;text-decoration:none}.nav-link:hover,.nav-link:focus-visible{background:#edf4ed;color:var(--green-dark)}.nav-link[aria-current="page"]{background:#e8f2e9;color:var(--green-dark)}
     @media(prefers-reduced-motion:reduce){.candidate,.export-button,.control,.reset{transition:none}}
+    .ballot-print-options{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}.ballot-print-options h3{margin:0 0 9px;font-size:13px}.ballot-print-option-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.ballot-print-option{min-height:74px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;padding:11px 13px;border:1px solid #cbd9cf;border-radius:11px;background:#fff;color:var(--green-dark);text-align:left;cursor:pointer}.ballot-print-option:hover:not(:disabled){border-color:#80ae91;background:#f5faf5}.ballot-print-option strong{font-size:12px}.ballot-print-option span{font-size:11px;font-weight:750}.ballot-print-option small{color:#64736e;font-size:10px}.ballot-print-option:disabled{opacity:.48;cursor:not-allowed}.ballot-print-heading-shortlist{display:none}
+    @media(max-width:600px){.ballot-print-option-list{grid-template-columns:1fr}.ballot-print-option{min-height:66px}}
+    @media print{body.printing-ballot .ballot-print-heading-shortlist{display:none!important}body.printing-shortlist>*:not(#ballot-dialog){display:none!important}body.printing-shortlist #ballot-dialog{position:static;display:block!important;width:100%;max-width:none;max-height:none;overflow:visible;inset:auto!important;margin:0!important;padding:0;border:0;border-radius:0;box-shadow:none;background:#fff}body.printing-shortlist #ballot-dialog::backdrop{display:none}body.printing-shortlist .ballot-dialog-inner{padding:0}body.printing-shortlist .ballot-dialog-head,body.printing-shortlist .ballot-seat-note,body.printing-shortlist .ballot-actions,body.printing-shortlist .ballot-print-options,body.printing-shortlist .ballot-close,body.printing-shortlist .ballot-remove,body.printing-shortlist .ballot-choose,body.printing-shortlist .ballot-limit-help,body.printing-shortlist .ballot-status{display:none!important}body.printing-shortlist .ballot-print-heading-ballot{display:none!important}body.printing-shortlist .ballot-print-heading-shortlist{display:block!important;margin:0 0 3mm;font-size:18pt}body.printing-shortlist .ballot-seat-note{display:block!important;margin:0 0 6mm;padding:3mm;border:1px solid #999;background:#fff;color:#222;font-size:9pt}body.printing-shortlist .ballot-sections{display:block!important;max-height:none!important;overflow:visible!important;padding:0!important}body.printing-shortlist .ballot-position{margin:0 0 5mm;padding:3mm;border:1px solid #aaa;border-radius:2mm;break-inside:auto;page-break-inside:auto;background:#fff}body.printing-shortlist .ballot-position-head{break-after:avoid-page;page-break-after:avoid}body.printing-shortlist .ballot-candidate{grid-template-columns:18mm minmax(0,1fr);gap:3mm;padding:3mm 0;break-inside:avoid-page;page-break-inside:avoid}body.printing-shortlist .ballot-photo{width:18mm;height:23mm;object-fit:cover;print-color-adjust:exact;-webkit-print-color-adjust:exact}body.printing-shortlist .ballot-meta{color:#333}body.printing-shortlist .ballot-manifesto:not([open]){display:none}body.printing-shortlist .ballot-manifesto[open] ul{color:#222;font-size:9pt;line-height:1.45}}
 
     /* Candidate cards: give the academic discipline a clear, high-contrast hierarchy. */
     .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
@@ -2745,12 +2748,14 @@
   </aside>
   <dialog class="ballot-dialog" id="ballot-dialog" aria-labelledby="ballot-title">
     <div class="ballot-dialog-inner">
-      <h2 class="ballot-print-heading">My KUAA election ballot draft</h2>
+      <h2 class="ballot-print-heading ballot-print-heading-ballot">My KUAA personal ballot draft</h2>
+      <h2 class="ballot-print-heading ballot-print-heading-shortlist">My KUAA candidate shortlist</h2>
       <header class="ballot-dialog-head"><div><h2 id="ballot-title">Review your shortlist and ballot draft</h2><p>Add candidates from the directory, then select choices up to each position’s seat limit.</p></div><button class="ballot-close" id="ballot-close" type="button" aria-label="Close ballot review">×</button></header>
-      <p class="ballot-seat-note" id="ballot-seat-note">Shortlist candidates to compare them, then select up to each position’s available seats. This personal draft is a planning aid only, not an official ballot or vote.</p>
+      <p class="ballot-seat-note" id="ballot-seat-note">Use this page to organize candidates. Selecting or printing here does not submit a vote; this is not an official ballot.</p>
       <div class="ballot-sections" id="ballot-sections"></div>
       <p class="ballot-status" id="ballot-status" role="status" aria-live="polite"></p>
-      <footer class="ballot-actions"><button class="ballot-action" id="ballot-clear" type="button">Clear all</button><div class="ballot-actions-side"><button class="ballot-action" id="ballot-close-bottom" type="button">Close</button><button class="ballot-action ballot-action-primary" id="ballot-print" type="button">Print selected choices</button></div></footer>
+      <section class="ballot-print-options" aria-labelledby="ballot-print-options-title"><h3 id="ballot-print-options-title">What would you like to print?</h3><div class="ballot-print-option-list"><button class="ballot-print-option" id="ballot-print" type="button"><strong>Print ballot draft</strong><span id="ballot-print-count">0 selected</span><small>Only candidates selected for your ballot</small></button><button class="ballot-print-option" id="shortlist-print" type="button"><strong>Print shortlist</strong><span id="shortlist-print-count">0 saved</span><small>All candidates saved to your shortlist</small></button></div></section>
+      <footer class="ballot-actions"><button class="ballot-action" id="ballot-clear" type="button">Clear all</button><div class="ballot-actions-side"><button class="ballot-action" id="ballot-close-bottom" type="button">Close</button></div></footer>
     </div>
   </dialog>
   <footer class="shell foot"><strong>KUAA Executive Committee Election 2026</strong><span>Source list dated November 12, 2026 · Batch years inferred from student IDs.</span><span>Developed by <a href="https://sadmansobhan.com" target="_blank" rel="noopener noreferrer">Sadman Sobhan (Imran)</a> · CSE, 11 Batch</span></footer>
@@ -2887,6 +2892,9 @@
       for (const person of selected) perPositionSelections.set(person.position, (perPositionSelections.get(person.position) || 0) + 1);
       const printButton = document.querySelector("#ballot-print");
       printButton.disabled = selected.length === 0;
+      document.querySelector("#shortlist-print").disabled = shortlisted.length === 0;
+      document.querySelector("#ballot-print-count").textContent = `${selected.length} selected`;
+      document.querySelector("#shortlist-print-count").textContent = `${shortlisted.length} saved`;
       document.querySelector("#ballot-toolbar-count").textContent = shortlisted.length;
       document.querySelector("#ballot-tray-count").textContent = shortlisted.length;
       document.querySelector("#ballot-tray-note").textContent = `${shortlisted.length} shortlisted · ${selected.length} of ${totalBallotSeats} seats selected`;
@@ -3104,14 +3112,19 @@
     document.querySelector("#ballot-clear").addEventListener("click", () => {
       shortlistIds = []; ballotIds = []; persistBallot(); ballotStatus.textContent = "Your shortlist and ballot choices were cleared."; render();
     });
-    document.querySelector("#ballot-print").addEventListener("click", () => {
-      if (!ballotIds.length) { ballotStatus.textContent = "Select at least one candidate for the ballot before printing."; return; }
-      document.body.classList.add("printing-ballot");
-      window.addEventListener("afterprint", () => document.body.classList.remove("printing-ballot"), {once:true});
-      const images = [...ballotSections.querySelectorAll(".selected-for-ballot img")];
+    function printSavedCandidates(mode) {
+      const selectedMode = mode === "ballot";
+      const ids = selectedMode ? ballotIds : shortlistIds;
+      if (!ids.length) return;
+      const printClass = selectedMode ? "printing-ballot" : "printing-shortlist";
+      document.body.classList.add(printClass);
+      window.addEventListener("afterprint", () => document.body.classList.remove(printClass), {once:true});
+      const images = [...ballotSections.querySelectorAll(".ballot-candidate img")].filter((image) => !selectedMode || image.closest(".ballot-candidate")?.classList.contains("selected-for-ballot"));
       for (const image of images) image.loading = "eager";
       Promise.allSettled(images.map((image) => image.decode())).then(() => window.print());
-    });
+    }
+    document.querySelector("#ballot-print").addEventListener("click", () => printSavedCandidates("ballot"));
+    document.querySelector("#shortlist-print").addEventListener("click", () => printSavedCandidates("shortlist"));
     ballotDialog.addEventListener("click", (event) => { if (event.target === ballotDialog) ballotDialog.close(); });
 
     async function loadCandidates() {
